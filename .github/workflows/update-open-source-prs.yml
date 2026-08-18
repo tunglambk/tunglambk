@@ -109,23 +109,27 @@ jobs:
               const width = Math.max(18, Math.round((count / max) * barMaxWidth));
               const labelX = barX + width + 12;
               return `
-                <rect x="${barX}" y="${y}" width="${barMaxWidth}" height="22" rx="6" fill="#21262d"/>
-                <text x="32" y="${y + 16}" fill="#c9d1d9" font-size="14">${escapeXml(repo)}</text>
-                <rect x="${barX}" y="${y}" width="${width}" height="22" rx="6" fill="#58a6ff"/>
-                <text x="${Math.min(labelX, 850)}" y="${y + 16}" fill="#f0f6fc" font-size="13" font-weight="700">${count}</text>`;
+                <rect x="${barX}" y="${y}" width="${barMaxWidth}" height="22" rx="6" class="track"/>
+                <text x="30" y="${y + 16}" class="text" font-size="14">${escapeXml(repo)}</text>
+                <rect x="${barX}" y="${y}" width="${width}" height="22" rx="6" class="accent"/>
+                <text x="${Math.min(labelX, 850)}" y="${y + 16}" class="text" font-size="13" font-weight="700">${count}</text>`;
             }).join('');
 
             const chart = `<svg xmlns="http://www.w3.org/2000/svg" width="900" height="${height}" viewBox="0 0 900 ${height}" role="img" aria-labelledby="title desc">
               <title id="title">Open Source Contribution Footprint</title>
               <desc id="desc">${total} public pull requests across ${counts.size} upstream repositories.</desc>
-              <rect x="1" y="1" width="898" height="${height - 2}" rx="18" fill="#0d1117" stroke="#30363d"/>
-              <rect x="1" y="1" width="6" height="${height - 2}" rx="3" fill="#58a6ff"/>
-              <g font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', monospace">
-                <text x="32" y="48" fill="#f0f6fc" font-size="22" font-weight="700">Open Source Contribution Footprint</text>
-                <text x="32" y="74" fill="#8b949e" font-size="13">Public pull requests grouped by upstream repository</text>
-                <rect x="700" y="28" width="168" height="44" rx="12" fill="#161b22" stroke="#30363d"/>
-                <text x="718" y="55" fill="#58a6ff" font-size="14" font-weight="700">${total} PRs</text>
-                <text x="778" y="55" fill="#8b949e" font-size="13">· ${counts.size} projects</text>
+              <style>
+                .bg{fill:#f6f8fa;stroke:#d0d7de}.card{fill:#ffffff;stroke:#d0d7de}.track{fill:#eaeef2}.text{fill:#24292f}.muted{fill:#57606a}.accent{fill:#0969da}.accentText{fill:#0969da}
+                @media (prefers-color-scheme:dark){.bg{fill:#161b22;stroke:#30363d}.card{fill:#0d1117;stroke:#30363d}.track{fill:#21262d}.text{fill:#f0f6fc}.muted{fill:#8b949e}.accent{fill:#58a6ff}.accentText{fill:#58a6ff}}
+              </style>
+              <rect x="1" y="1" width="898" height="${height - 2}" rx="16" class="bg"/>
+              <rect x="1" y="1" width="5" height="${height - 2}" rx="2.5" class="accent"/>
+              <g font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,'Liberation Mono',monospace">
+                <text x="30" y="46" class="text" font-size="21" font-weight="700">Open Source Contribution Footprint</text>
+                <text x="30" y="71" class="muted" font-size="13">Public pull requests grouped by upstream repository</text>
+                <rect x="704" y="25" width="164" height="48" rx="10" class="card"/>
+                <text x="722" y="54" class="accentText" font-size="14" font-weight="700">${total} PRs</text>
+                <text x="780" y="54" class="muted" font-size="13">· ${counts.size} projects</text>
                 ${rowSvg}
               </g>
             </svg>`;
