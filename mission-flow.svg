@@ -1,66 +1,65 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1000" height="250" viewBox="0 0 1000 250" role="img" aria-labelledby="title desc">
   <title id="title">Current Mission</title>
-  <desc id="desc">Learn from real codebases, solve real engineering problems, contribute useful fixes, learn from maintainers, become a better engineer.</desc>
+  <desc id="desc">Read code, solve real problems, contribute focused fixes, learn from review, and grow.</desc>
   <defs>
-    <linearGradient id="bg" x1="0" x2="1">
-      <stop offset="0%" stop-color="#0d1117"/>
-      <stop offset="100%" stop-color="#111827"/>
-    </linearGradient>
-    <linearGradient id="accent" x1="0" x2="1">
-      <stop offset="0%" stop-color="#2f81f7"/>
-      <stop offset="100%" stop-color="#a371f7"/>
-    </linearGradient>
-    <filter id="glow"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
-    <marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 Z" fill="#58a6ff"/></marker>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#58a6ff"/>
+    </marker>
   </defs>
 
-  <rect x="1" y="1" width="998" height="248" rx="20" fill="url(#bg)" stroke="#30363d"/>
-  <text x="40" y="44" fill="#f0f6fc" font-size="22" font-weight="700" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">current_mission()</text>
-  <text x="40" y="68" fill="#8b949e" font-size="13" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">turning open-source work into an engineering feedback loop</text>
+  <rect x="1" y="1" width="998" height="248" rx="18" fill="#0d1117" stroke="#30363d"/>
+  <rect x="1" y="1" width="6" height="248" rx="3" fill="#58a6ff"/>
 
-  <line x1="128" y1="132" x2="870" y2="132" stroke="#223044" stroke-width="4"/>
-  <line x1="128" y1="132" x2="870" y2="132" stroke="url(#accent)" stroke-width="2" opacity="0.9"/>
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace">
+    <text x="38" y="44" fill="#f0f6fc" font-size="21" font-weight="700">current_mission()</text>
+    <text x="38" y="68" fill="#8b949e" font-size="13">open source as an engineering feedback loop</text>
 
-  <g font-family="ui-monospace, SFMono-Regular, Menlo, monospace">
+    <line x1="130" y1="132" x2="870" y2="132" stroke="#30363d" stroke-width="2"/>
+
     <g transform="translate(44,96)">
-      <rect width="160" height="82" rx="14" fill="#161b22" stroke="#2f81f7"/>
-      <circle cx="80" cy="36" r="11" fill="#2f81f7" filter="url(#glow)"/>
-      <text x="80" y="62" text-anchor="middle" fill="#f0f6fc" font-size="13" font-weight="700">READ CODE</text>
-      <text x="80" y="77" text-anchor="middle" fill="#8b949e" font-size="10">learn the system</text>
+      <rect width="160" height="82" rx="12" fill="#161b22" stroke="#30363d"/>
+      <circle cx="80" cy="34" r="11" fill="#58a6ff"/>
+      <text x="80" y="38" text-anchor="middle" fill="#0d1117" font-size="10" font-weight="700">01</text>
+      <text x="80" y="61" text-anchor="middle" fill="#f0f6fc" font-size="13" font-weight="700">READ CODE</text>
+      <text x="80" y="76" text-anchor="middle" fill="#8b949e" font-size="10">learn the system</text>
     </g>
-    <path d="M208 137 H238" stroke="#58a6ff" stroke-width="2" marker-end="url(#arrow)"/>
+    <path d="M208 137 H238" stroke="#58a6ff" stroke-width="1.6" marker-end="url(#arrow)"/>
 
     <g transform="translate(242,96)">
-      <rect width="160" height="82" rx="14" fill="#161b22" stroke="#3fb950"/>
-      <circle cx="80" cy="36" r="11" fill="#3fb950" filter="url(#glow)"/>
-      <text x="80" y="62" text-anchor="middle" fill="#f0f6fc" font-size="13" font-weight="700">SOLVE</text>
-      <text x="80" y="77" text-anchor="middle" fill="#8b949e" font-size="10">real problems</text>
+      <rect width="160" height="82" rx="12" fill="#161b22" stroke="#30363d"/>
+      <circle cx="80" cy="34" r="11" fill="#58a6ff"/>
+      <text x="80" y="38" text-anchor="middle" fill="#0d1117" font-size="10" font-weight="700">02</text>
+      <text x="80" y="61" text-anchor="middle" fill="#f0f6fc" font-size="13" font-weight="700">SOLVE</text>
+      <text x="80" y="76" text-anchor="middle" fill="#8b949e" font-size="10">real problems</text>
     </g>
-    <path d="M406 137 H436" stroke="#58a6ff" stroke-width="2" marker-end="url(#arrow)"/>
+    <path d="M406 137 H436" stroke="#58a6ff" stroke-width="1.6" marker-end="url(#arrow)"/>
 
     <g transform="translate(440,96)">
-      <rect width="160" height="82" rx="14" fill="#161b22" stroke="#d29922"/>
-      <circle cx="80" cy="36" r="11" fill="#d29922" filter="url(#glow)"/>
-      <text x="80" y="62" text-anchor="middle" fill="#f0f6fc" font-size="13" font-weight="700">CONTRIBUTE</text>
-      <text x="80" y="77" text-anchor="middle" fill="#8b949e" font-size="10">small useful fixes</text>
+      <rect width="160" height="82" rx="12" fill="#161b22" stroke="#58a6ff"/>
+      <circle cx="80" cy="34" r="11" fill="#58a6ff"/>
+      <text x="80" y="38" text-anchor="middle" fill="#0d1117" font-size="10" font-weight="700">03</text>
+      <text x="80" y="61" text-anchor="middle" fill="#f0f6fc" font-size="13" font-weight="700">CONTRIBUTE</text>
+      <text x="80" y="76" text-anchor="middle" fill="#8b949e" font-size="10">focused fixes</text>
     </g>
-    <path d="M604 137 H634" stroke="#58a6ff" stroke-width="2" marker-end="url(#arrow)"/>
+    <path d="M604 137 H634" stroke="#58a6ff" stroke-width="1.6" marker-end="url(#arrow)"/>
 
     <g transform="translate(638,96)">
-      <rect width="160" height="82" rx="14" fill="#161b22" stroke="#a371f7"/>
-      <circle cx="80" cy="36" r="11" fill="#a371f7" filter="url(#glow)"/>
-      <text x="80" y="62" text-anchor="middle" fill="#f0f6fc" font-size="13" font-weight="700">REVIEW</text>
-      <text x="80" y="77" text-anchor="middle" fill="#8b949e" font-size="10">learn from maintainers</text>
+      <rect width="160" height="82" rx="12" fill="#161b22" stroke="#30363d"/>
+      <circle cx="80" cy="34" r="11" fill="#58a6ff"/>
+      <text x="80" y="38" text-anchor="middle" fill="#0d1117" font-size="10" font-weight="700">04</text>
+      <text x="80" y="61" text-anchor="middle" fill="#f0f6fc" font-size="13" font-weight="700">REVIEW</text>
+      <text x="80" y="76" text-anchor="middle" fill="#8b949e" font-size="10">learn from maintainers</text>
     </g>
-    <path d="M802 137 H832" stroke="#58a6ff" stroke-width="2" marker-end="url(#arrow)"/>
+    <path d="M802 137 H832" stroke="#58a6ff" stroke-width="1.6" marker-end="url(#arrow)"/>
 
     <g transform="translate(836,96)">
-      <rect width="120" height="82" rx="14" fill="#161b22" stroke="#58a6ff"/>
-      <circle cx="60" cy="36" r="11" fill="url(#accent)" filter="url(#glow)"/>
-      <text x="60" y="62" text-anchor="middle" fill="#f0f6fc" font-size="13" font-weight="700">GROW</text>
-      <text x="60" y="77" text-anchor="middle" fill="#8b949e" font-size="10">repeat ↻</text>
+      <rect width="120" height="82" rx="12" fill="#161b22" stroke="#3fb950"/>
+      <circle cx="60" cy="34" r="11" fill="#3fb950"/>
+      <text x="60" y="38" text-anchor="middle" fill="#0d1117" font-size="10" font-weight="700">05</text>
+      <text x="60" y="61" text-anchor="middle" fill="#f0f6fc" font-size="13" font-weight="700">GROW</text>
+      <text x="60" y="76" text-anchor="middle" fill="#8b949e" font-size="10">repeat ↻</text>
     </g>
-  </g>
 
-  <text x="500" y="220" text-anchor="middle" fill="#58a6ff" font-size="12" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">understand → contribute → learn → improve</text>
+    <text x="500" y="220" text-anchor="middle" fill="#8b949e" font-size="11">understand  ·  contribute  ·  learn  ·  improve</text>
+  </g>
 </svg>
