@@ -1,41 +1,244 @@
-<!--
-  Profile README for GitHub user: tunglambk
-  Updated to remove followers badge and simplify GitHub stats rendering per user request.
--->
+<div align="center">
 
-# Hi there 👋
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=27&duration=2600&pause=700&color=58A6FF&center=true&vCenter=true&repeat=true&width=760&height=120&lines=Tung+Lam+%2F%2F+AI+Engineer;Python+%C2%B7+LLM+Systems+%C2%B7+Open+Source;Understand+%E2%86%92+Fix+%E2%86%92+Test+%E2%86%92+Contribute" alt="Tung Lam — AI Engineer, Python, LLM Systems, Open Source" />
 
-I'm tunglambk — developer, tinkerer, and lifelong learner. I build things that solve real problems and enjoy exploring new technologies.
+<br/>
 
----
+<a href="https://github.com/tunglambk">
+  <img src="https://img.shields.io/badge/@tunglambk-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+</a>
+<a href="https://www.linkedin.com/in/tunglambk96/">
+  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+</a>
+<a href="mailto:lamphambatung96@gmail.com">
+  <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+</a>
 
-## 💡 About me
-- 🔧 I enjoy clean, pragmatic code and automated workflows.
-- 🌱 I love learning new languages and frameworks.
-- ⚡ Fun fact: I like breaking problems into small, testable pieces.
+<br/><br/>
 
-## 🧰 Tech & Tools
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![LLM](https://img.shields.io/badge/LLM-00A3FF?style=flat)
-![AI](https://img.shields.io/badge/AI-FAB005?style=flat)
+**AI Engineer · Python · LLM Systems · Open Source Contributor**
 
----
-
-## 📊 GitHub Stats
-
-![tunglambk's GitHub stats](https://github-readme-stats.vercel.app/api?username=tunglambk&show_icons=true&theme=radical)
-
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=tunglambk&layout=compact&theme=radical)
-
-
-![trophy](https://github-profile-trophy.vercel.app/?username=tunglambk&theme=gruvbox)
+</div>
 
 ---
 
-## 📫 Contact
-- Email: lamphambatung96@gmail.com
-- LinkedIn: https://www.linkedin.com/in/tunglambk96/
+## `> whoami`
+
+I'm an **AI Engineer** who enjoys understanding how systems behave beneath the abstraction layer.
+
+My interests sit around **LLM systems, Python, backend engineering, and production AI**. I like reading unfamiliar codebases, reproducing real bugs, tracing them to their root cause, and turning that understanding into **small, focused, well-tested fixes**.
+
+Right now, I'm intentionally spending more time contributing to the **open-source Python ecosystem**.
+
+```text
+$ current_mission
+
+learn from real codebases
+        ↓
+solve real engineering problems
+        ↓
+contribute useful fixes
+        ↓
+learn from maintainers
+        ↓
+become a better engineer
+```
 
 ---
 
-Thanks for visiting — let's build something great! 🚀
+## 🌱 Open Source Mode
+
+> [!NOTE]
+> I'm currently focusing on real issues in established Python projects: bug fixes, regressions, edge cases, tests, and framework internals.
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### 🐛 I enjoy debugging
+
+- Reproducing tricky bugs
+- Root-cause analysis
+- Edge cases and regressions
+- Understanding framework internals
+
+</td>
+<td width="50%" valign="top">
+
+### 🧪 I care about the fix
+
+- Small, maintainable changes
+- Regression coverage
+- Preserving existing behavior
+- Clear validation before submitting
+
+</td>
+</tr>
+</table>
+
+<div align="center">
+
+<a href="https://github.com/pulls?q=is%3Apr+author%3Atunglambk+is%3Apublic">
+  <img src="https://img.shields.io/badge/VIEW_MY_OPEN_SOURCE_PRS-238636?style=for-the-badge&logo=github&logoColor=white" alt="View my open-source pull requests" />
+</a>
+
+</div>
+
+---
+
+## 🔄 Latest Open-Source Pull Requests
+
+<!-- OSS-PRS:START -->
+- **[vitalik/django-ninja](https://github.com/vitalik/django-ninja)** — [#1764 Preserve model metadata on custom ModelSchema fields](https://github.com/vitalik/django-ninja/pull/1764)
+- **[tox-dev/tox](https://github.com/tox-dev/tox)** — [#4032 fix(config): handle configuration file read errors](https://github.com/tox-dev/tox/pull/4032)
+- **[pdm-project/pdm](https://github.com/pdm-project/pdm)** — [#3851 fix(formats): resolve nested remote requirement URLs](https://github.com/pdm-project/pdm/pull/3851)
+- **[pypa/pyproject-hooks](https://github.com/pypa/pyproject-hooks)** — [#232 Preserve backend paths containing path separators](https://github.com/pypa/pyproject-hooks/pull/232)
+- **[pygments/pygments](https://github.com/pygments/pygments)** — [#3257 Recognize alternative Dockerfile names and MIME type](https://github.com/pygments/pygments/pull/3257)
+<!-- OSS-PRS:END -->
+
+<sub>🤖 This section is kept up to date automatically by GitHub Actions.</sub>
+
+---
+
+## 🧠 Engineering Focus
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### 🤖 AI Systems
+
+- Large Language Models
+- Retrieval-Augmented Generation
+- Agentic AI
+- LLM evaluation
+- AI system architecture
+- Production AI reliability
+
+</td>
+<td width="50%" valign="top">
+
+### 🐍 Software Engineering
+
+- Python ecosystem
+- Backend frameworks
+- API design
+- Testing & debugging
+- Distributed systems
+- Open-source development
+
+</td>
+</tr>
+</table>
+
+---
+
+## 🛠️ Toolbox
+
+### `AI / LLM`
+
+<p>
+<img src="https://img.shields.io/badge/LLM-412991?style=flat-square&logo=openai&logoColor=white" alt="LLM" />
+<img src="https://img.shields.io/badge/RAG-007ACC?style=flat-square" alt="RAG" />
+<img src="https://img.shields.io/badge/Agentic_AI-FF6F00?style=flat-square" alt="Agentic AI" />
+<img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white" alt="LangChain" />
+<img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square" alt="LangGraph" />
+<img src="https://img.shields.io/badge/Hugging_Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black" alt="Hugging Face" />
+<img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" alt="PyTorch" />
+</p>
+
+### `Python / Backend`
+
+<p>
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
+<img src="https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white" alt="Django" />
+<img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI" />
+<img src="https://img.shields.io/badge/Pydantic-E92063?style=flat-square&logo=pydantic&logoColor=white" alt="Pydantic" />
+<img src="https://img.shields.io/badge/pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white" alt="pytest" />
+<img src="https://img.shields.io/badge/Ruff-D7FF64?style=flat-square&logo=ruff&logoColor=black" alt="Ruff" />
+</p>
+
+### `Systems`
+
+<p>
+<img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black" alt="Linux" />
+<img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git" />
+<img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
+<img src="https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white" alt="Kubernetes" />
+</p>
+
+---
+
+## `> how_i_solve_problems.py`
+
+```python
+def solve(problem):
+    reproduction = reproduce(problem)
+    root_cause = understand(reproduction, assumptions=False)
+
+    fix = smallest_correct_change(root_cause)
+
+    add_regression_test(fix)
+    verify_existing_behavior()
+
+    return pull_request(fix)
+```
+
+```text
+understanding > guessing
+tests         > assumptions
+clarity       > cleverness
+small fixes   > unnecessary complexity
+```
+
+---
+
+<details>
+<summary><b>🔬 What I'm exploring</b></summary>
+
+<br/>
+
+- LLM system architecture
+- RAG and retrieval systems
+- Multi-agent workflows
+- AI evaluation
+- Python library internals
+- Distributed AI infrastructure
+- Reliable production systems
+
+I particularly enjoy the place where **AI research meets real software engineering**.
+
+</details>
+
+<br/>
+
+<details>
+<summary><b>🤝 Open to collaboration</b></summary>
+
+<br/>
+
+I'm interested in open-source Python projects, AI/LLM tooling, difficult debugging problems, framework internals, and developer infrastructure.
+
+If there's an interesting issue worth investigating, feel free to reach out.
+
+</details>
+
+---
+
+<div align="center">
+
+### `understand → fix → test → contribute`
+
+**Build things. Break assumptions. Fix the root cause. Contribute back.**
+
+<br/>
+
+<a href="mailto:lamphambatung96@gmail.com">
+  <img src="https://img.shields.io/badge/LET'S_BUILD_SOMETHING-58A6FF?style=for-the-badge&logo=gmail&logoColor=white" alt="Let's build something" />
+</a>
+
+<br/><br/>
+
+<sub>AI Engineering · LLM Systems · Python · Open Source</sub>
+
+</div>
