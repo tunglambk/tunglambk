@@ -1,4 +1,4 @@
-name: Update open-source PRs
+name: Update open-source profile
 
 on:
   schedule:
@@ -17,7 +17,7 @@ jobs:
       - name: Checkout profile repository
         uses: actions/checkout@v4
 
-      - name: Fetch latest open-source pull requests
+      - name: Refresh PR list and contribution chart
         uses: actions/github-script@v7
         with:
           script: |
@@ -29,21 +29,17 @@ jobs:
 
             const { data } = await github.rest.search.issuesAndPullRequests({
               q: `is:pr author:${username} -user:${username} sort:updated-desc`,
-              per_page: 20,
+              per_page: 100,
             });
 
-            const pulls = [];
+            const allPulls = [];
 
             for (const item of data.items) {
-              if (pulls.length >= 5) break;
-
               const match = item.repository_url.match(/repos\/([^/]+)\/([^/]+)$/);
               if (!match) continue;
 
               const owner = match[1];
               const repo = match[2];
-
-              // Skip PRs against repositories owned by this profile.
               if (owner.toLowerCase() === username.toLowerCase()) continue;
 
               const { data: pr } = await github.rest.pulls.get({
@@ -53,15 +49,11 @@ jobs:
               });
 
               let status;
-              if (pr.merged_at) {
-                status = '🟣 merged';
-              } else if (pr.state === 'open') {
-                status = '🟢 open';
-              } else {
-                status = '⚪ closed';
-              }
+              if (pr.merged_at) status = '🟣 merged';
+              else if (pr.state === 'open') status = '🟢 open';
+              else status = '⚪ closed';
 
-              pulls.push({
+              allPulls.push({
                 repo: `${owner}/${repo}`,
                 number: item.number,
                 title: item.title.replace(/\|/g, '\\|'),
@@ -71,15 +63,15 @@ jobs:
               });
             }
 
-            const generated = pulls.length
-              ? pulls.map(pr =>
+            const latest = allPulls.slice(0, 5);
+            const generated = latest.length
+              ? latest.map(pr =>
                   `- **[${pr.repo}](${pr.repoUrl})** — [#${pr.number} ${pr.title}](${pr.url}) · ${pr.status}`
                 ).join('\n')
               : '_No public open-source pull requests found yet._';
 
             const readmePath = 'README.md';
             const readme = fs.readFileSync(readmePath, 'utf8');
-
             const start = readme.indexOf(startMarker);
             const end = readme.indexOf(endMarker);
 
@@ -90,20 +82,71 @@ jobs:
 
             const before = readme.slice(0, start + startMarker.length);
             const after = readme.slice(end);
-            const updated = `${before}\n${generated}\n${after}`;
+            fs.writeFileSync(readmePath, `${before}\n${generated}\n${after}`);
 
-            fs.writeFileSync(readmePath, updated);
+            const counts = new Map();
+            for (const pr of allPulls) counts.set(pr.repo, (counts.get(pr.repo) || 0) + 1);
 
-      - name: Commit README when it changed
+            const rows = [...counts.entries()]
+              .sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]))
+              .slice(0, 8);
+
+            const total = allPulls.length;
+            const max = Math.max(1, ...rows.map(([, count]) => count));
+            const rowHeight = 44;
+            const height = 118 + rows.length * rowHeight + 24;
+            const barX = 286;
+            const barMaxWidth = 540;
+
+            const escapeXml = value => String(value)
+              .replace(/&/g, '&amp;')
+              .replace(/</g, '&lt;')
+              .replace(/>/g, '&gt;')
+              .replace(/"/g, '&quot;');
+
+            const rowSvg = rows.map(([repo, count], index) => {
+              const y = 109 + index * rowHeight;
+              const width = Math.max(18, Math.round((count / max) * barMaxWidth));
+              const labelX = barX + width + 12;
+              return `
+                <rect x="${barX}" y="${y}" width="${barMaxWidth}" height="22" rx="6" fill="#21262d"/>
+                <text x="32" y="${y + 16}" fill="#c9d1d9" font-size="14">${escapeXml(repo)}</text>
+                <rect x="${barX}" y="${y}" width="${width}" height="22" rx="6" fill="url(#bar)"/>
+                <text x="${Math.min(labelX, 850)}" y="${y + 16}" fill="#f0f6fc" font-size="13" font-weight="700">${count}</text>`;
+            }).join('');
+
+            const chart = `<svg xmlns="http://www.w3.org/2000/svg" width="900" height="${height}" viewBox="0 0 900 ${height}" role="img" aria-labelledby="title desc">
+              <title id="title">Open Source Contribution Footprint</title>
+              <desc id="desc">${total} public pull requests across ${counts.size} upstream repositories.</desc>
+              <defs>
+                <linearGradient id="bar" x1="0" x2="1">
+                  <stop offset="0%" stop-color="#2f81f7"/>
+                  <stop offset="100%" stop-color="#a371f7"/>
+                </linearGradient>
+              </defs>
+              <rect x="1" y="1" width="898" height="${height - 2}" rx="18" fill="#0d1117" stroke="#30363d"/>
+              <g font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', monospace">
+                <text x="32" y="48" fill="#f0f6fc" font-size="22" font-weight="700">Open Source Contribution Footprint</text>
+                <text x="32" y="74" fill="#8b949e" font-size="13">Public pull requests grouped by upstream repository</text>
+                <rect x="700" y="28" width="168" height="44" rx="12" fill="#161b22" stroke="#30363d"/>
+                <text x="718" y="55" fill="#7ee787" font-size="14" font-weight="700">${total} PRs</text>
+                <text x="778" y="55" fill="#8b949e" font-size="13">· ${counts.size} projects</text>
+                ${rowSvg}
+              </g>
+            </svg>`;
+
+            fs.writeFileSync('oss-contributions.svg', chart);
+
+      - name: Commit profile when it changed
         shell: bash
         run: |
-          if git diff --quiet -- README.md; then
-            echo "README is already up to date."
+          if git diff --quiet -- README.md oss-contributions.svg; then
+            echo "Profile is already up to date."
             exit 0
           fi
 
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add README.md
-          git commit -m "docs: refresh latest open-source PRs"
+          git add README.md oss-contributions.svg
+          git commit -m "docs: refresh open-source profile"
           git push
