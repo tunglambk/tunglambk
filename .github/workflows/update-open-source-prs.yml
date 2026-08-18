@@ -1,0 +1,109 @@
+name: Update open-source PRs
+
+on:
+  schedule:
+    - cron: "17 1 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: read
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout profile repository
+        uses: actions/checkout@v4
+
+      - name: Fetch latest open-source pull requests
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+
+            const username = 'tunglambk';
+            const startMarker = '<!-- OSS-PRS:START -->';
+            const endMarker = '<!-- OSS-PRS:END -->';
+
+            const { data } = await github.rest.search.issuesAndPullRequests({
+              q: `is:pr author:${username} -user:${username} sort:updated-desc`,
+              per_page: 20,
+            });
+
+            const pulls = [];
+
+            for (const item of data.items) {
+              if (pulls.length >= 5) break;
+
+              const match = item.repository_url.match(/repos\/([^/]+)\/([^/]+)$/);
+              if (!match) continue;
+
+              const owner = match[1];
+              const repo = match[2];
+
+              // Skip PRs against repositories owned by this profile.
+              if (owner.toLowerCase() === username.toLowerCase()) continue;
+
+              const { data: pr } = await github.rest.pulls.get({
+                owner,
+                repo,
+                pull_number: item.number,
+              });
+
+              let status;
+              if (pr.merged_at) {
+                status = '🟣 merged';
+              } else if (pr.state === 'open') {
+                status = '🟢 open';
+              } else {
+                status = '⚪ closed';
+              }
+
+              pulls.push({
+                repo: `${owner}/${repo}`,
+                number: item.number,
+                title: item.title.replace(/\|/g, '\\|'),
+                url: item.html_url,
+                repoUrl: `https://github.com/${owner}/${repo}`,
+                status,
+              });
+            }
+
+            const generated = pulls.length
+              ? pulls.map(pr =>
+                  `- **[${pr.repo}](${pr.repoUrl})** — [#${pr.number} ${pr.title}](${pr.url}) · ${pr.status}`
+                ).join('\n')
+              : '_No public open-source pull requests found yet._';
+
+            const readmePath = 'README.md';
+            const readme = fs.readFileSync(readmePath, 'utf8');
+
+            const start = readme.indexOf(startMarker);
+            const end = readme.indexOf(endMarker);
+
+            if (start === -1 || end === -1 || end < start) {
+              core.setFailed('README markers for the OSS PR section were not found.');
+              return;
+            }
+
+            const before = readme.slice(0, start + startMarker.length);
+            const after = readme.slice(end);
+            const updated = `${before}\n${generated}\n${after}`;
+
+            fs.writeFileSync(readmePath, updated);
+
+      - name: Commit README when it changed
+        shell: bash
+        run: |
+          if git diff --quiet -- README.md; then
+            echo "README is already up to date."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git commit -m "docs: refresh latest open-source PRs"
+          git push
