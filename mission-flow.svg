@@ -1,24 +1,65 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="250" viewBox="0 0 1000 250" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="285" viewBox="0 0 1000 285" role="img" aria-labelledby="title desc">
   <title id="title">Current Mission</title>
   <desc id="desc">Read code, solve real problems, contribute focused fixes, learn from review, and grow.</desc>
+  <style>
+    .bg{fill:#f6f8fa;stroke:#d0d7de}.card{fill:#ffffff;stroke:#d0d7de}.text{fill:#24292f}.muted{fill:#57606a}.accent{fill:#0969da}.accentText{fill:#0969da}.line{stroke:#0969da}
+    @media (prefers-color-scheme:dark){.bg{fill:#161b22;stroke:#30363d}.card{fill:#0d1117;stroke:#30363d}.text{fill:#f0f6fc}.muted{fill:#8b949e}.accent{fill:#58a6ff}.accentText{fill:#58a6ff}.line{stroke:#58a6ff}}
+  </style>
   <defs>
-    <marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 Z" fill="#58a6ff"/></marker>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0 L8 4 L0 8 Z" class="accent"/></marker>
   </defs>
-  <rect x="1" y="1" width="998" height="248" rx="18" fill="#0d1117" stroke="#30363d"/>
-  <rect x="1" y="1" width="6" height="248" rx="3" fill="#58a6ff"/>
-  <g font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace">
-    <text x="38" y="44" fill="#f0f6fc" font-size="21" font-weight="700">current_mission()</text>
-    <text x="38" y="68" fill="#8b949e" font-size="13">open source as an engineering feedback loop</text>
-    <line x1="130" y1="132" x2="870" y2="132" stroke="#30363d" stroke-width="2"/>
-    <g transform="translate(44,96)"><rect width="160" height="82" rx="12" fill="#161b22" stroke="#30363d"/><circle cx="80" cy="34" r="11" fill="#21262d" stroke="#58a6ff"/><text x="80" y="38" text-anchor="middle" fill="#58a6ff" font-size="10" font-weight="700">01</text><text x="80" y="61" text-anchor="middle" fill="#f0f6fc" font-size="13" font-weight="700">READ CODE</text><text x="80" y="76" text-anchor="middle" fill="#8b949e" font-size="10">learn the system</text></g>
-    <path d="M208 137 H238" stroke="#58a6ff" stroke-width="1.6" marker-end="url(#arrow)"/>
-    <g transform="translate(242,96)"><rect width="160" height="82" rx="12" fill="#161b22" stroke="#30363d"/><circle cx="80" cy="34" r="11" fill="#21262d" stroke="#58a6ff"/><text x="80" y="38" text-anchor="middle" fill="#58a6ff" font-size="10" font-weight="700">02</text><text x="80" y="61" text-anchor="middle" fill="#f0f6fc" font-size="13" font-weight="700">SOLVE</text><text x="80" y="76" text-anchor="middle" fill="#8b949e" font-size="10">real problems</text></g>
-    <path d="M406 137 H436" stroke="#58a6ff" stroke-width="1.6" marker-end="url(#arrow)"/>
-    <g transform="translate(440,96)"><rect width="160" height="82" rx="12" fill="#161b22" stroke="#58a6ff"/><circle cx="80" cy="34" r="11" fill="#58a6ff"/><text x="80" y="38" text-anchor="middle" fill="#0d1117" font-size="10" font-weight="700">03</text><text x="80" y="61" text-anchor="middle" fill="#f0f6fc" font-size="13" font-weight="700">CONTRIBUTE</text><text x="80" y="76" text-anchor="middle" fill="#8b949e" font-size="10">focused fixes</text></g>
-    <path d="M604 137 H634" stroke="#58a6ff" stroke-width="1.6" marker-end="url(#arrow)"/>
-    <g transform="translate(638,96)"><rect width="160" height="82" rx="12" fill="#161b22" stroke="#30363d"/><circle cx="80" cy="34" r="11" fill="#21262d" stroke="#58a6ff"/><text x="80" y="38" text-anchor="middle" fill="#58a6ff" font-size="10" font-weight="700">04</text><text x="80" y="61" text-anchor="middle" fill="#f0f6fc" font-size="13" font-weight="700">REVIEW</text><text x="80" y="76" text-anchor="middle" fill="#8b949e" font-size="10">learn from maintainers</text></g>
-    <path d="M802 137 H832" stroke="#58a6ff" stroke-width="1.6" marker-end="url(#arrow)"/>
-    <g transform="translate(836,96)"><rect width="120" height="82" rx="12" fill="#161b22" stroke="#30363d"/><circle cx="60" cy="34" r="11" fill="#21262d" stroke="#58a6ff"/><text x="60" y="38" text-anchor="middle" fill="#58a6ff" font-size="10" font-weight="700">05</text><text x="60" y="61" text-anchor="middle" fill="#f0f6fc" font-size="13" font-weight="700">GROW</text><text x="60" y="76" text-anchor="middle" fill="#8b949e" font-size="10">repeat ↻</text></g>
-    <text x="500" y="220" text-anchor="middle" fill="#8b949e" font-size="11">understand  ·  contribute  ·  learn  ·  improve</text>
+
+  <rect x="1" y="1" width="998" height="283" rx="16" class="bg"/>
+  <rect x="1" y="1" width="5" height="283" rx="2.5" class="accent"/>
+
+  <g font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace">
+    <text x="34" y="43" class="text" font-size="21" font-weight="700">current_mission()</text>
+    <text x="34" y="68" class="muted" font-size="13">open source as a practical engineering feedback loop</text>
+
+    <g transform="translate(30 104)">
+      <rect width="160" height="104" rx="12" class="card"/>
+      <circle cx="28" cy="28" r="14" class="accent"/>
+      <text x="28" y="33" text-anchor="middle" fill="#fff" font-size="11" font-weight="700">01</text>
+      <text x="20" y="62" class="text" font-size="14" font-weight="700">READ CODE</text>
+      <text x="20" y="83" class="muted" font-size="11">learn the system</text>
+    </g>
+    <path d="M194 156 H216" class="line" stroke-width="1.7" fill="none" marker-end="url(#arrow)"/>
+
+    <g transform="translate(220 104)">
+      <rect width="160" height="104" rx="12" class="card"/>
+      <circle cx="28" cy="28" r="14" class="accent"/>
+      <text x="28" y="33" text-anchor="middle" fill="#fff" font-size="11" font-weight="700">02</text>
+      <text x="20" y="62" class="text" font-size="14" font-weight="700">SOLVE</text>
+      <text x="20" y="83" class="muted" font-size="11">real problems</text>
+    </g>
+    <path d="M384 156 H406" class="line" stroke-width="1.7" fill="none" marker-end="url(#arrow)"/>
+
+    <g transform="translate(410 104)">
+      <rect width="160" height="104" rx="12" class="card"/>
+      <circle cx="28" cy="28" r="14" class="accent"/>
+      <text x="28" y="33" text-anchor="middle" fill="#fff" font-size="11" font-weight="700">03</text>
+      <text x="20" y="62" class="text" font-size="14" font-weight="700">CONTRIBUTE</text>
+      <text x="20" y="83" class="muted" font-size="11">focused, tested fixes</text>
+    </g>
+    <path d="M574 156 H596" class="line" stroke-width="1.7" fill="none" marker-end="url(#arrow)"/>
+
+    <g transform="translate(600 104)">
+      <rect width="160" height="104" rx="12" class="card"/>
+      <circle cx="28" cy="28" r="14" class="accent"/>
+      <text x="28" y="33" text-anchor="middle" fill="#fff" font-size="11" font-weight="700">04</text>
+      <text x="20" y="62" class="text" font-size="14" font-weight="700">REVIEW</text>
+      <text x="20" y="83" class="muted" font-size="11">learn from maintainers</text>
+    </g>
+    <path d="M764 156 H786" class="line" stroke-width="1.7" fill="none" marker-end="url(#arrow)"/>
+
+    <g transform="translate(790 104)">
+      <rect width="160" height="104" rx="12" class="card"/>
+      <circle cx="28" cy="28" r="14" class="accent"/>
+      <text x="28" y="33" text-anchor="middle" fill="#fff" font-size="11" font-weight="700">05</text>
+      <text x="20" y="62" class="text" font-size="14" font-weight="700">GROW</text>
+      <text x="20" y="83" class="muted" font-size="11">repeat with context</text>
+    </g>
+
+    <text x="500" y="251" text-anchor="middle" class="muted" font-size="12">understand  ·  contribute  ·  learn  ·  improve</text>
   </g>
 </svg>
