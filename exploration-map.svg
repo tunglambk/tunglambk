@@ -1,55 +1,60 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1000" height="430" viewBox="0 0 1000 430" role="img" aria-labelledby="title desc">
   <title id="title">Exploration and Collaboration Map</title>
   <desc id="desc">A visual map of AI systems, Python engineering, open source, and collaboration interests.</desc>
-  <rect x="1" y="1" width="998" height="428" rx="18" fill="#0d1117" stroke="#30363d"/>
-  <rect x="1" y="1" width="6" height="428" rx="3" fill="#58a6ff"/>
+  <style>
+    .bg{fill:#f6f8fa;stroke:#d0d7de}.card{fill:#ffffff;stroke:#d0d7de}.text{fill:#24292f}.muted{fill:#57606a}.accentText{fill:#0969da}.accentStroke{stroke:#0969da}.link{stroke:#afb8c1}
+    @media (prefers-color-scheme:dark){.bg{fill:#161b22;stroke:#30363d}.card{fill:#0d1117;stroke:#30363d}.text{fill:#f0f6fc}.muted{fill:#8b949e}.accentText{fill:#58a6ff}.accentStroke{stroke:#58a6ff}.link{stroke:#30363d}}
+  </style>
 
-  <g font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace">
-    <text x="40" y="46" fill="#f0f6fc" font-size="21" font-weight="700">where_i_am_heading()</text>
-    <text x="40" y="70" fill="#8b949e" font-size="13">the intersection I want to keep exploring and contributing to</text>
+  <rect x="1" y="1" width="998" height="428" rx="16" class="bg"/>
+  <rect x="1" y="1" width="5" height="428" rx="2.5" fill="#0969da"/>
 
-    <g stroke="#30363d" stroke-width="1.5">
-      <line x1="500" y1="226" x2="190" y2="140"/>
-      <line x1="500" y1="226" x2="810" y2="140"/>
-      <line x1="500" y1="226" x2="190" y2="320"/>
-      <line x1="500" y1="226" x2="810" y2="320"/>
+  <g font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace">
+    <text x="34" y="43" class="text" font-size="21" font-weight="700">where_i_am_heading()</text>
+    <text x="34" y="68" class="muted" font-size="13">the intersection I want to keep exploring and contributing to</text>
+
+    <g class="link" stroke-width="1.5">
+      <line x1="500" y1="230" x2="290" y2="145"/>
+      <line x1="500" y1="230" x2="710" y2="145"/>
+      <line x1="500" y1="230" x2="290" y2="320"/>
+      <line x1="500" y1="230" x2="710" y2="320"/>
     </g>
 
-    <circle cx="500" cy="226" r="74" fill="#161b22" stroke="#58a6ff" stroke-width="2"/>
-    <text x="500" y="216" text-anchor="middle" fill="#f0f6fc" font-size="18" font-weight="700">AI × SOFTWARE</text>
-    <text x="500" y="241" text-anchor="middle" fill="#58a6ff" font-size="14" font-weight="700">ENGINEERING</text>
-    <text x="500" y="264" text-anchor="middle" fill="#8b949e" font-size="11">research → systems → users</text>
+    <circle cx="500" cy="230" r="74" class="card accentStroke" stroke-width="2"/>
+    <text x="500" y="216" text-anchor="middle" class="text" font-size="18" font-weight="700">AI × SOFTWARE</text>
+    <text x="500" y="241" text-anchor="middle" class="accentText" font-size="14" font-weight="700">ENGINEERING</text>
+    <text x="500" y="265" text-anchor="middle" class="muted" font-size="11">research → systems → users</text>
 
-    <g transform="translate(70,92)">
-      <rect width="250" height="105" rx="14" fill="#161b22" stroke="#30363d"/>
-      <text x="22" y="31" fill="#f0f6fc" font-size="15" font-weight="700">AI SYSTEMS</text>
-      <text x="22" y="55" fill="#c9d1d9" font-size="12">LLM architecture · RAG</text>
-      <text x="22" y="75" fill="#c9d1d9" font-size="12">agents · evaluation</text>
-      <text x="22" y="95" fill="#8b949e" font-size="10">reliable production AI</text>
+    <g transform="translate(52 95)">
+      <rect width="290" height="116" rx="12" class="card"/>
+      <text x="20" y="32" class="text" font-size="15" font-weight="700">AI SYSTEMS</text>
+      <text x="20" y="58" class="muted" font-size="12">LLM architecture · RAG · agents</text>
+      <text x="20" y="79" class="muted" font-size="12">evaluation · reliable production AI</text>
+      <text x="20" y="101" class="accentText" font-size="10" font-weight="700">research → working systems</text>
     </g>
 
-    <g transform="translate(680,92)">
-      <rect width="250" height="105" rx="14" fill="#161b22" stroke="#30363d"/>
-      <text x="22" y="31" fill="#f0f6fc" font-size="15" font-weight="700">PYTHON ENGINEERING</text>
-      <text x="22" y="55" fill="#c9d1d9" font-size="12">framework internals · APIs</text>
-      <text x="22" y="75" fill="#c9d1d9" font-size="12">testing · debugging</text>
-      <text x="22" y="95" fill="#8b949e" font-size="10">clean, maintainable systems</text>
+    <g transform="translate(658 95)">
+      <rect width="290" height="116" rx="12" class="card"/>
+      <text x="20" y="32" class="text" font-size="15" font-weight="700">PYTHON ENGINEERING</text>
+      <text x="20" y="58" class="muted" font-size="12">framework internals · APIs</text>
+      <text x="20" y="79" class="muted" font-size="12">testing · debugging · clean design</text>
+      <text x="20" y="101" class="accentText" font-size="10" font-weight="700">maintainable engineering</text>
     </g>
 
-    <g transform="translate(70,275)">
-      <rect width="250" height="105" rx="14" fill="#161b22" stroke="#30363d"/>
-      <text x="22" y="31" fill="#f0f6fc" font-size="15" font-weight="700">OPEN SOURCE</text>
-      <text x="22" y="55" fill="#c9d1d9" font-size="12">real issues · real codebases</text>
-      <text x="22" y="75" fill="#c9d1d9" font-size="12">small fixes · regression tests</text>
-      <text x="22" y="95" fill="#8b949e" font-size="10">learn from maintainers</text>
+    <g transform="translate(52 275)">
+      <rect width="290" height="116" rx="12" class="card"/>
+      <text x="20" y="32" class="text" font-size="15" font-weight="700">OPEN SOURCE</text>
+      <text x="20" y="58" class="muted" font-size="12">real issues · real codebases</text>
+      <text x="20" y="79" class="muted" font-size="12">focused fixes · regression tests</text>
+      <text x="20" y="101" class="accentText" font-size="10" font-weight="700">learn from maintainers</text>
     </g>
 
-    <g transform="translate(680,275)">
-      <rect width="250" height="105" rx="14" fill="#161b22" stroke="#30363d"/>
-      <text x="22" y="31" fill="#f0f6fc" font-size="15" font-weight="700">COLLABORATE</text>
-      <text x="22" y="55" fill="#c9d1d9" font-size="12">AI / LLM tooling</text>
-      <text x="22" y="75" fill="#c9d1d9" font-size="12">hard debugging problems</text>
-      <text x="22" y="95" fill="#8b949e" font-size="10">developer infrastructure</text>
+    <g transform="translate(658 275)">
+      <rect width="290" height="116" rx="12" class="card"/>
+      <text x="20" y="32" class="text" font-size="15" font-weight="700">COLLABORATE</text>
+      <text x="20" y="58" class="muted" font-size="12">AI / LLM tooling · Python projects</text>
+      <text x="20" y="79" class="muted" font-size="12">hard debugging · developer infra</text>
+      <text x="20" y="101" class="accentText" font-size="10" font-weight="700">useful engineering problems</text>
     </g>
   </g>
 </svg>
