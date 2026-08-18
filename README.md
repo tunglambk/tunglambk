@@ -4,9 +4,9 @@
 
 <br/>
 
-<a href="https://github.com/tunglambk"><img src="https://img.shields.io/badge/@tunglambk-21262D?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
-<a href="https://www.linkedin.com/in/tunglambk96/"><img src="https://img.shields.io/badge/LinkedIn-21262D?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-<a href="mailto:lamphambatung96@gmail.com"><img src="https://img.shields.io/badge/Email-21262D?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+<a href="https://github.com/tunglambk"><img src="https://img.shields.io/badge/@tunglambk-57606A?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
+<a href="https://www.linkedin.com/in/tunglambk96/"><img src="https://img.shields.io/badge/LinkedIn-57606A?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+<a href="mailto:lamphambatung96@gmail.com"><img src="https://img.shields.io/badge/Email-57606A?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
 
 <br/><br/>
 
@@ -65,7 +65,7 @@ Right now, I'm intentionally spending more time contributing to the **open-sourc
 <div align="center">
 
 <a href="https://github.com/pulls?q=is%3Apr+author%3Atunglambk+is%3Apublic">
-  <img src="https://img.shields.io/badge/VIEW_OPEN_SOURCE_PRS-21262D?style=for-the-badge&logo=github&logoColor=white" alt="View my open-source pull requests" />
+  <img src="https://img.shields.io/badge/VIEW_OPEN_SOURCE_PRS-0969DA?style=for-the-badge&logo=github&logoColor=white" alt="View my open-source pull requests" />
 </a>
 
 </div>
@@ -136,33 +136,33 @@ Right now, I'm intentionally spending more time contributing to the **open-sourc
 ### `AI / LLM`
 
 <p>
-<img src="https://img.shields.io/badge/LLM-21262D?style=flat-square&logo=openai&logoColor=white" alt="LLM" />
-<img src="https://img.shields.io/badge/RAG-21262D?style=flat-square" alt="RAG" />
-<img src="https://img.shields.io/badge/Agentic_AI-21262D?style=flat-square" alt="Agentic AI" />
-<img src="https://img.shields.io/badge/LangChain-21262D?style=flat-square&logo=langchain&logoColor=white" alt="LangChain" />
-<img src="https://img.shields.io/badge/LangGraph-21262D?style=flat-square" alt="LangGraph" />
-<img src="https://img.shields.io/badge/Hugging_Face-21262D?style=flat-square&logo=huggingface&logoColor=white" alt="Hugging Face" />
-<img src="https://img.shields.io/badge/PyTorch-21262D?style=flat-square&logo=pytorch&logoColor=white" alt="PyTorch" />
+<img src="https://img.shields.io/badge/LLM-57606A?style=flat-square&logo=openai&logoColor=white" alt="LLM" />
+<img src="https://img.shields.io/badge/RAG-57606A?style=flat-square" alt="RAG" />
+<img src="https://img.shields.io/badge/Agentic_AI-57606A?style=flat-square" alt="Agentic AI" />
+<img src="https://img.shields.io/badge/LangChain-57606A?style=flat-square&logo=langchain&logoColor=white" alt="LangChain" />
+<img src="https://img.shields.io/badge/LangGraph-57606A?style=flat-square" alt="LangGraph" />
+<img src="https://img.shields.io/badge/Hugging_Face-57606A?style=flat-square&logo=huggingface&logoColor=white" alt="Hugging Face" />
+<img src="https://img.shields.io/badge/PyTorch-57606A?style=flat-square&logo=pytorch&logoColor=white" alt="PyTorch" />
 </p>
 
 ### `Python / Backend`
 
 <p>
-<img src="https://img.shields.io/badge/Python-21262D?style=flat-square&logo=python&logoColor=white" alt="Python" />
-<img src="https://img.shields.io/badge/Django-21262D?style=flat-square&logo=django&logoColor=white" alt="Django" />
-<img src="https://img.shields.io/badge/FastAPI-21262D?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI" />
-<img src="https://img.shields.io/badge/Pydantic-21262D?style=flat-square&logo=pydantic&logoColor=white" alt="Pydantic" />
-<img src="https://img.shields.io/badge/pytest-21262D?style=flat-square&logo=pytest&logoColor=white" alt="pytest" />
-<img src="https://img.shields.io/badge/Ruff-21262D?style=flat-square&logo=ruff&logoColor=white" alt="Ruff" />
+<img src="https://img.shields.io/badge/Python-57606A?style=flat-square&logo=python&logoColor=white" alt="Python" />
+<img src="https://img.shields.io/badge/Django-57606A?style=flat-square&logo=django&logoColor=white" alt="Django" />
+<img src="https://img.shields.io/badge/FastAPI-57606A?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI" />
+<img src="https://img.shields.io/badge/Pydantic-57606A?style=flat-square&logo=pydantic&logoColor=white" alt="Pydantic" />
+<img src="https://img.shields.io/badge/pytest-57606A?style=flat-square&logo=pytest&logoColor=white" alt="pytest" />
+<img src="https://img.shields.io/badge/Ruff-57606A?style=flat-square&logo=ruff&logoColor=white" alt="Ruff" />
 </p>
 
 ### `Systems`
 
 <p>
-<img src="https://img.shields.io/badge/Linux-21262D?style=flat-square&logo=linux&logoColor=white" alt="Linux" />
-<img src="https://img.shields.io/badge/Git-21262D?style=flat-square&logo=git&logoColor=white" alt="Git" />
-<img src="https://img.shields.io/badge/Docker-21262D?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
-<img src="https://img.shields.io/badge/Kubernetes-21262D?style=flat-square&logo=kubernetes&logoColor=white" alt="Kubernetes" />
+<img src="https://img.shields.io/badge/Linux-57606A?style=flat-square&logo=linux&logoColor=white" alt="Linux" />
+<img src="https://img.shields.io/badge/Git-57606A?style=flat-square&logo=git&logoColor=white" alt="Git" />
+<img src="https://img.shields.io/badge/Docker-57606A?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
+<img src="https://img.shields.io/badge/Kubernetes-57606A?style=flat-square&logo=kubernetes&logoColor=white" alt="Kubernetes" />
 </p>
 
 ---
@@ -188,7 +188,7 @@ Right now, I'm intentionally spending more time contributing to the **open-sourc
 <div align="center">
 
 <a href="mailto:lamphambatung96@gmail.com">
-  <img src="https://img.shields.io/badge/HAVE_AN_INTERESTING_ISSUE%3F-LET'S_TALK-21262D?style=for-the-badge&logo=github&logoColor=white" alt="Open to collaboration" />
+  <img src="https://img.shields.io/badge/HAVE_AN_INTERESTING_ISSUE%3F-LET'S_TALK-0969DA?style=for-the-badge&logo=github&logoColor=white" alt="Open to collaboration" />
 </a>
 
 </div>
@@ -204,7 +204,7 @@ Right now, I'm intentionally spending more time contributing to the **open-sourc
 <br/>
 
 <a href="mailto:lamphambatung96@gmail.com">
-  <img src="https://img.shields.io/badge/LET'S_BUILD_SOMETHING-21262D?style=for-the-badge&logo=github&logoColor=white" alt="Let's build something" />
+  <img src="https://img.shields.io/badge/LET'S_BUILD_SOMETHING-0969DA?style=for-the-badge&logo=github&logoColor=white" alt="Let's build something" />
 </a>
 
 <br/><br/>
