@@ -1,32 +1,64 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1000" height="310" viewBox="0 0 1000 310" role="img" aria-labelledby="title desc">
   <title id="title">Engineering Problem-Solving Pipeline</title>
   <desc id="desc">Reproduce, inspect, understand, fix, test, verify, and contribute.</desc>
-  <defs>
-    <linearGradient id="bg" x1="0" x2="1"><stop offset="0%" stop-color="#0d1117"/><stop offset="100%" stop-color="#111827"/></linearGradient>
-    <linearGradient id="line" x1="0" x2="1"><stop offset="0%" stop-color="#2f81f7"/><stop offset="50%" stop-color="#3fb950"/><stop offset="100%" stop-color="#a371f7"/></linearGradient>
-    <filter id="glow"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
-  </defs>
-  <rect x="1" y="1" width="998" height="308" rx="20" fill="url(#bg)" stroke="#30363d"/>
-  <text x="40" y="46" fill="#f0f6fc" font-size="22" font-weight="700" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">engineering_pipeline()</text>
-  <text x="40" y="70" fill="#8b949e" font-size="13" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">small changes, strong evidence, clear reasoning</text>
 
-  <path d="M90 156 H910" stroke="#21262d" stroke-width="8" stroke-linecap="round"/>
-  <path d="M90 156 H910" stroke="url(#line)" stroke-width="3" stroke-linecap="round"/>
+  <rect x="1" y="1" width="998" height="308" rx="18" fill="#0d1117" stroke="#30363d"/>
+  <rect x="1" y="1" width="6" height="308" rx="3" fill="#58a6ff"/>
 
-  <g font-family="ui-monospace, SFMono-Regular, Menlo, monospace" text-anchor="middle">
-    <g transform="translate(100,0)"><circle cx="0" cy="156" r="20" fill="#2f81f7" filter="url(#glow)"/><text x="0" y="161" fill="#fff" font-size="13" font-weight="700">1</text><text x="0" y="208" fill="#f0f6fc" font-size="13" font-weight="700">REPRODUCE</text><text x="0" y="228" fill="#8b949e" font-size="10">make it fail</text></g>
-    <g transform="translate(233,0)"><circle cx="0" cy="156" r="20" fill="#58a6ff" filter="url(#glow)"/><text x="0" y="161" fill="#fff" font-size="13" font-weight="700">2</text><text x="0" y="208" fill="#f0f6fc" font-size="13" font-weight="700">INSPECT</text><text x="0" y="228" fill="#8b949e" font-size="10">trace behavior</text></g>
-    <g transform="translate(366,0)"><circle cx="0" cy="156" r="20" fill="#3fb950" filter="url(#glow)"/><text x="0" y="161" fill="#fff" font-size="13" font-weight="700">3</text><text x="0" y="208" fill="#f0f6fc" font-size="13" font-weight="700">UNDERSTAND</text><text x="0" y="228" fill="#8b949e" font-size="10">root cause</text></g>
-    <g transform="translate(500,0)"><circle cx="0" cy="156" r="20" fill="#d29922" filter="url(#glow)"/><text x="0" y="161" fill="#fff" font-size="13" font-weight="700">4</text><text x="0" y="208" fill="#f0f6fc" font-size="13" font-weight="700">FIX</text><text x="0" y="228" fill="#8b949e" font-size="10">smallest correct change</text></g>
-    <g transform="translate(634,0)"><circle cx="0" cy="156" r="20" fill="#f0883e" filter="url(#glow)"/><text x="0" y="161" fill="#fff" font-size="13" font-weight="700">5</text><text x="0" y="208" fill="#f0f6fc" font-size="13" font-weight="700">TEST</text><text x="0" y="228" fill="#8b949e" font-size="10">lock regression</text></g>
-    <g transform="translate(767,0)"><circle cx="0" cy="156" r="20" fill="#a371f7" filter="url(#glow)"/><text x="0" y="161" fill="#fff" font-size="13" font-weight="700">6</text><text x="0" y="208" fill="#f0f6fc" font-size="13" font-weight="700">VERIFY</text><text x="0" y="228" fill="#8b949e" font-size="10">preserve behavior</text></g>
-    <g transform="translate(900,0)"><circle cx="0" cy="156" r="20" fill="#8957e5" filter="url(#glow)"/><text x="0" y="161" fill="#fff" font-size="13" font-weight="700">7</text><text x="0" y="208" fill="#f0f6fc" font-size="13" font-weight="700">CONTRIBUTE</text><text x="0" y="228" fill="#8b949e" font-size="10">open the PR</text></g>
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace">
+    <text x="38" y="46" fill="#f0f6fc" font-size="21" font-weight="700">engineering_pipeline()</text>
+    <text x="38" y="70" fill="#8b949e" font-size="13">small changes, strong evidence, clear reasoning</text>
+
+    <rect x="204" y="91" width="592" height="34" rx="9" fill="#161b22" stroke="#30363d"/>
+    <text x="500" y="112" text-anchor="middle" fill="#c9d1d9" font-size="11">understanding &gt; guessing   ·   tests &gt; assumptions   ·   clarity &gt; cleverness</text>
+
+    <path d="M100 156 H900" stroke="#30363d" stroke-width="3" stroke-linecap="round"/>
+
+    <g text-anchor="middle">
+      <g transform="translate(100,0)">
+        <circle cx="0" cy="156" r="19" fill="#58a6ff"/>
+        <text x="0" y="161" fill="#0d1117" font-size="12" font-weight="700">01</text>
+        <text x="0" y="207" fill="#f0f6fc" font-size="12" font-weight="700">REPRODUCE</text>
+        <text x="0" y="226" fill="#8b949e" font-size="10">make it fail</text>
+      </g>
+      <g transform="translate(233,0)">
+        <circle cx="0" cy="156" r="19" fill="#58a6ff"/>
+        <text x="0" y="161" fill="#0d1117" font-size="12" font-weight="700">02</text>
+        <text x="0" y="207" fill="#f0f6fc" font-size="12" font-weight="700">INSPECT</text>
+        <text x="0" y="226" fill="#8b949e" font-size="10">trace behavior</text>
+      </g>
+      <g transform="translate(366,0)">
+        <circle cx="0" cy="156" r="19" fill="#58a6ff"/>
+        <text x="0" y="161" fill="#0d1117" font-size="12" font-weight="700">03</text>
+        <text x="0" y="207" fill="#f0f6fc" font-size="12" font-weight="700">UNDERSTAND</text>
+        <text x="0" y="226" fill="#8b949e" font-size="10">find root cause</text>
+      </g>
+      <g transform="translate(500,0)">
+        <circle cx="0" cy="156" r="19" fill="#58a6ff"/>
+        <text x="0" y="161" fill="#0d1117" font-size="12" font-weight="700">04</text>
+        <text x="0" y="207" fill="#f0f6fc" font-size="12" font-weight="700">FIX</text>
+        <text x="0" y="226" fill="#8b949e" font-size="10">smallest correct change</text>
+      </g>
+      <g transform="translate(634,0)">
+        <circle cx="0" cy="156" r="19" fill="#58a6ff"/>
+        <text x="0" y="161" fill="#0d1117" font-size="12" font-weight="700">05</text>
+        <text x="0" y="207" fill="#f0f6fc" font-size="12" font-weight="700">TEST</text>
+        <text x="0" y="226" fill="#8b949e" font-size="10">lock regression</text>
+      </g>
+      <g transform="translate(767,0)">
+        <circle cx="0" cy="156" r="19" fill="#58a6ff"/>
+        <text x="0" y="161" fill="#0d1117" font-size="12" font-weight="700">06</text>
+        <text x="0" y="207" fill="#f0f6fc" font-size="12" font-weight="700">VERIFY</text>
+        <text x="0" y="226" fill="#8b949e" font-size="10">preserve behavior</text>
+      </g>
+      <g transform="translate(900,0)">
+        <circle cx="0" cy="156" r="19" fill="#3fb950"/>
+        <text x="0" y="161" fill="#0d1117" font-size="12" font-weight="700">07</text>
+        <text x="0" y="207" fill="#f0f6fc" font-size="12" font-weight="700">CONTRIBUTE</text>
+        <text x="0" y="226" fill="#8b949e" font-size="10">open the PR</text>
+      </g>
+    </g>
+
+    <text x="500" y="278" text-anchor="middle" fill="#8b949e" font-size="11">The goal is not the biggest patch — it is the clearest correct one.</text>
   </g>
-
-  <g font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11">
-    <rect x="195" y="92" width="610" height="34" rx="10" fill="#161b22" stroke="#30363d"/>
-    <text x="500" y="113" text-anchor="middle" fill="#7ee787">understanding &gt; guessing   ·   tests &gt; assumptions   ·   clarity &gt; cleverness</text>
-  </g>
-
-  <text x="500" y="278" text-anchor="middle" fill="#8b949e" font-size="11" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">The goal is not the biggest patch — it is the clearest correct one.</text>
 </svg>
