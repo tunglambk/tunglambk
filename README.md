@@ -4,9 +4,9 @@
 
 <br/>
 
-<a href="https://github.com/tunglambk"><img src="https://img.shields.io/badge/@tunglambk-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
-<a href="https://www.linkedin.com/in/tunglambk96/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-<a href="mailto:lamphambatung96@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+<a href="https://github.com/tunglambk"><img src="https://img.shields.io/badge/@tunglambk-21262D?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
+<a href="https://www.linkedin.com/in/tunglambk96/"><img src="https://img.shields.io/badge/LinkedIn-21262D?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+<a href="mailto:lamphambatung96@gmail.com"><img src="https://img.shields.io/badge/Email-21262D?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
 
 <br/><br/>
 
@@ -32,7 +32,7 @@ Right now, I'm intentionally spending more time contributing to the **open-sourc
 
 ---
 
-## 🌱 Open Source Mode
+## Open Source Mode
 
 > [!NOTE]
 > I'm currently focusing on real issues in established Python projects: bug fixes, regressions, edge cases, tests, and framework internals.
@@ -41,7 +41,7 @@ Right now, I'm intentionally spending more time contributing to the **open-sourc
 <tr>
 <td width="50%" valign="top">
 
-### 🐛 I enjoy debugging
+### `debug`
 
 - Reproducing tricky bugs
 - Root-cause analysis
@@ -51,7 +51,7 @@ Right now, I'm intentionally spending more time contributing to the **open-sourc
 </td>
 <td width="50%" valign="top">
 
-### 🧪 I care about the fix
+### `fix`
 
 - Small, maintainable changes
 - Regression coverage
@@ -65,14 +65,14 @@ Right now, I'm intentionally spending more time contributing to the **open-sourc
 <div align="center">
 
 <a href="https://github.com/pulls?q=is%3Apr+author%3Atunglambk+is%3Apublic">
-  <img src="https://img.shields.io/badge/VIEW_MY_OPEN_SOURCE_PRS-238636?style=for-the-badge&logo=github&logoColor=white" alt="View my open-source pull requests" />
+  <img src="https://img.shields.io/badge/VIEW_OPEN_SOURCE_PRS-21262D?style=for-the-badge&logo=github&logoColor=white" alt="View my open-source pull requests" />
 </a>
 
 </div>
 
 ---
 
-## 📈 Open Source Contribution Footprint
+## Open Source Contribution Footprint
 
 <div align="center">
 
@@ -80,11 +80,11 @@ Right now, I'm intentionally spending more time contributing to the **open-sourc
 
 </div>
 
-<sub>🤖 Generated from my public upstream pull requests and refreshed automatically.</sub>
+<sub>Generated from my public upstream pull requests and refreshed automatically.</sub>
 
 ---
 
-## 🔄 Latest Open-Source Pull Requests
+## Latest Open-Source Pull Requests
 
 <!-- OSS-PRS:START -->
 - **[vitalik/django-ninja](https://github.com/vitalik/django-ninja)** — [#1764 Preserve model metadata on custom ModelSchema fields](https://github.com/vitalik/django-ninja/pull/1764)
@@ -94,17 +94,17 @@ Right now, I'm intentionally spending more time contributing to the **open-sourc
 - **[pygments/pygments](https://github.com/pygments/pygments)** — [#3257 Recognize alternative Dockerfile names and MIME type](https://github.com/pygments/pygments/pull/3257)
 <!-- OSS-PRS:END -->
 
-<sub>🤖 This section is kept up to date automatically by GitHub Actions.</sub>
+<sub>This section is kept up to date automatically by GitHub Actions.</sub>
 
 ---
 
-## 🧠 Engineering Focus
+## Engineering Focus
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### 🤖 AI Systems
+### `AI systems`
 
 - Large Language Models
 - Retrieval-Augmented Generation
@@ -116,7 +116,7 @@ Right now, I'm intentionally spending more time contributing to the **open-sourc
 </td>
 <td width="50%" valign="top">
 
-### 🐍 Software Engineering
+### `software engineering`
 
 - Python ecosystem
 - Backend frameworks
@@ -131,43 +131,43 @@ Right now, I'm intentionally spending more time contributing to the **open-sourc
 
 ---
 
-## 🛠️ Toolbox
+## Toolbox
 
 ### `AI / LLM`
 
 <p>
-<img src="https://img.shields.io/badge/LLM-412991?style=flat-square&logo=openai&logoColor=white" alt="LLM" />
-<img src="https://img.shields.io/badge/RAG-007ACC?style=flat-square" alt="RAG" />
-<img src="https://img.shields.io/badge/Agentic_AI-FF6F00?style=flat-square" alt="Agentic AI" />
-<img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white" alt="LangChain" />
-<img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square" alt="LangGraph" />
-<img src="https://img.shields.io/badge/Hugging_Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black" alt="Hugging Face" />
-<img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" alt="PyTorch" />
+<img src="https://img.shields.io/badge/LLM-21262D?style=flat-square&logo=openai&logoColor=white" alt="LLM" />
+<img src="https://img.shields.io/badge/RAG-21262D?style=flat-square" alt="RAG" />
+<img src="https://img.shields.io/badge/Agentic_AI-21262D?style=flat-square" alt="Agentic AI" />
+<img src="https://img.shields.io/badge/LangChain-21262D?style=flat-square&logo=langchain&logoColor=white" alt="LangChain" />
+<img src="https://img.shields.io/badge/LangGraph-21262D?style=flat-square" alt="LangGraph" />
+<img src="https://img.shields.io/badge/Hugging_Face-21262D?style=flat-square&logo=huggingface&logoColor=white" alt="Hugging Face" />
+<img src="https://img.shields.io/badge/PyTorch-21262D?style=flat-square&logo=pytorch&logoColor=white" alt="PyTorch" />
 </p>
 
 ### `Python / Backend`
 
 <p>
-<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
-<img src="https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white" alt="Django" />
-<img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI" />
-<img src="https://img.shields.io/badge/Pydantic-E92063?style=flat-square&logo=pydantic&logoColor=white" alt="Pydantic" />
-<img src="https://img.shields.io/badge/pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white" alt="pytest" />
-<img src="https://img.shields.io/badge/Ruff-D7FF64?style=flat-square&logo=ruff&logoColor=black" alt="Ruff" />
+<img src="https://img.shields.io/badge/Python-21262D?style=flat-square&logo=python&logoColor=white" alt="Python" />
+<img src="https://img.shields.io/badge/Django-21262D?style=flat-square&logo=django&logoColor=white" alt="Django" />
+<img src="https://img.shields.io/badge/FastAPI-21262D?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI" />
+<img src="https://img.shields.io/badge/Pydantic-21262D?style=flat-square&logo=pydantic&logoColor=white" alt="Pydantic" />
+<img src="https://img.shields.io/badge/pytest-21262D?style=flat-square&logo=pytest&logoColor=white" alt="pytest" />
+<img src="https://img.shields.io/badge/Ruff-21262D?style=flat-square&logo=ruff&logoColor=white" alt="Ruff" />
 </p>
 
 ### `Systems`
 
 <p>
-<img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black" alt="Linux" />
-<img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git" />
-<img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
-<img src="https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white" alt="Kubernetes" />
+<img src="https://img.shields.io/badge/Linux-21262D?style=flat-square&logo=linux&logoColor=white" alt="Linux" />
+<img src="https://img.shields.io/badge/Git-21262D?style=flat-square&logo=git&logoColor=white" alt="Git" />
+<img src="https://img.shields.io/badge/Docker-21262D?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
+<img src="https://img.shields.io/badge/Kubernetes-21262D?style=flat-square&logo=kubernetes&logoColor=white" alt="Kubernetes" />
 </p>
 
 ---
 
-## ⚙️ How I Solve Problems
+## How I Solve Problems
 
 <div align="center">
 
@@ -177,7 +177,7 @@ Right now, I'm intentionally spending more time contributing to the **open-sourc
 
 ---
 
-## 🔭 Where I'm Heading
+## Where I'm Heading
 
 <div align="center">
 
@@ -188,7 +188,7 @@ Right now, I'm intentionally spending more time contributing to the **open-sourc
 <div align="center">
 
 <a href="mailto:lamphambatung96@gmail.com">
-  <img src="https://img.shields.io/badge/HAVE_AN_INTERESTING_ISSUE%3F-LET'S_TALK-8957E5?style=for-the-badge&logo=github&logoColor=white" alt="Open to collaboration" />
+  <img src="https://img.shields.io/badge/HAVE_AN_INTERESTING_ISSUE%3F-LET'S_TALK-21262D?style=for-the-badge&logo=github&logoColor=white" alt="Open to collaboration" />
 </a>
 
 </div>
@@ -204,7 +204,7 @@ Right now, I'm intentionally spending more time contributing to the **open-sourc
 <br/>
 
 <a href="mailto:lamphambatung96@gmail.com">
-  <img src="https://img.shields.io/badge/LET'S_BUILD_SOMETHING-58A6FF?style=for-the-badge&logo=gmail&logoColor=white" alt="Let's build something" />
+  <img src="https://img.shields.io/badge/LET'S_BUILD_SOMETHING-21262D?style=for-the-badge&logo=github&logoColor=white" alt="Let's build something" />
 </a>
 
 <br/><br/>
