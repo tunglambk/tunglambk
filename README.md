@@ -4,15 +4,9 @@
 
 <br/>
 
-<a href="https://github.com/tunglambk">
-  <img src="https://img.shields.io/badge/@tunglambk-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
-</a>
-<a href="https://www.linkedin.com/in/tunglambk96/">
-  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-</a>
-<a href="mailto:lamphambatung96@gmail.com">
-  <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
-</a>
+<a href="https://github.com/tunglambk"><img src="https://img.shields.io/badge/@tunglambk-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
+<a href="https://www.linkedin.com/in/tunglambk96/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+<a href="mailto:lamphambatung96@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
 
 <br/><br/>
 
@@ -30,19 +24,11 @@ My interests sit around **LLM systems, Python, backend engineering, and producti
 
 Right now, I'm intentionally spending more time contributing to the **open-source Python ecosystem**.
 
-```text
-$ current_mission
+<div align="center">
 
-learn from real codebases
-        ↓
-solve real engineering problems
-        ↓
-contribute useful fixes
-        ↓
-learn from maintainers
-        ↓
-become a better engineer
-```
+<img src="./mission-flow.svg" width="100%" alt="My current open-source engineering mission" />
+
+</div>
 
 ---
 
@@ -181,59 +167,31 @@ become a better engineer
 
 ---
 
-## `> how_i_solve_problems.py`
+## ⚙️ How I Solve Problems
 
-```python
-def solve(problem):
-    reproduction = reproduce(problem)
-    root_cause = understand(reproduction, assumptions=False)
+<div align="center">
 
-    fix = smallest_correct_change(root_cause)
+<img src="./problem-solving-pipeline.svg" width="100%" alt="My engineering problem-solving pipeline" />
 
-    add_regression_test(fix)
-    verify_existing_behavior()
-
-    return pull_request(fix)
-```
-
-```text
-understanding > guessing
-tests         > assumptions
-clarity       > cleverness
-small fixes   > unnecessary complexity
-```
+</div>
 
 ---
 
-<details>
-<summary><b>🔬 What I'm exploring</b></summary>
+## 🔭 Where I'm Heading
 
-<br/>
+<div align="center">
 
-- LLM system architecture
-- RAG and retrieval systems
-- Multi-agent workflows
-- AI evaluation
-- Python library internals
-- Distributed AI infrastructure
-- Reliable production systems
+<img src="./exploration-map.svg" width="100%" alt="My AI engineering, Python, open-source and collaboration interests" />
 
-I particularly enjoy the place where **AI research meets real software engineering**.
+</div>
 
-</details>
+<div align="center">
 
-<br/>
+<a href="mailto:lamphambatung96@gmail.com">
+  <img src="https://img.shields.io/badge/HAVE_AN_INTERESTING_ISSUE%3F-LET'S_TALK-8957E5?style=for-the-badge&logo=github&logoColor=white" alt="Open to collaboration" />
+</a>
 
-<details>
-<summary><b>🤝 Open to collaboration</b></summary>
-
-<br/>
-
-I'm interested in open-source Python projects, AI/LLM tooling, difficult debugging problems, framework internals, and developer infrastructure.
-
-If there's an interesting issue worth investigating, feel free to reach out.
-
-</details>
+</div>
 
 ---
 
