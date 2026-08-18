@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=27&duration=2600&pause=700&color=58A6FF&center=true&vCenter=true&repeat=true&width=760&height=120&lines=Tung+Lam+%2F%2F+AI+Engineer;Python+%C2%B7+LLM+Systems+%C2%B7+Open+Source;Understand+%E2%86%92+Fix+%E2%86%92+Test+%E2%86%92+Contribute" alt="Tung Lam — AI Engineer, Python, LLM Systems, Open Source" />
+<img src="./header.gif" width="100%" alt="Tung Lam — AI Engineer, Python, LLM Systems, Open Source Contributor" />
 
 <br/>
 
@@ -83,6 +83,18 @@ become a better engineer
 </a>
 
 </div>
+
+---
+
+## 📈 Open Source Contribution Footprint
+
+<div align="center">
+
+<img src="./oss-contributions.svg" width="100%" alt="Open-source pull requests grouped by upstream repository" />
+
+</div>
+
+<sub>🤖 Generated from my public upstream pull requests and refreshed automatically.</sub>
 
 ---
 
