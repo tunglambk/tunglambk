@@ -136,33 +136,33 @@ Right now, I'm intentionally spending more time contributing to the **open-sourc
 ### `AI / LLM`
 
 <p>
-<img src="https://img.shields.io/badge/LLM-57606A?style=flat-square&logo=openai&logoColor=white" alt="LLM" />
-<img src="https://img.shields.io/badge/RAG-57606A?style=flat-square" alt="RAG" />
-<img src="https://img.shields.io/badge/Agentic_AI-57606A?style=flat-square" alt="Agentic AI" />
-<img src="https://img.shields.io/badge/LangChain-57606A?style=flat-square&logo=langchain&logoColor=white" alt="LangChain" />
-<img src="https://img.shields.io/badge/LangGraph-57606A?style=flat-square" alt="LangGraph" />
-<img src="https://img.shields.io/badge/Hugging_Face-57606A?style=flat-square&logo=huggingface&logoColor=white" alt="Hugging Face" />
-<img src="https://img.shields.io/badge/PyTorch-57606A?style=flat-square&logo=pytorch&logoColor=white" alt="PyTorch" />
+<img src="https://img.shields.io/badge/LLM-412991?style=flat-square&logo=openai&logoColor=white" alt="LLM" />
+<img src="https://img.shields.io/badge/RAG-0969DA?style=flat-square" alt="RAG" />
+<img src="https://img.shields.io/badge/Agentic_AI-F59E0B?style=flat-square&logoColor=white" alt="Agentic AI" />
+<img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white" alt="LangChain" />
+<img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square" alt="LangGraph" />
+<img src="https://img.shields.io/badge/Hugging_Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black" alt="Hugging Face" />
+<img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" alt="PyTorch" />
 </p>
 
 ### `Python / Backend`
 
 <p>
-<img src="https://img.shields.io/badge/Python-57606A?style=flat-square&logo=python&logoColor=white" alt="Python" />
-<img src="https://img.shields.io/badge/Django-57606A?style=flat-square&logo=django&logoColor=white" alt="Django" />
-<img src="https://img.shields.io/badge/FastAPI-57606A?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI" />
-<img src="https://img.shields.io/badge/Pydantic-57606A?style=flat-square&logo=pydantic&logoColor=white" alt="Pydantic" />
-<img src="https://img.shields.io/badge/pytest-57606A?style=flat-square&logo=pytest&logoColor=white" alt="pytest" />
-<img src="https://img.shields.io/badge/Ruff-57606A?style=flat-square&logo=ruff&logoColor=white" alt="Ruff" />
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
+<img src="https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white" alt="Django" />
+<img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI" />
+<img src="https://img.shields.io/badge/Pydantic-E92063?style=flat-square&logo=pydantic&logoColor=white" alt="Pydantic" />
+<img src="https://img.shields.io/badge/pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white" alt="pytest" />
+<img src="https://img.shields.io/badge/Ruff-D7FF64?style=flat-square&logo=ruff&logoColor=black" alt="Ruff" />
 </p>
 
 ### `Systems`
 
 <p>
-<img src="https://img.shields.io/badge/Linux-57606A?style=flat-square&logo=linux&logoColor=white" alt="Linux" />
-<img src="https://img.shields.io/badge/Git-57606A?style=flat-square&logo=git&logoColor=white" alt="Git" />
-<img src="https://img.shields.io/badge/Docker-57606A?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
-<img src="https://img.shields.io/badge/Kubernetes-57606A?style=flat-square&logo=kubernetes&logoColor=white" alt="Kubernetes" />
+<img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black" alt="Linux" />
+<img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git" />
+<img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
+<img src="https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white" alt="Kubernetes" />
 </p>
 
 ---
