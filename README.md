@@ -1,14 +1,11 @@
 <!--
   Profile README for GitHub user: tunglambk
-  Contact and tech stack provided by the user. Placeholders removed.
+  Updated to remove followers badge and simplify GitHub stats rendering per user request.
 -->
 
 # Hi there 👋
 
 I'm tunglambk — developer, tinkerer, and lifelong learner. I build things that solve real problems and enjoy exploring new technologies.
-
-[![GitHub followers](https://img.shields.io/github/followers/tunglambk?label=Follow&style=social)](https://github.com/tunglambk)
-[![Profile views](https://komarev.com/ghpvc/?username=tunglambk&color=brightgreen)](https://github.com/tunglambk)
 
 ---
 
@@ -25,16 +22,11 @@ I'm tunglambk — developer, tinkerer, and lifelong learner. I build things that
 ---
 
 ## 📊 GitHub Stats
-<table>
-  <tr>
-    <td valign="top">
-      ![tunglambk's GitHub stats](https://github-readme-stats.vercel.app/api?username=tunglambk&show_icons=true&theme=radical)
-    </td>
-    <td valign="top">
-      ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=tunglambk&layout=compact&theme=radical)
-    </td>
-  </tr>
-</table>
+
+![tunglambk's GitHub stats](https://github-readme-stats.vercel.app/api?username=tunglambk&show_icons=true&theme=radical)
+
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=tunglambk&layout=compact&theme=radical)
+
 
 ![trophy](https://github-profile-trophy.vercel.app/?username=tunglambk&theme=gruvbox)
 
