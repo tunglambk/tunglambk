@@ -87,11 +87,11 @@ Right now, I'm intentionally spending more time contributing to the **open-sourc
 ## Latest Open-Source Pull Requests
 
 <!-- OSS-PRS:START -->
-- **[vitalik/django-ninja](https://github.com/vitalik/django-ninja)** — [#1764 Preserve model metadata on custom ModelSchema fields](https://github.com/vitalik/django-ninja/pull/1764)
-- **[tox-dev/tox](https://github.com/tox-dev/tox)** — [#4032 fix(config): handle configuration file read errors](https://github.com/tox-dev/tox/pull/4032)
-- **[pdm-project/pdm](https://github.com/pdm-project/pdm)** — [#3851 fix(formats): resolve nested remote requirement URLs](https://github.com/pdm-project/pdm/pull/3851)
-- **[pypa/pyproject-hooks](https://github.com/pypa/pyproject-hooks)** — [#232 Preserve backend paths containing path separators](https://github.com/pypa/pyproject-hooks/pull/232)
-- **[pygments/pygments](https://github.com/pygments/pygments)** — [#3257 Recognize alternative Dockerfile names and MIME type](https://github.com/pygments/pygments/pull/3257)
+- **[pdm-project/pdm](https://github.com/pdm-project/pdm)** — [#3853 fix: export editable local dependencies with relative paths](https://github.com/pdm-project/pdm/pull/3853) · [open]
+- **[AnswerDotAI/fasthtml](https://github.com/AnswerDotAI/fasthtml)** — [#921 Fix Redirect responses with background tasks](https://github.com/AnswerDotAI/fasthtml/pull/921) · [open]
+- **[pygments/pygments](https://github.com/pygments/pygments)** — [#3260 Use module-level __getattr__ for lazy lexers and formatters](https://github.com/pygments/pygments/pull/3260) · [open]
+- **[vitalik/django-ninja](https://github.com/vitalik/django-ninja)** — [#1761 Fix override_settings support for Ninja settings](https://github.com/vitalik/django-ninja/pull/1761) · [merged]
+- **[vitalik/django-ninja](https://github.com/vitalik/django-ninja)** — [#1764 Preserve model metadata on custom ModelSchema fields](https://github.com/vitalik/django-ninja/pull/1764) · [open]
 <!-- OSS-PRS:END -->
 
 <sub>This section is kept up to date automatically by GitHub Actions.</sub>
