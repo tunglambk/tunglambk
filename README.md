@@ -87,7 +87,7 @@ Right now, I'm intentionally spending more time contributing to the **open-sourc
 ## Latest Open-Source Pull Requests
 
 <!-- OSS-PRS:START -->
-- **[pdm-project/pdm](https://github.com/pdm-project/pdm)** — [#3853 fix: export editable local dependencies with relative paths](https://github.com/pdm-project/pdm/pull/3853) · [open]
+- **[pdm-project/pdm](https://github.com/pdm-project/pdm)** — [#3853 fix: export editable local dependencies with relative paths](https://github.com/pdm-project/pdm/pull/3853) · [closed]
 - **[AnswerDotAI/fasthtml](https://github.com/AnswerDotAI/fasthtml)** — [#921 Fix Redirect responses with background tasks](https://github.com/AnswerDotAI/fasthtml/pull/921) · [open]
 - **[pygments/pygments](https://github.com/pygments/pygments)** — [#3260 Use module-level __getattr__ for lazy lexers and formatters](https://github.com/pygments/pygments/pull/3260) · [open]
 - **[vitalik/django-ninja](https://github.com/vitalik/django-ninja)** — [#1761 Fix override_settings support for Ninja settings](https://github.com/vitalik/django-ninja/pull/1761) · [merged]
