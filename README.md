@@ -87,11 +87,11 @@ Right now, I'm intentionally spending more time contributing to the **open-sourc
 ## Latest Open-Source Pull Requests
 
 <!-- OSS-PRS:START -->
+- **[vitalik/django-ninja](https://github.com/vitalik/django-ninja)** — [#1757 Use real HttpRequest objects in TestClient](https://github.com/vitalik/django-ninja/pull/1757) · [merged]
 - **[yargs/yargs](https://github.com/yargs/yargs)** — [#2576 fix: complete negated boolean options after --no- (fix #2254)](https://github.com/yargs/yargs/pull/2576) · [closed]
 - **[CS-SI/eodag](https://github.com/CS-SI/eodag)** — [#2321 refactor(config): simplify user config template](https://github.com/CS-SI/eodag/pull/2321) · [merged]
 - **[pallets/click](https://github.com/pallets/click)** — [#3784 AI junk](https://github.com/pallets/click/pull/3784) · [closed]
 - **[django-oscar/django-oscar](https://github.com/django-oscar/django-oscar)** — [#4616 Fix voucher set usage sorting](https://github.com/django-oscar/django-oscar/pull/4616) · [open]
-- **[CS-SI/eodag](https://github.com/CS-SI/eodag)** — [#2320 feat(cli): add collection output formats](https://github.com/CS-SI/eodag/pull/2320) · [open]
 <!-- OSS-PRS:END -->
 
 <sub>This section is kept up to date automatically by GitHub Actions.</sub>
