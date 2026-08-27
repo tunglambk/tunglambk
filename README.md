@@ -87,11 +87,11 @@ Right now, I'm intentionally spending more time contributing to the **open-sourc
 ## Latest Open-Source Pull Requests
 
 <!-- OSS-PRS:START -->
-- **[pyjanitor-devs/pyjanitor](https://github.com/pyjanitor-devs/pyjanitor)** — [#1681 [PERF] Avoid materializing not-equal pairs for keep first or last](https://github.com/pyjanitor-devs/pyjanitor/pull/1681) · [open]
-- **[LeyckerS/moondownloader](https://github.com/LeyckerS/moondownloader)** — [#176 ci: check web JavaScript syntax](https://github.com/LeyckerS/moondownloader/pull/176) · [open]
-- **[wingfoil-io/wingfoil](https://github.com/wingfoil-io/wingfoil)** — [#922 feat(python): expose remaining core stream ops](https://github.com/wingfoil-io/wingfoil/pull/922) · [merged]
-- **[nominal-io/instro](https://github.com/nominal-io/instro)** — [#432 feat(awg): use bulk download for small LAN waveforms](https://github.com/nominal-io/instro/pull/432) · [open]
-- **[CS-SI/eodag](https://github.com/CS-SI/eodag)** — [#2320 feat(cli): add collections list output formats and id-only default](https://github.com/CS-SI/eodag/pull/2320) · [merged]
+- **[Hebbian-Robotics/hflow](https://github.com/Hebbian-Robotics/hflow)** — [#202 docs: document input MCAP converter contract](https://github.com/Hebbian-Robotics/hflow/pull/202) · [merged]
+- **[tox-dev/platformdirs](https://github.com/tox-dev/platformdirs)** — [#532 fix: return one site applications path for multipath](https://github.com/tox-dev/platformdirs/pull/532) · [open]
+- **[posit-dev/orbital](https://github.com/posit-dev/orbital)** — [#134 Use dependency groups for development dependencies](https://github.com/posit-dev/orbital/pull/134) · [open]
+- **[aerleon/aerleon](https://github.com/aerleon/aerleon)** — [#500 Render VRRP as protocol 112 for Cisco NX-OS](https://github.com/aerleon/aerleon/pull/500) · [open]
+- **[CS-SI/eodag](https://github.com/CS-SI/eodag)** — [#2328 fix(plugins): retry PostJsonSearch requests](https://github.com/CS-SI/eodag/pull/2328) · [open]
 <!-- OSS-PRS:END -->
 
 <sub>This section is kept up to date automatically by GitHub Actions.</sub>

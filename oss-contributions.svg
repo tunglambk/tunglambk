@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="900" height="494" viewBox="0 0 900 494" role="img" aria-labelledby="title desc">
   <title id="title">Open Source Contribution Footprint</title>
-  <desc id="desc">24 public pull requests across 16 upstream repositories.</desc>
+  <desc id="desc">31 public pull requests across 21 upstream repositories.</desc>
   <style>
     .bg{fill:#f6f8fa;stroke:#d0d7de}.card{fill:#ffffff;stroke:#d0d7de}.track{fill:#eaeef2}.text{fill:#24292f}.muted{fill:#57606a}.accent{fill:#0969da}.accentText{fill:#0969da}
     @media (prefers-color-scheme:dark){.bg{fill:#161b22;stroke:#30363d}.card{fill:#0d1117;stroke:#30363d}.track{fill:#21262d}.text{fill:#f0f6fc}.muted{fill:#8b949e}.accent{fill:#58a6ff}.accentText{fill:#58a6ff}}
@@ -11,39 +11,39 @@
     <text x="30" y="46" class="text" font-size="21" font-weight="700">Open Source Contribution Footprint</text>
     <text x="30" y="71" class="muted" font-size="13">Public pull requests grouped by upstream repository</text>
     <rect x="704" y="25" width="164" height="48" rx="10" class="card"/>
-    <text x="722" y="54" class="accentText" font-size="14" font-weight="700">24 PRs</text>
-    <text x="780" y="54" class="muted" font-size="13">· 16 projects</text>
+    <text x="722" y="54" class="accentText" font-size="14" font-weight="700">31 PRs</text>
+    <text x="780" y="54" class="muted" font-size="13">· 21 projects</text>
     
     <rect x="286" y="109" width="540" height="22" rx="6" class="track"/>
     <text x="30" y="125" class="text" font-size="14">vitalik/django-ninja</text>
     <rect x="286" y="109" width="540" height="22" rx="6" class="accent"/>
     <text x="838" y="125" class="text" font-size="13" font-weight="700">5</text>
     <rect x="286" y="153" width="540" height="22" rx="6" class="track"/>
-    <text x="30" y="169" class="text" font-size="14">pdm-project/pdm</text>
+    <text x="30" y="169" class="text" font-size="14">CS-SI/eodag</text>
     <rect x="286" y="153" width="324" height="22" rx="6" class="accent"/>
     <text x="622" y="169" class="text" font-size="13" font-weight="700">3</text>
     <rect x="286" y="197" width="540" height="22" rx="6" class="track"/>
-    <text x="30" y="213" class="text" font-size="14">CS-SI/eodag</text>
-    <rect x="286" y="197" width="216" height="22" rx="6" class="accent"/>
-    <text x="514" y="213" class="text" font-size="13" font-weight="700">2</text>
+    <text x="30" y="213" class="text" font-size="14">pdm-project/pdm</text>
+    <rect x="286" y="197" width="324" height="22" rx="6" class="accent"/>
+    <text x="622" y="213" class="text" font-size="13" font-weight="700">3</text>
     <rect x="286" y="241" width="540" height="22" rx="6" class="track"/>
     <text x="30" y="257" class="text" font-size="14">pygments/pygments</text>
     <rect x="286" y="241" width="216" height="22" rx="6" class="accent"/>
     <text x="514" y="257" class="text" font-size="13" font-weight="700">2</text>
     <rect x="286" y="285" width="540" height="22" rx="6" class="track"/>
-    <text x="30" y="301" class="text" font-size="14">AnswerDotAI/fasthtml</text>
-    <rect x="286" y="285" width="108" height="22" rx="6" class="accent"/>
-    <text x="406" y="301" class="text" font-size="13" font-weight="700">1</text>
+    <text x="30" y="301" class="text" font-size="14">wingfoil-io/wingfoil</text>
+    <rect x="286" y="285" width="216" height="22" rx="6" class="accent"/>
+    <text x="514" y="301" class="text" font-size="13" font-weight="700">2</text>
     <rect x="286" y="329" width="540" height="22" rx="6" class="track"/>
-    <text x="30" y="345" class="text" font-size="14">confident-ai/deepeval</text>
+    <text x="30" y="345" class="text" font-size="14">aerleon/aerleon</text>
     <rect x="286" y="329" width="108" height="22" rx="6" class="accent"/>
     <text x="406" y="345" class="text" font-size="13" font-weight="700">1</text>
     <rect x="286" y="373" width="540" height="22" rx="6" class="track"/>
-    <text x="30" y="389" class="text" font-size="14">django-oscar/django-oscar</text>
+    <text x="30" y="389" class="text" font-size="14">AnswerDotAI/fasthtml</text>
     <rect x="286" y="373" width="108" height="22" rx="6" class="accent"/>
     <text x="406" y="389" class="text" font-size="13" font-weight="700">1</text>
     <rect x="286" y="417" width="540" height="22" rx="6" class="track"/>
-    <text x="30" y="433" class="text" font-size="14">LeyckerS/moondownloader</text>
+    <text x="30" y="433" class="text" font-size="14">confident-ai/deepeval</text>
     <rect x="286" y="417" width="108" height="22" rx="6" class="accent"/>
     <text x="406" y="433" class="text" font-size="13" font-weight="700">1</text>
   </g>
