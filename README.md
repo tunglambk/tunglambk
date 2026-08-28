@@ -87,11 +87,11 @@ Right now, I'm intentionally spending more time contributing to the **open-sourc
 ## Latest Open-Source Pull Requests
 
 <!-- OSS-PRS:START -->
-- **[Hebbian-Robotics/hflow](https://github.com/Hebbian-Robotics/hflow)** — [#202 docs: document input MCAP converter contract](https://github.com/Hebbian-Robotics/hflow/pull/202) · [merged]
-- **[tox-dev/platformdirs](https://github.com/tox-dev/platformdirs)** — [#532 fix: return one site applications path for multipath](https://github.com/tox-dev/platformdirs/pull/532) · [open]
-- **[posit-dev/orbital](https://github.com/posit-dev/orbital)** — [#134 Use dependency groups for development dependencies](https://github.com/posit-dev/orbital/pull/134) · [open]
-- **[aerleon/aerleon](https://github.com/aerleon/aerleon)** — [#500 Render VRRP as protocol 112 for Cisco NX-OS](https://github.com/aerleon/aerleon/pull/500) · [open]
-- **[CS-SI/eodag](https://github.com/CS-SI/eodag)** — [#2328 fix(plugins): retry PostJsonSearch requests](https://github.com/CS-SI/eodag/pull/2328) · [open]
+- **[SebastienMelki/sebuf](https://github.com/SebastienMelki/sebuf)** — [#257 fix(clientgen): handle optional query parameters](https://github.com/SebastienMelki/sebuf/pull/257) · [open]
+- **[Hebbian-Robotics/hflow](https://github.com/Hebbian-Robotics/hflow)** — [#218 fix(contact-sheet): escape apostrophes for drawtext](https://github.com/Hebbian-Robotics/hflow/pull/218) · [merged]
+- **[Hebbian-Robotics/hflow](https://github.com/Hebbian-Robotics/hflow)** — [#216 fix(video-measurements): keep empty freeze totals float](https://github.com/Hebbian-Robotics/hflow/pull/216) · [merged]
+- **[Hebbian-Robotics/hflow](https://github.com/Hebbian-Robotics/hflow)** — [#213 fix: avoid replanning camera-less media](https://github.com/Hebbian-Robotics/hflow/pull/213) · [merged]
+- **[tox-dev/platformdirs](https://github.com/tox-dev/platformdirs)** — [#532 fix: return one site applications path for multipath](https://github.com/tox-dev/platformdirs/pull/532) · [merged]
 <!-- OSS-PRS:END -->
 
 <sub>This section is kept up to date automatically by GitHub Actions.</sub>
