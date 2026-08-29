@@ -87,11 +87,11 @@ Right now, I'm intentionally spending more time contributing to the **open-sourc
 ## Latest Open-Source Pull Requests
 
 <!-- OSS-PRS:START -->
+- **[wingfoil-io/wingfoil](https://github.com/wingfoil-io/wingfoil)** — [#924 ci(pypi): restore release attestations](https://github.com/wingfoil-io/wingfoil/pull/924) · [open]
+- **[nominal-io/instro](https://github.com/nominal-io/instro)** — [#432 feat(awg): use bulk download for small LAN waveforms](https://github.com/nominal-io/instro/pull/432) · [merged]
 - **[SebastienMelki/sebuf](https://github.com/SebastienMelki/sebuf)** — [#257 fix(clientgen): handle optional query parameters](https://github.com/SebastienMelki/sebuf/pull/257) · [open]
 - **[Hebbian-Robotics/hflow](https://github.com/Hebbian-Robotics/hflow)** — [#218 fix(contact-sheet): escape apostrophes for drawtext](https://github.com/Hebbian-Robotics/hflow/pull/218) · [merged]
 - **[Hebbian-Robotics/hflow](https://github.com/Hebbian-Robotics/hflow)** — [#216 fix(video-measurements): keep empty freeze totals float](https://github.com/Hebbian-Robotics/hflow/pull/216) · [merged]
-- **[Hebbian-Robotics/hflow](https://github.com/Hebbian-Robotics/hflow)** — [#213 fix: avoid replanning camera-less media](https://github.com/Hebbian-Robotics/hflow/pull/213) · [merged]
-- **[tox-dev/platformdirs](https://github.com/tox-dev/platformdirs)** — [#532 fix: return one site applications path for multipath](https://github.com/tox-dev/platformdirs/pull/532) · [merged]
 <!-- OSS-PRS:END -->
 
 <sub>This section is kept up to date automatically by GitHub Actions.</sub>
