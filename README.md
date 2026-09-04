@@ -87,11 +87,11 @@ Right now, I'm intentionally spending more time contributing to the **open-sourc
 ## Latest Open-Source Pull Requests
 
 <!-- OSS-PRS:START -->
+- **[pyjanitor-devs/pyjanitor](https://github.com/pyjanitor-devs/pyjanitor)** — [#1681 [PERF] Avoid materializing not-equal pairs for keep first or last](https://github.com/pyjanitor-devs/pyjanitor/pull/1681) · [merged]
+- **[wingfoil-io/wingfoil](https://github.com/wingfoil-io/wingfoil)** — [#924 ci(pypi): restore release attestations](https://github.com/wingfoil-io/wingfoil/pull/924) · [open]
 - **[sxzz/ast-explorer](https://github.com/sxzz/ast-explorer)** — [#295 fix: remember parser options](https://github.com/sxzz/ast-explorer/pull/295) · [open]
 - **[LeyckerS/moondownloader](https://github.com/LeyckerS/moondownloader)** — [#176 ci: check web JavaScript syntax](https://github.com/LeyckerS/moondownloader/pull/176) · [merged]
-- **[wingfoil-io/wingfoil](https://github.com/wingfoil-io/wingfoil)** — [#924 ci(pypi): restore release attestations](https://github.com/wingfoil-io/wingfoil/pull/924) · [open]
 - **[nominal-io/instro](https://github.com/nominal-io/instro)** — [#432 feat(awg): use bulk download for small LAN waveforms](https://github.com/nominal-io/instro/pull/432) · [merged]
-- **[SebastienMelki/sebuf](https://github.com/SebastienMelki/sebuf)** — [#257 fix(clientgen): handle optional query parameters](https://github.com/SebastienMelki/sebuf/pull/257) · [open]
 <!-- OSS-PRS:END -->
 
 <sub>This section is kept up to date automatically by GitHub Actions.</sub>
