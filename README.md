@@ -87,7 +87,7 @@ Right now, I'm intentionally spending more time contributing to the **open-sourc
 ## Latest Open-Source Pull Requests
 
 <!-- OSS-PRS:START -->
-- **[pypa/pyproject-hooks](https://github.com/pypa/pyproject-hooks)** — [#232 Preserve backend paths containing path separators](https://github.com/pypa/pyproject-hooks/pull/232) · [open]
+- **[pypa/pyproject-hooks](https://github.com/pypa/pyproject-hooks)** — [#232 Preserve backend paths containing path separators](https://github.com/pypa/pyproject-hooks/pull/232) · [merged]
 - **[sxzz/ast-explorer](https://github.com/sxzz/ast-explorer)** — [#295 fix: remember parser options](https://github.com/sxzz/ast-explorer/pull/295) · [open]
 - **[pallets/click](https://github.com/pallets/click)** — [#3784 AI junk](https://github.com/pallets/click/pull/3784) · [closed]
 - **[wingfoil-io/wingfoil](https://github.com/wingfoil-io/wingfoil)** — [#924 ci(pypi): restore release attestations](https://github.com/wingfoil-io/wingfoil/pull/924) · [merged]
