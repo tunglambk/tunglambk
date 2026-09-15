@@ -87,11 +87,11 @@ Right now, I'm intentionally spending more time contributing to the **open-sourc
 ## Latest Open-Source Pull Requests
 
 <!-- OSS-PRS:START -->
-- **[django-oscar/django-oscar](https://github.com/django-oscar/django-oscar)** — [#4616 Fix voucher set usage sorting](https://github.com/django-oscar/django-oscar/pull/4616) · [merged]
-- **[pypa/pyproject-hooks](https://github.com/pypa/pyproject-hooks)** — [#232 Preserve backend paths containing path separators](https://github.com/pypa/pyproject-hooks/pull/232) · [merged]
-- **[sxzz/ast-explorer](https://github.com/sxzz/ast-explorer)** — [#295 fix: remember parser options](https://github.com/sxzz/ast-explorer/pull/295) · [open]
-- **[pallets/click](https://github.com/pallets/click)** — [#3784 AI junk](https://github.com/pallets/click/pull/3784) · [closed]
-- **[wingfoil-io/wingfoil](https://github.com/wingfoil-io/wingfoil)** — [#924 ci(pypi): restore release attestations](https://github.com/wingfoil-io/wingfoil/pull/924) · [merged]
+- **[dolthub/go-mysql-server](https://github.com/dolthub/go-mysql-server)** — [#3887 sql/expression: return NULL and warn on malformed CONVERT strings](https://github.com/dolthub/go-mysql-server/pull/3887) · [open]
+- **[vavallee/bindery](https://github.com/vavallee/bindery)** — [#2624 fix(importer): record a missing content path as an import failure (#2616)](https://github.com/vavallee/bindery/pull/2624) · [open]
+- **[woodpecker-ci/woodpecker](https://github.com/woodpecker-ci/woodpecker)** — [#7150 Fix workspace volume mismatch when using CLI exec with the Kubernetes backend](https://github.com/woodpecker-ci/woodpecker/pull/7150) · [open]
+- **[tokencanopy/e2a](https://github.com/tokencanopy/e2a)** — [#1030 test(httpapi): pin destructive routes against trailing slashes](https://github.com/tokencanopy/e2a/pull/1030) · [open]
+- **[versity/versitygw](https://github.com/versity/versitygw)** — [#2399 fix: omit ObjectLockConfiguration Rule when there is no default retention](https://github.com/versity/versitygw/pull/2399) · [open]
 <!-- OSS-PRS:END -->
 
 <sub>This section is kept up to date automatically by GitHub Actions.</sub>
