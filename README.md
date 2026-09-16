@@ -87,11 +87,11 @@ Right now, I'm intentionally spending more time contributing to the **open-sourc
 ## Latest Open-Source Pull Requests
 
 <!-- OSS-PRS:START -->
-- **[dolthub/go-mysql-server](https://github.com/dolthub/go-mysql-server)** — [#3887 sql/expression: return NULL and warn on malformed CONVERT strings](https://github.com/dolthub/go-mysql-server/pull/3887) · [open]
-- **[vavallee/bindery](https://github.com/vavallee/bindery)** — [#2624 fix(importer): record a missing content path as an import failure (#2616)](https://github.com/vavallee/bindery/pull/2624) · [open]
-- **[woodpecker-ci/woodpecker](https://github.com/woodpecker-ci/woodpecker)** — [#7150 Fix workspace volume mismatch when using CLI exec with the Kubernetes backend](https://github.com/woodpecker-ci/woodpecker/pull/7150) · [open]
-- **[tokencanopy/e2a](https://github.com/tokencanopy/e2a)** — [#1030 test(httpapi): pin destructive routes against trailing slashes](https://github.com/tokencanopy/e2a/pull/1030) · [open]
+- **[manojmallick/sigmap](https://github.com/manojmallick/sigmap)** — [#712 docs(config): drop dead keys, document the real config keys](https://github.com/manojmallick/sigmap/pull/712) · [open]
+- **[zeroclaw-labs/zeroclaw](https://github.com/zeroclaw-labs/zeroclaw)** — [#10898 fix(daemon): serialize lifecycle tests against the log broadcast](https://github.com/zeroclaw-labs/zeroclaw/pull/10898) · [open]
+- **[amatya-aditya/obsidian-rss-dashboard](https://github.com/amatya-aditya/obsidian-rss-dashboard)** — [#289 fix: escape frontmatter template values for YAML double-quoted scalars (#286)](https://github.com/amatya-aditya/obsidian-rss-dashboard/pull/289) · [merged]
 - **[versity/versitygw](https://github.com/versity/versitygw)** — [#2399 fix: omit ObjectLockConfiguration Rule when there is no default retention](https://github.com/versity/versitygw/pull/2399) · [open]
+- **[wingfoil-io/wingfoil](https://github.com/wingfoil-io/wingfoil)** — [#968 docs(core): state the throttle leading-edge contract and dropped trailing value](https://github.com/wingfoil-io/wingfoil/pull/968) · [open]
 <!-- OSS-PRS:END -->
 
 <sub>This section is kept up to date automatically by GitHub Actions.</sub>
