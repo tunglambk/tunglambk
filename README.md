@@ -76,25 +76,41 @@ Right now, I'm intentionally spending more time contributing to the **open-sourc
 
 <div align="center">
 
-<img src="./oss-contributions.svg" width="100%" alt="Open-source pull requests grouped by upstream repository" />
+<img src="./oss-contributions.svg" width="100%" alt="Merged open-source pull requests grouped by upstream repository" />
 
 </div>
 
-<sub>Generated from my public upstream pull requests and refreshed automatically.</sub>
+<sub>Merged pull requests only, grouped by upstream repository. Refreshed automatically from GitHub.</sub>
 
 ---
 
-## Latest Open-Source Pull Requests
+## Notable Open-Source Contributions
 
-<!-- OSS-PRS:START -->
-- **[pnpm/pnpm](https://github.com/pnpm/pnpm)** — [#15002 fix(update): move a runtime range onto the version it resolved](https://github.com/pnpm/pnpm/pull/15002) · [open]
-- **[kryptobaseddev/cleo](https://github.com/kryptobaseddev/cleo)** — [#1444 fix(gh#1438): find stops swallowing global flag values as its positional query](https://github.com/kryptobaseddev/cleo/pull/1444) · [merged]
-- **[manojmallick/sigmap](https://github.com/manojmallick/sigmap)** — [#712 docs(config): drop dead keys, document the real config keys](https://github.com/manojmallick/sigmap/pull/712) · [open]
-- **[eslint-markdown/eslint-markdown](https://github.com/eslint-markdown/eslint-markdown)** — [#764 feat(eslint-markdown): add `punctuation` option to `no-double-punctuation`](https://github.com/eslint-markdown/eslint-markdown/pull/764) · [open]
-- **[zeroclaw-labs/zeroclaw](https://github.com/zeroclaw-labs/zeroclaw)** — [#10898 fix(daemon): serialize lifecycle tests against the log broadcast](https://github.com/zeroclaw-labs/zeroclaw/pull/10898) · [open]
-<!-- OSS-PRS:END -->
+Projects where my patches actually landed — the upstreams I've merged into most, plus high-profile repositories I've contributed to.
 
-<sub>This section is kept up to date automatically by GitHub Actions.</sub>
+<!-- OSS-NOTABLE:START -->
+**Most merges**
+
+- **[CS-SI/eodag](https://github.com/CS-SI/eodag)** — ★ 434 · **4 PRs merged**
+- **[Hebbian-Robotics/hflow](https://github.com/Hebbian-Robotics/hflow)** — ★ 271 · **4 PRs merged**
+- **[vitalik/django-ninja](https://github.com/vitalik/django-ninja)** — ★ 9.2k · **3 PRs merged**
+- **[kellyjonbrazil/jc](https://github.com/kellyjonbrazil/jc)** — ★ 8.7k · **2 PRs merged**
+- **[pdm-project/pdm](https://github.com/pdm-project/pdm)** — ★ 8.7k · **2 PRs merged**
+- **[nominal-io/instro](https://github.com/nominal-io/instro)** — ★ 704 · **2 PRs merged**
+- **[amatya-aditya/obsidian-rss-dashboard](https://github.com/amatya-aditya/obsidian-rss-dashboard)** — ★ 670 · **2 PRs merged**
+- **[vavallee/bindery](https://github.com/vavallee/bindery)** — ★ 460 · **2 PRs merged**
+
+**High-profile projects**
+
+- **[confident-ai/deepeval](https://github.com/confident-ai/deepeval)** — ★ 18.3k · **1 PR merged**
+- **[django-oscar/django-oscar](https://github.com/django-oscar/django-oscar)** — ★ 6.6k · **1 PR merged**
+- **[dora-rs/dora](https://github.com/dora-rs/dora)** — ★ 4.1k · **1 PR merged**
+- **[versity/versitygw](https://github.com/versity/versitygw)** — ★ 3k · **1 PR merged**
+- **[LeyckerS/moondownloader](https://github.com/LeyckerS/moondownloader)** — ★ 1.6k · **1 PR merged**
+- **[pyjanitor-devs/pyjanitor](https://github.com/pyjanitor-devs/pyjanitor)** — ★ 1.5k · **1 PR merged**
+<!-- OSS-NOTABLE:END -->
+
+<sub>Repositories with more than one merged pull request, plus projects above 1,000 stars. Kept up to date automatically by GitHub Actions.</sub>
 
 ---
 

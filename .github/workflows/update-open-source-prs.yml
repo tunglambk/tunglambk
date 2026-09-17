@@ -17,58 +17,103 @@ jobs:
       - name: Checkout profile repository
         uses: actions/checkout@v4
 
-      - name: Refresh PR list and contribution chart
+      - name: Refresh notable merges and contribution chart
         uses: actions/github-script@v7
         with:
           script: |
             const fs = require('fs');
 
             const username = 'tunglambk';
-            const startMarker = '<!-- OSS-PRS:START -->';
-            const endMarker = '<!-- OSS-PRS:END -->';
+            const startMarker = '<!-- OSS-NOTABLE:START -->';
+            const endMarker = '<!-- OSS-NOTABLE:END -->';
 
-            const { data } = await github.rest.search.issuesAndPullRequests({
-              q: `is:pr author:${username} -user:${username} sort:updated-desc`,
-              per_page: 100,
-            });
+            const searchQuery = `
+              query ($cursor: String) {
+                search(query: "is:pr author:${username} -user:${username}", type: ISSUE, first: 100, after: $cursor) {
+                  pageInfo { hasNextPage endCursor }
+                  nodes {
+                    ... on PullRequest {
+                      merged
+                      repository { nameWithOwner stargazerCount }
+                    }
+                  }
+                }
+              }
+            `;
 
-            const allPulls = [];
+            const pulls = [];
+            let cursor = null;
 
-            for (const item of data.items) {
-              const match = item.repository_url.match(/repos\/([^/]+)\/([^/]+)$/);
-              if (!match) continue;
+            while (true) {
+              const data = cursor
+                ? await github.graphql(searchQuery, { cursor })
+                : await github.graphql(searchQuery);
 
-              const owner = match[1];
-              const repo = match[2];
-              if (owner.toLowerCase() === username.toLowerCase()) continue;
+              for (const node of data.search.nodes) {
+                if (!node.repository) continue;
 
-              const { data: pr } = await github.rest.pulls.get({
-                owner,
-                repo,
-                pull_number: item.number,
-              });
+                const owner = node.repository.nameWithOwner.split('/')[0];
+                if (owner.toLowerCase() === username.toLowerCase()) continue;
 
-              let status;
-              if (pr.merged_at) status = '[merged]';
-              else if (pr.state === 'open') status = '[open]';
-              else status = '[closed]';
+                pulls.push({
+                  repo: node.repository.nameWithOwner,
+                  stars: node.repository.stargazerCount || 0,
+                  merged: Boolean(node.merged),
+                });
+              }
 
-              allPulls.push({
-                repo: `${owner}/${repo}`,
-                number: item.number,
-                title: item.title.replace(/\|/g, '\\|'),
-                url: item.html_url,
-                repoUrl: `https://github.com/${owner}/${repo}`,
-                status,
-              });
+              if (!data.search.pageInfo.hasNextPage) break;
+              cursor = data.search.pageInfo.endCursor;
             }
 
-            const latest = allPulls.slice(0, 5);
-            const generated = latest.length
-              ? latest.map(pr =>
-                  `- **[${pr.repo}](${pr.repoUrl})** — [#${pr.number} ${pr.title}](${pr.url}) · ${pr.status}`
-                ).join('\n')
-              : '_No public open-source pull requests found yet._';
+            const repoNames = new Map();
+
+            for (const pr of pulls) {
+              if (!pr.merged) continue;
+
+              const entry = repoNames.get(pr.repo) || { repo: pr.repo, stars: 0, merged: 0 };
+              entry.merged += 1;
+              entry.stars = Math.max(entry.stars, pr.stars);
+              repoNames.set(pr.repo, entry);
+            }
+
+            const repos = [...repoNames.values()];
+            const mergedTotal = repos.reduce((sum, repo) => sum + repo.merged, 0);
+
+            const byMerges = [...repos].sort(
+              (a, b) => b.merged - a.merged || b.stars - a.stars || a.repo.localeCompare(b.repo),
+            );
+
+            // Repositories where this account has landed more than one pull request.
+            const mostMerged = byMerges.filter(repo => repo.merged >= 2).slice(0, 8);
+
+            // High-star projects, minus anything already listed above.
+            const alreadyListed = new Set(mostMerged.map(repo => repo.repo));
+            const highProfile = [...repos]
+              .filter(repo => repo.stars >= 1000 && !alreadyListed.has(repo.repo))
+              .sort((a, b) => b.stars - a.stars || a.repo.localeCompare(b.repo))
+              .slice(0, 6);
+
+            const formatStars = stars => (stars >= 1000
+              ? `${(stars / 1000).toFixed(1).replace(/\.0$/, '')}k`
+              : String(stars));
+
+            const entryLine = repo =>
+              `- **[${repo.repo}](https://github.com/${repo.repo})** — ★ ${formatStars(repo.stars)} · **${repo.merged} PR${repo.merged === 1 ? '' : 's'} merged**`;
+
+            const sections = [];
+
+            if (mostMerged.length) {
+              sections.push(['**Most merges**', '', ...mostMerged.map(entryLine)].join('\n'));
+            }
+
+            if (highProfile.length) {
+              sections.push(['**High-profile projects**', '', ...highProfile.map(entryLine)].join('\n'));
+            }
+
+            const generated = sections.length
+              ? sections.join('\n\n')
+              : '_No merged upstream pull requests yet._';
 
             const readmePath = 'README.md';
             const readme = fs.readFileSync(readmePath, 'utf8');
@@ -76,7 +121,7 @@ jobs:
             const end = readme.indexOf(endMarker);
 
             if (start === -1 || end === -1 || end < start) {
-              core.setFailed('README markers for the OSS PR section were not found.');
+              core.setFailed('README markers for the notable merges section were not found.');
               return;
             }
 
@@ -84,19 +129,12 @@ jobs:
             const after = readme.slice(end);
             fs.writeFileSync(readmePath, `${before}\n${generated}\n${after}`);
 
-            const counts = new Map();
-            for (const pr of allPulls) counts.set(pr.repo, (counts.get(pr.repo) || 0) + 1);
-
-            const rows = [...counts.entries()]
-              .sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]))
-              .slice(0, 8);
-
-            const total = allPulls.length;
-            const max = Math.max(1, ...rows.map(([, count]) => count));
+            const rows = byMerges.slice(0, 10);
+            const max = Math.max(1, ...rows.map(repo => repo.merged));
             const rowHeight = 44;
             const height = 118 + rows.length * rowHeight + 24;
-            const barX = 286;
-            const barMaxWidth = 540;
+            const barX = 330;
+            const barMaxWidth = 500;
 
             const escapeXml = value => String(value)
               .replace(/&/g, '&amp;')
@@ -104,20 +142,20 @@ jobs:
               .replace(/>/g, '&gt;')
               .replace(/"/g, '&quot;');
 
-            const rowSvg = rows.map(([repo, count], index) => {
+            const rowSvg = rows.map((repo, index) => {
               const y = 109 + index * rowHeight;
-              const width = Math.max(18, Math.round((count / max) * barMaxWidth));
+              const width = Math.max(18, Math.round((repo.merged / max) * barMaxWidth));
               const labelX = barX + width + 12;
               return `
                 <rect x="${barX}" y="${y}" width="${barMaxWidth}" height="22" rx="6" class="track"/>
-                <text x="30" y="${y + 16}" class="text" font-size="14">${escapeXml(repo)}</text>
+                <text x="30" y="${y + 16}" class="text" font-size="13">${escapeXml(repo.repo)}</text>
                 <rect x="${barX}" y="${y}" width="${width}" height="22" rx="6" class="accent"/>
-                <text x="${Math.min(labelX, 850)}" y="${y + 16}" class="text" font-size="13" font-weight="700">${count}</text>`;
+                <text x="${Math.min(labelX, 850)}" y="${y + 16}" class="text" font-size="13" font-weight="700">${repo.merged}</text>`;
             }).join('');
 
             const chart = `<svg xmlns="http://www.w3.org/2000/svg" width="900" height="${height}" viewBox="0 0 900 ${height}" role="img" aria-labelledby="title desc">
               <title id="title">Open Source Contribution Footprint</title>
-              <desc id="desc">${total} public pull requests across ${counts.size} upstream repositories.</desc>
+              <desc id="desc">${mergedTotal} merged pull requests across ${repos.length} upstream repositories.</desc>
               <style>
                 .bg{fill:#f6f8fa;stroke:#d0d7de}.card{fill:#ffffff;stroke:#d0d7de}.track{fill:#eaeef2}.text{fill:#24292f}.muted{fill:#57606a}.accent{fill:#0969da}.accentText{fill:#0969da}
                 @media (prefers-color-scheme:dark){.bg{fill:#161b22;stroke:#30363d}.card{fill:#0d1117;stroke:#30363d}.track{fill:#21262d}.text{fill:#f0f6fc}.muted{fill:#8b949e}.accent{fill:#58a6ff}.accentText{fill:#58a6ff}}
@@ -126,10 +164,10 @@ jobs:
               <rect x="1" y="1" width="5" height="${height - 2}" rx="2.5" class="accent"/>
               <g font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,'Liberation Mono',monospace">
                 <text x="30" y="46" class="text" font-size="21" font-weight="700">Open Source Contribution Footprint</text>
-                <text x="30" y="71" class="muted" font-size="13">Public pull requests grouped by upstream repository</text>
-                <rect x="704" y="25" width="164" height="48" rx="10" class="card"/>
-                <text x="722" y="54" class="accentText" font-size="14" font-weight="700">${total} PRs</text>
-                <text x="780" y="54" class="muted" font-size="13">· ${counts.size} projects</text>
+                <text x="30" y="71" class="muted" font-size="13">Merged pull requests grouped by upstream repository</text>
+                <rect x="686" y="22" width="184" height="54" rx="10" class="card"/>
+                <text x="702" y="45" class="accentText" font-size="14" font-weight="700">${mergedTotal} merged PRs</text>
+                <text x="702" y="65" class="muted" font-size="12">across ${repos.length} projects</text>
                 ${rowSvg}
               </g>
             </svg>`;
