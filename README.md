@@ -87,11 +87,11 @@ Right now, I'm intentionally spending more time contributing to the **open-sourc
 ## Latest Open-Source Pull Requests
 
 <!-- OSS-PRS:START -->
+- **[pnpm/pnpm](https://github.com/pnpm/pnpm)** — [#15002 fix(update): move a runtime range onto the version it resolved](https://github.com/pnpm/pnpm/pull/15002) · [open]
+- **[kryptobaseddev/cleo](https://github.com/kryptobaseddev/cleo)** — [#1444 fix(gh#1438): find stops swallowing global flag values as its positional query](https://github.com/kryptobaseddev/cleo/pull/1444) · [merged]
 - **[manojmallick/sigmap](https://github.com/manojmallick/sigmap)** — [#712 docs(config): drop dead keys, document the real config keys](https://github.com/manojmallick/sigmap/pull/712) · [open]
+- **[eslint-markdown/eslint-markdown](https://github.com/eslint-markdown/eslint-markdown)** — [#764 feat(eslint-markdown): add `punctuation` option to `no-double-punctuation`](https://github.com/eslint-markdown/eslint-markdown/pull/764) · [open]
 - **[zeroclaw-labs/zeroclaw](https://github.com/zeroclaw-labs/zeroclaw)** — [#10898 fix(daemon): serialize lifecycle tests against the log broadcast](https://github.com/zeroclaw-labs/zeroclaw/pull/10898) · [open]
-- **[amatya-aditya/obsidian-rss-dashboard](https://github.com/amatya-aditya/obsidian-rss-dashboard)** — [#289 fix: escape frontmatter template values for YAML double-quoted scalars (#286)](https://github.com/amatya-aditya/obsidian-rss-dashboard/pull/289) · [merged]
-- **[versity/versitygw](https://github.com/versity/versitygw)** — [#2399 fix: omit ObjectLockConfiguration Rule when there is no default retention](https://github.com/versity/versitygw/pull/2399) · [open]
-- **[wingfoil-io/wingfoil](https://github.com/wingfoil-io/wingfoil)** — [#968 docs(core): state the throttle leading-edge contract and dropped trailing value](https://github.com/wingfoil-io/wingfoil/pull/968) · [open]
 <!-- OSS-PRS:END -->
 
 <sub>This section is kept up to date automatically by GitHub Actions.</sub>
