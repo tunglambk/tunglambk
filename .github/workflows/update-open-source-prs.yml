@@ -2,9 +2,10 @@ name: Update open-source profile
 
 on:
   schedule:
-    # GitHub Actions cannot schedule below a 5-minute interval; */10 keeps the
-    # profile within roughly ten minutes of a merge without hammering the API.
-    - cron: "*/10 * * * *"
+    # Five minutes is the shortest interval GitHub Actions accepts, so this is
+    # the fastest the committed chart can follow a merge. Scheduled runs are
+    # often delayed under load, and image caches add a few minutes on top.
+    - cron: "*/5 * * * *"
   workflow_dispatch:
 
 permissions:
