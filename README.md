@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./header.gif" width="100%" alt="Tung Lam — AI Engineer, Python, LLM Systems, Open Source Contributor" />
+<img src="./header.gif" width="100%" alt="Tung Lam — AI Engineer, LLM Systems, Open Source Contributor" />
 
 <br/>
 
@@ -10,7 +10,7 @@
 
 <br/><br/>
 
-**AI Engineer · Python · LLM Systems · Open Source Contributor**
+**AI Engineer · LLM Systems · Open Source Contributor**
 
 </div>
 
@@ -20,9 +20,9 @@
 
 I'm an **AI Engineer** who enjoys understanding how systems behave beneath the abstraction layer.
 
-My interests sit around **LLM systems, Python, backend engineering, and production AI**. I like reading unfamiliar codebases, reproducing real bugs, tracing them to their root cause, and turning that understanding into **small, focused, well-tested fixes**.
+My interests sit around **LLM systems, backend engineering, developer tooling, and production AI**. I like reading unfamiliar codebases, reproducing real bugs, tracing them to their root cause, and turning that understanding into **small, focused, well-tested fixes**.
 
-Right now, I'm intentionally spending more time contributing to the **open-source Python ecosystem**.
+Right now, I'm intentionally spending more time contributing upstream, in whatever stack the bug lives in — **Python, Go, Rust, or TypeScript**.
 
 ---
 
@@ -73,7 +73,7 @@ Projects where my patches actually landed — concrete merges into high-profile 
 ## Open Source Mode
 
 > [!NOTE]
-> I'm currently focusing on real issues in established Python projects: bug fixes, regressions, edge cases, tests, and framework internals.
+> I'm currently focusing on real issues in established open-source projects: bug fixes, regressions, edge cases, tests, and framework internals.
 
 <table>
 <tr>
@@ -121,10 +121,19 @@ Projects where my patches actually landed — concrete merges into high-profile 
 <img src="https://img.shields.io/badge/Hugging_Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black" alt="Hugging Face" />
 </p>
 
-### `Python / Backend`
+### `Languages`
 
 <p>
 <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
+<img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white" alt="Go" />
+<img src="https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white" alt="Rust" />
+<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript" />
+</p>
+
+### `Python tooling`
+
+<p>
 <img src="https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white" alt="Django" />
 <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI" />
 <img src="https://img.shields.io/badge/Pydantic-E92063?style=flat-square&logo=pydantic&logoColor=white" alt="Pydantic" />
@@ -156,7 +165,7 @@ Projects where my patches actually landed — concrete merges into high-profile 
 
 <div align="center">
 
-<img src="./exploration-map.svg" width="100%" alt="My AI engineering, Python, open-source and collaboration interests" />
+<img src="./exploration-map.svg" width="100%" alt="My AI engineering, open-source and collaboration interests" />
 
 </div>
 
@@ -176,6 +185,6 @@ Projects where my patches actually landed — concrete merges into high-profile 
 
 <br/><br/>
 
-<sub>AI Engineering · LLM Systems · Python · Open Source</sub>
+<sub>AI Engineering · LLM Systems · Open Source</sub>
 
 </div>

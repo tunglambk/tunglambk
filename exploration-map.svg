@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1000" height="430" viewBox="0 0 1000 430" role="img" aria-labelledby="title desc">
   <title id="title">Exploration and Collaboration Map</title>
-  <desc id="desc">A visual map of AI systems, Python engineering, open source, and collaboration interests.</desc>
+  <desc id="desc">A visual map of AI systems, software engineering, open source, and collaboration interests.</desc>
   <style>
     .bg{fill:#f6f8fa;stroke:#d0d7de}.card{fill:#ffffff;stroke:#d0d7de}.text{fill:#24292f}.muted{fill:#57606a}.accentText{fill:#0969da}.accentStroke{stroke:#0969da}.link{stroke:#afb8c1}
     @media (prefers-color-scheme:dark){.bg{fill:#161b22;stroke:#30363d}.card{fill:#0d1117;stroke:#30363d}.text{fill:#f0f6fc}.muted{fill:#8b949e}.accentText{fill:#58a6ff}.accentStroke{stroke:#58a6ff}.link{stroke:#30363d}}
@@ -35,8 +35,8 @@
 
     <g transform="translate(658 95)">
       <rect width="290" height="116" rx="12" class="card"/>
-      <text x="20" y="32" class="text" font-size="15" font-weight="700">PYTHON ENGINEERING</text>
-      <text x="20" y="58" class="muted" font-size="12">framework internals · APIs</text>
+      <text x="20" y="32" class="text" font-size="15" font-weight="700">LANGUAGES &amp; TOOLING</text>
+      <text x="20" y="58" class="muted" font-size="12">python · go · rust · typescript</text>
       <text x="20" y="79" class="muted" font-size="12">testing · debugging · clean design</text>
       <text x="20" y="101" class="accentText" font-size="10" font-weight="700">maintainable engineering</text>
     </g>
@@ -52,7 +52,7 @@
     <g transform="translate(658 275)">
       <rect width="290" height="116" rx="12" class="card"/>
       <text x="20" y="32" class="text" font-size="15" font-weight="700">COLLABORATE</text>
-      <text x="20" y="58" class="muted" font-size="12">AI / LLM tooling · Python projects</text>
+      <text x="20" y="58" class="muted" font-size="12">AI / LLM tooling · upstream projects</text>
       <text x="20" y="79" class="muted" font-size="12">hard debugging · developer infra</text>
       <text x="20" y="101" class="accentText" font-size="10" font-weight="700">useful engineering problems</text>
     </g>
