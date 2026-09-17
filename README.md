@@ -24,12 +24,6 @@ My interests sit around **LLM systems, Python, backend engineering, and producti
 
 Right now, I'm intentionally spending more time contributing to the **open-source Python ecosystem**.
 
-<div align="center">
-
-<img src="./mission-flow.svg" width="100%" alt="My current open-source engineering mission" />
-
-</div>
-
 ---
 
 ## Open Source Contribution Footprint
@@ -40,7 +34,7 @@ Right now, I'm intentionally spending more time contributing to the **open-sourc
 
 </div>
 
-<sub>Merged pull requests only, grouped by upstream repository. Refreshed automatically from GitHub.</sub>
+<sub>Merged pull requests only, most prominent upstreams first. Refreshed automatically from GitHub.</sub>
 
 ---
 
@@ -71,6 +65,8 @@ Projects where my patches actually landed — concrete merges into high-profile 
 <!-- OSS-NOTABLE:END -->
 
 <sub>The newest merge in each high-profile project, plus every repository where I've landed more than one patch. Kept up to date automatically by GitHub Actions.</sub>
+
+<sub>Longer write-ups of a few of these fixes: [oss-case-studies](https://github.com/tunglambk/oss-case-studies).</sub>
 
 ---
 
@@ -122,10 +118,7 @@ Projects where my patches actually landed — concrete merges into high-profile 
 <img src="https://img.shields.io/badge/LLM-412991?style=flat-square&logo=openai&logoColor=white" alt="LLM" />
 <img src="https://img.shields.io/badge/RAG-0969DA?style=flat-square" alt="RAG" />
 <img src="https://img.shields.io/badge/Agentic_AI-F59E0B?style=flat-square&logoColor=white" alt="Agentic AI" />
-<img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white" alt="LangChain" />
-<img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square" alt="LangGraph" />
 <img src="https://img.shields.io/badge/Hugging_Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black" alt="Hugging Face" />
-<img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" alt="PyTorch" />
 </p>
 
 ### `Python / Backend`
@@ -145,7 +138,6 @@ Projects where my patches actually landed — concrete merges into high-profile 
 <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black" alt="Linux" />
 <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git" />
 <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
-<img src="https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white" alt="Kubernetes" />
 </p>
 
 ---
