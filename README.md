@@ -54,14 +54,14 @@ Projects where my patches actually landed — concrete merges into high-profile 
 
 **Most merges**
 
+- **[wingfoil-io/wingfoil](https://github.com/wingfoil-io/wingfoil)** — ★ 221 · **5 PRs merged**
 - **[CS-SI/eodag](https://github.com/CS-SI/eodag)** — ★ 434 · **4 PRs merged**
-- **[Hebbian-Robotics/hflow](https://github.com/Hebbian-Robotics/hflow)** — ★ 271 · **4 PRs merged**
+- **[Hebbian-Robotics/hflow](https://github.com/Hebbian-Robotics/hflow)** — ★ 272 · **4 PRs merged**
 - **[vitalik/django-ninja](https://github.com/vitalik/django-ninja)** — ★ 9.2k · **3 PRs merged**
 - **[kellyjonbrazil/jc](https://github.com/kellyjonbrazil/jc)** — ★ 8.7k · **2 PRs merged**
 - **[pdm-project/pdm](https://github.com/pdm-project/pdm)** — ★ 8.7k · **2 PRs merged**
 - **[nominal-io/instro](https://github.com/nominal-io/instro)** — ★ 704 · **2 PRs merged**
 - **[amatya-aditya/obsidian-rss-dashboard](https://github.com/amatya-aditya/obsidian-rss-dashboard)** — ★ 670 · **2 PRs merged**
-- **[vavallee/bindery](https://github.com/vavallee/bindery)** — ★ 460 · **2 PRs merged**
 <!-- OSS-NOTABLE:END -->
 
 <sub>The newest merge in each high-profile project, plus every repository where I've landed more than one patch. Kept up to date automatically by GitHub Actions.</sub>
