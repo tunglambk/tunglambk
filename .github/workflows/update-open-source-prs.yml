@@ -33,7 +33,11 @@ jobs:
                   pageInfo { hasNextPage endCursor }
                   nodes {
                     ... on PullRequest {
+                      number
+                      title
+                      url
                       merged
+                      mergedAt
                       repository { nameWithOwner stargazerCount }
                     }
                   }
@@ -58,7 +62,11 @@ jobs:
                 pulls.push({
                   repo: node.repository.nameWithOwner,
                   stars: node.repository.stargazerCount || 0,
+                  number: node.number,
+                  title: String(node.title || '').replace(/[\\[\]]/g, ch => `\\${ch}`).replace(/\|/g, '\\|'),
+                  url: node.url,
                   merged: Boolean(node.merged),
+                  mergedAt: node.mergedAt || '',
                 });
               }
 
@@ -87,11 +95,19 @@ jobs:
             // Repositories where this account has landed more than one pull request.
             const mostMerged = byMerges.filter(repo => repo.merged >= 2).slice(0, 8);
 
-            // High-star projects, minus anything already listed above.
-            const alreadyListed = new Set(mostMerged.map(repo => repo.repo));
-            const highProfile = [...repos]
-              .filter(repo => repo.stars >= 1000 && !alreadyListed.has(repo.repo))
-              .sort((a, b) => b.stars - a.stars || a.repo.localeCompare(b.repo))
+            // Newest merge per high-star upstream, so every notable project shows a concrete PR.
+            const latestPerRepo = new Map();
+
+            for (const pr of pulls) {
+              if (!pr.merged) continue;
+
+              const current = latestPerRepo.get(pr.repo);
+              if (!current || pr.mergedAt > current.mergedAt) latestPerRepo.set(pr.repo, pr);
+            }
+
+            const highProfile = [...latestPerRepo.values()]
+              .filter(pr => pr.stars >= 1000)
+              .sort((a, b) => b.stars - a.stars || b.mergedAt.localeCompare(a.mergedAt))
               .slice(0, 6);
 
             const formatStars = stars => (stars >= 1000
@@ -101,14 +117,17 @@ jobs:
             const entryLine = repo =>
               `- **[${repo.repo}](https://github.com/${repo.repo})** — ★ ${formatStars(repo.stars)} · **${repo.merged} PR${repo.merged === 1 ? '' : 's'} merged**`;
 
+            const mergeLine = pr =>
+              `- **[${pr.repo}](https://github.com/${pr.repo})** ★ ${formatStars(pr.stars)} — [${pr.title}](${pr.url})`;
+
             const sections = [];
+
+            if (highProfile.length) {
+              sections.push(['**High-profile projects**', '', ...highProfile.map(mergeLine)].join('\n'));
+            }
 
             if (mostMerged.length) {
               sections.push(['**Most merges**', '', ...mostMerged.map(entryLine)].join('\n'));
-            }
-
-            if (highProfile.length) {
-              sections.push(['**High-profile projects**', '', ...highProfile.map(entryLine)].join('\n'));
             }
 
             const generated = sections.length

@@ -32,6 +32,48 @@ Right now, I'm intentionally spending more time contributing to the **open-sourc
 
 ---
 
+## Open Source Contribution Footprint
+
+<div align="center">
+
+<img src="./oss-contributions.svg" width="100%" alt="Merged open-source pull requests grouped by upstream repository" />
+
+</div>
+
+<sub>Merged pull requests only, grouped by upstream repository. Refreshed automatically from GitHub.</sub>
+
+---
+
+## Notable Open-Source Contributions
+
+Projects where my patches actually landed — concrete merges into high-profile repositories, plus the upstreams I've contributed to most.
+
+<!-- OSS-NOTABLE:START -->
+**High-profile projects**
+
+- **[confident-ai/deepeval](https://github.com/confident-ai/deepeval)** ★ 18.3k — [fix(g-eval): use final score token for logprob weighting](https://github.com/confident-ai/deepeval/pull/3060)
+- **[vitalik/django-ninja](https://github.com/vitalik/django-ninja)** ★ 9.2k — [fix: avoid duplicate async authentication calls](https://github.com/vitalik/django-ninja/pull/1755)
+- **[kellyjonbrazil/jc](https://github.com/kellyjonbrazil/jc)** ★ 8.7k — [Fix http-headers crash on whitespace-only lines](https://github.com/kellyjonbrazil/jc/pull/753)
+- **[pdm-project/pdm](https://github.com/pdm-project/pdm)** ★ 8.7k — [fix: export editable local dependencies with relative paths](https://github.com/pdm-project/pdm/pull/3856)
+- **[django-oscar/django-oscar](https://github.com/django-oscar/django-oscar)** ★ 6.6k — [Fix voucher set usage sorting](https://github.com/django-oscar/django-oscar/pull/4616)
+- **[dora-rs/dora](https://github.com/dora-rs/dora)** ★ 4.1k — [fix(ros2-bridge): escape the edition-2024 reserved keyword `gen` in msg-gen](https://github.com/dora-rs/dora/pull/3530)
+
+**Most merges**
+
+- **[CS-SI/eodag](https://github.com/CS-SI/eodag)** — ★ 434 · **4 PRs merged**
+- **[Hebbian-Robotics/hflow](https://github.com/Hebbian-Robotics/hflow)** — ★ 271 · **4 PRs merged**
+- **[vitalik/django-ninja](https://github.com/vitalik/django-ninja)** — ★ 9.2k · **3 PRs merged**
+- **[kellyjonbrazil/jc](https://github.com/kellyjonbrazil/jc)** — ★ 8.7k · **2 PRs merged**
+- **[pdm-project/pdm](https://github.com/pdm-project/pdm)** — ★ 8.7k · **2 PRs merged**
+- **[nominal-io/instro](https://github.com/nominal-io/instro)** — ★ 704 · **2 PRs merged**
+- **[amatya-aditya/obsidian-rss-dashboard](https://github.com/amatya-aditya/obsidian-rss-dashboard)** — ★ 670 · **2 PRs merged**
+- **[vavallee/bindery](https://github.com/vavallee/bindery)** — ★ 460 · **2 PRs merged**
+<!-- OSS-NOTABLE:END -->
+
+<sub>The newest merge in each high-profile project, plus every repository where I've landed more than one patch. Kept up to date automatically by GitHub Actions.</sub>
+
+---
+
 ## Open Source Mode
 
 > [!NOTE]
@@ -64,86 +106,11 @@ Right now, I'm intentionally spending more time contributing to the **open-sourc
 
 <div align="center">
 
-<a href="https://github.com/pulls?q=is%3Apr+author%3Atunglambk+is%3Apublic">
-  <img src="https://img.shields.io/badge/VIEW_OPEN_SOURCE_PRS-0969DA?style=for-the-badge&logo=github&logoColor=white" alt="View my open-source pull requests" />
+<a href="https://github.com/pulls?q=is%3Apr+author%3Atunglambk+is%3Amerged">
+  <img src="https://img.shields.io/badge/VIEW_MERGED_PRS-0969DA?style=for-the-badge&logo=github&logoColor=white" alt="View my merged open-source pull requests" />
 </a>
 
 </div>
-
----
-
-## Open Source Contribution Footprint
-
-<div align="center">
-
-<img src="./oss-contributions.svg" width="100%" alt="Merged open-source pull requests grouped by upstream repository" />
-
-</div>
-
-<sub>Merged pull requests only, grouped by upstream repository. Refreshed automatically from GitHub.</sub>
-
----
-
-## Notable Open-Source Contributions
-
-Projects where my patches actually landed — the upstreams I've merged into most, plus high-profile repositories I've contributed to.
-
-<!-- OSS-NOTABLE:START -->
-**Most merges**
-
-- **[CS-SI/eodag](https://github.com/CS-SI/eodag)** — ★ 434 · **4 PRs merged**
-- **[Hebbian-Robotics/hflow](https://github.com/Hebbian-Robotics/hflow)** — ★ 271 · **4 PRs merged**
-- **[vitalik/django-ninja](https://github.com/vitalik/django-ninja)** — ★ 9.2k · **3 PRs merged**
-- **[kellyjonbrazil/jc](https://github.com/kellyjonbrazil/jc)** — ★ 8.7k · **2 PRs merged**
-- **[pdm-project/pdm](https://github.com/pdm-project/pdm)** — ★ 8.7k · **2 PRs merged**
-- **[nominal-io/instro](https://github.com/nominal-io/instro)** — ★ 704 · **2 PRs merged**
-- **[amatya-aditya/obsidian-rss-dashboard](https://github.com/amatya-aditya/obsidian-rss-dashboard)** — ★ 670 · **2 PRs merged**
-- **[vavallee/bindery](https://github.com/vavallee/bindery)** — ★ 460 · **2 PRs merged**
-
-**High-profile projects**
-
-- **[confident-ai/deepeval](https://github.com/confident-ai/deepeval)** — ★ 18.3k · **1 PR merged**
-- **[django-oscar/django-oscar](https://github.com/django-oscar/django-oscar)** — ★ 6.6k · **1 PR merged**
-- **[dora-rs/dora](https://github.com/dora-rs/dora)** — ★ 4.1k · **1 PR merged**
-- **[versity/versitygw](https://github.com/versity/versitygw)** — ★ 3k · **1 PR merged**
-- **[LeyckerS/moondownloader](https://github.com/LeyckerS/moondownloader)** — ★ 1.6k · **1 PR merged**
-- **[pyjanitor-devs/pyjanitor](https://github.com/pyjanitor-devs/pyjanitor)** — ★ 1.5k · **1 PR merged**
-<!-- OSS-NOTABLE:END -->
-
-<sub>Repositories with more than one merged pull request, plus projects above 1,000 stars. Kept up to date automatically by GitHub Actions.</sub>
-
----
-
-## Engineering Focus
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-### `AI systems`
-
-- Large Language Models
-- Retrieval-Augmented Generation
-- Agentic AI
-- LLM evaluation
-- AI system architecture
-- Production AI reliability
-
-</td>
-<td width="50%" valign="top">
-
-### `software engineering`
-
-- Python ecosystem
-- Backend frameworks
-- API design
-- Testing & debugging
-- Distributed systems
-- Open-source development
-
-</td>
-</tr>
-</table>
 
 ---
 
@@ -201,14 +168,6 @@ Projects where my patches actually landed — the upstreams I've merged into mos
 
 </div>
 
-<div align="center">
-
-<a href="mailto:lamphambatung96@gmail.com">
-  <img src="https://img.shields.io/badge/HAVE_AN_INTERESTING_ISSUE%3F-LET'S_TALK-0969DA?style=for-the-badge&logo=github&logoColor=white" alt="Open to collaboration" />
-</a>
-
-</div>
-
 ---
 
 <div align="center">
@@ -220,7 +179,7 @@ Projects where my patches actually landed — the upstreams I've merged into mos
 <br/>
 
 <a href="mailto:lamphambatung96@gmail.com">
-  <img src="https://img.shields.io/badge/LET'S_BUILD_SOMETHING-0969DA?style=for-the-badge&logo=github&logoColor=white" alt="Let's build something" />
+  <img src="https://img.shields.io/badge/HAVE_AN_INTERESTING_ISSUE%3F-LET'S_TALK-0969DA?style=for-the-badge&logo=github&logoColor=white" alt="Open to collaboration" />
 </a>
 
 <br/><br/>
