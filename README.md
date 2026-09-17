@@ -51,12 +51,12 @@ Projects where my patches actually landed — concrete merges into high-profile 
 <!-- OSS-NOTABLE:START -->
 **High-profile projects**
 
+- **[zeroclaw-labs/zeroclaw](https://github.com/zeroclaw-labs/zeroclaw)** ★ 32.9k — [fix(daemon): serialize lifecycle tests against the log broadcast](https://github.com/zeroclaw-labs/zeroclaw/pull/10898)
 - **[confident-ai/deepeval](https://github.com/confident-ai/deepeval)** ★ 18.3k — [fix(g-eval): use final score token for logprob weighting](https://github.com/confident-ai/deepeval/pull/3060)
 - **[vitalik/django-ninja](https://github.com/vitalik/django-ninja)** ★ 9.2k — [fix: avoid duplicate async authentication calls](https://github.com/vitalik/django-ninja/pull/1755)
 - **[kellyjonbrazil/jc](https://github.com/kellyjonbrazil/jc)** ★ 8.7k — [Fix http-headers crash on whitespace-only lines](https://github.com/kellyjonbrazil/jc/pull/753)
 - **[pdm-project/pdm](https://github.com/pdm-project/pdm)** ★ 8.7k — [fix: export editable local dependencies with relative paths](https://github.com/pdm-project/pdm/pull/3856)
 - **[django-oscar/django-oscar](https://github.com/django-oscar/django-oscar)** ★ 6.6k — [Fix voucher set usage sorting](https://github.com/django-oscar/django-oscar/pull/4616)
-- **[dora-rs/dora](https://github.com/dora-rs/dora)** ★ 4.1k — [fix(ros2-bridge): escape the edition-2024 reserved keyword `gen` in msg-gen](https://github.com/dora-rs/dora/pull/3530)
 
 **Most merges**
 
