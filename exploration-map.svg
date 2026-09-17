@@ -35,10 +35,10 @@
 
     <g transform="translate(658 95)">
       <rect width="290" height="116" rx="12" class="card"/>
-      <text x="20" y="32" class="text" font-size="15" font-weight="700">LANGUAGES &amp; TOOLING</text>
-      <text x="20" y="58" class="muted" font-size="12">python · go · rust · typescript</text>
-      <text x="20" y="79" class="muted" font-size="12">testing · debugging · clean design</text>
-      <text x="20" y="101" class="accentText" font-size="10" font-weight="700">maintainable engineering</text>
+      <text x="20" y="32" class="text" font-size="15" font-weight="700">ENGINEERING CRAFT</text>
+      <text x="20" y="58" class="muted" font-size="12">testing · debugging · clean design</text>
+      <text x="20" y="79" class="muted" font-size="12">correctness · refactors · CI health</text>
+      <text x="20" y="101" class="accentText" font-size="10" font-weight="700">small, verifiable changes</text>
     </g>
 
     <g transform="translate(52 275)">

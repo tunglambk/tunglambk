@@ -22,7 +22,7 @@ I'm an **AI Engineer** who enjoys understanding how systems behave beneath the a
 
 My interests sit around **LLM systems, backend engineering, developer tooling, and production AI**. I like reading unfamiliar codebases, reproducing real bugs, tracing them to their root cause, and turning that understanding into **small, focused, well-tested fixes**.
 
-Right now, I'm intentionally spending more time contributing upstream, in whatever stack the bug lives in — **Python, Go, Rust, or TypeScript**.
+Right now, I'm intentionally spending more time contributing upstream, in whatever stack the bug lives in.
 
 ---
 
@@ -119,26 +119,6 @@ Projects where my patches actually landed — concrete merges into high-profile 
 <img src="https://img.shields.io/badge/RAG-0969DA?style=flat-square" alt="RAG" />
 <img src="https://img.shields.io/badge/Agentic_AI-F59E0B?style=flat-square&logoColor=white" alt="Agentic AI" />
 <img src="https://img.shields.io/badge/Hugging_Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black" alt="Hugging Face" />
-</p>
-
-### `Languages`
-
-<p>
-<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
-<img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white" alt="Go" />
-<img src="https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white" alt="Rust" />
-<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
-<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript" />
-</p>
-
-### `Python tooling`
-
-<p>
-<img src="https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white" alt="Django" />
-<img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI" />
-<img src="https://img.shields.io/badge/Pydantic-E92063?style=flat-square&logo=pydantic&logoColor=white" alt="Pydantic" />
-<img src="https://img.shields.io/badge/pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white" alt="pytest" />
-<img src="https://img.shields.io/badge/Ruff-D7FF64?style=flat-square&logo=ruff&logoColor=black" alt="Ruff" />
 </p>
 
 ### `Systems`
