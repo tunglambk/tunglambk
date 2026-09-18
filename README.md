@@ -45,7 +45,7 @@ Projects where my patches actually landed — concrete merges into high-profile 
 <!-- OSS-NOTABLE:START -->
 **High-profile projects**
 
-- **[zeroclaw-labs/zeroclaw](https://github.com/zeroclaw-labs/zeroclaw)** ★ 32.8k — [fix(daemon): serialize lifecycle tests against the log broadcast](https://github.com/zeroclaw-labs/zeroclaw/pull/10898)
+- **[zeroclaw-labs/zeroclaw](https://github.com/zeroclaw-labs/zeroclaw)** ★ 32.8k — [chore(eval): keep the repository replay gate out of the published crate](https://github.com/zeroclaw-labs/zeroclaw/pull/10941)
 - **[confident-ai/deepeval](https://github.com/confident-ai/deepeval)** ★ 18.3k — [fix(g-eval): use final score token for logprob weighting](https://github.com/confident-ai/deepeval/pull/3060)
 - **[vitalik/django-ninja](https://github.com/vitalik/django-ninja)** ★ 9.2k — [fix: avoid duplicate async authentication calls](https://github.com/vitalik/django-ninja/pull/1755)
 - **[kellyjonbrazil/jc](https://github.com/kellyjonbrazil/jc)** ★ 8.7k — [Fix http-headers crash on whitespace-only lines](https://github.com/kellyjonbrazil/jc/pull/753)
@@ -60,8 +60,8 @@ Projects where my patches actually landed — concrete merges into high-profile 
 - **[Hebbian-Robotics/hflow](https://github.com/Hebbian-Robotics/hflow)** — ★ 272 · **4 PRs merged**
 - **[vitalik/django-ninja](https://github.com/vitalik/django-ninja)** — ★ 9.2k · **3 PRs merged**
 - **[warmbly/warmbly](https://github.com/warmbly/warmbly)** — ★ 298 · **3 PRs merged**
+- **[zeroclaw-labs/zeroclaw](https://github.com/zeroclaw-labs/zeroclaw)** — ★ 32.8k · **2 PRs merged**
 - **[kellyjonbrazil/jc](https://github.com/kellyjonbrazil/jc)** — ★ 8.7k · **2 PRs merged**
-- **[pdm-project/pdm](https://github.com/pdm-project/pdm)** — ★ 8.7k · **2 PRs merged**
 <!-- OSS-NOTABLE:END -->
 
 <sub>The newest merge in each high-profile project, plus every repository where I've landed more than one patch. Kept up to date automatically by GitHub Actions.</sub>
