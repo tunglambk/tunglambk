@@ -60,7 +60,7 @@ Projects where my patches actually landed — concrete merges into high-profile 
 - **[vitalik/django-ninja](https://github.com/vitalik/django-ninja)** — ★ 9.2k · **3 PRs merged**
 - **[kellyjonbrazil/jc](https://github.com/kellyjonbrazil/jc)** — ★ 8.7k · **2 PRs merged**
 - **[pdm-project/pdm](https://github.com/pdm-project/pdm)** — ★ 8.7k · **2 PRs merged**
-- **[nominal-io/instro](https://github.com/nominal-io/instro)** — ★ 704 · **2 PRs merged**
+- **[nominal-io/instro](https://github.com/nominal-io/instro)** — ★ 705 · **2 PRs merged**
 - **[amatya-aditya/obsidian-rss-dashboard](https://github.com/amatya-aditya/obsidian-rss-dashboard)** — ★ 670 · **2 PRs merged**
 <!-- OSS-NOTABLE:END -->
 
