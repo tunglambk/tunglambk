@@ -61,7 +61,7 @@ Projects where my patches actually landed — concrete merges into high-profile 
 - **[warmbly/warmbly](https://github.com/warmbly/warmbly)** — ★ 296 · **3 PRs merged**
 - **[kellyjonbrazil/jc](https://github.com/kellyjonbrazil/jc)** — ★ 8.7k · **2 PRs merged**
 - **[pdm-project/pdm](https://github.com/pdm-project/pdm)** — ★ 8.7k · **2 PRs merged**
-- **[libredb/libredb-studio](https://github.com/libredb/libredb-studio)** — ★ 790 · **2 PRs merged**
+- **[libredb/libredb-studio](https://github.com/libredb/libredb-studio)** — ★ 795 · **2 PRs merged**
 <!-- OSS-NOTABLE:END -->
 
 <sub>The newest merge in each high-profile project, plus every repository where I've landed more than one patch. Kept up to date automatically by GitHub Actions.</sub>
