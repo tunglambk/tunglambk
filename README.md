@@ -57,9 +57,9 @@ Projects where my patches actually landed — concrete merges into high-profile 
 - **[wingfoil-io/wingfoil](https://github.com/wingfoil-io/wingfoil)** — ★ 223 · **5 PRs merged**
 - **[vavallee/bindery](https://github.com/vavallee/bindery)** — ★ 460 · **4 PRs merged**
 - **[CS-SI/eodag](https://github.com/CS-SI/eodag)** — ★ 434 · **4 PRs merged**
-- **[Hebbian-Robotics/hflow](https://github.com/Hebbian-Robotics/hflow)** — ★ 272 · **4 PRs merged**
+- **[Hebbian-Robotics/hflow](https://github.com/Hebbian-Robotics/hflow)** — ★ 273 · **4 PRs merged**
 - **[vitalik/django-ninja](https://github.com/vitalik/django-ninja)** — ★ 9.2k · **3 PRs merged**
-- **[warmbly/warmbly](https://github.com/warmbly/warmbly)** — ★ 298 · **3 PRs merged**
+- **[warmbly/warmbly](https://github.com/warmbly/warmbly)** — ★ 301 · **3 PRs merged**
 - **[zeroclaw-labs/zeroclaw](https://github.com/zeroclaw-labs/zeroclaw)** — ★ 32.8k · **2 PRs merged**
 - **[kellyjonbrazil/jc](https://github.com/kellyjonbrazil/jc)** — ★ 8.7k · **2 PRs merged**
 <!-- OSS-NOTABLE:END -->
