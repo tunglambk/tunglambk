@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="900" height="582" viewBox="0 0 900 582" role="img" aria-labelledby="title desc">
   <title id="title">Open Source Contribution Footprint</title>
-  <desc id="desc">50 merged pull requests across 26 upstream repositories, highest-star projects first.</desc>
+  <desc id="desc">51 merged pull requests across 27 upstream repositories, highest-star projects first.</desc>
   <style>
     .bg{fill:#f6f8fa;stroke:#d0d7de}.card{fill:#ffffff;stroke:#d0d7de}.track{fill:#eaeef2}.text{fill:#24292f}.muted{fill:#57606a}.accent{fill:#0969da}.accentText{fill:#0969da}
     @media (prefers-color-scheme:dark){.bg{fill:#161b22;stroke:#30363d}.card{fill:#0d1117;stroke:#30363d}.track{fill:#21262d}.text{fill:#f0f6fc}.muted{fill:#8b949e}.accent{fill:#58a6ff}.accentText{fill:#58a6ff}}
@@ -11,39 +11,39 @@
     <text x="30" y="46" class="text" font-size="21" font-weight="700">Open Source Contribution Footprint</text>
     <text x="30" y="71" class="muted" font-size="13">Merged pull requests per upstream, most prominent projects first</text>
     <rect x="686" y="22" width="184" height="54" rx="10" class="card"/>
-    <text x="702" y="45" class="accentText" font-size="14" font-weight="700">50 merged PRs</text>
-    <text x="702" y="65" class="muted" font-size="12">across 26 projects</text>
+    <text x="702" y="45" class="accentText" font-size="14" font-weight="700">51 merged PRs</text>
+    <text x="702" y="65" class="muted" font-size="12">across 27 projects</text>
     
     <rect x="330" y="109" width="420" height="22" rx="6" class="track"/>
-    <text x="30" y="125" class="text" font-size="13">zeroclaw-labs/zeroclaw</text>
-    <rect x="330" y="109" width="168" height="22" rx="6" class="accent"/>
-    <text x="510" y="125" class="text" font-size="13" font-weight="700">2</text>
-    <text x="886" y="125" text-anchor="end" class="muted" font-size="12">★ 32.8k</text>
+    <text x="30" y="125" class="text" font-size="13">pnpm/pnpm</text>
+    <rect x="330" y="109" width="84" height="22" rx="6" class="accent"/>
+    <text x="426" y="125" class="text" font-size="13" font-weight="700">1</text>
+    <text x="886" y="125" text-anchor="end" class="muted" font-size="12">★ 36.6k</text>
     <rect x="330" y="153" width="420" height="22" rx="6" class="track"/>
-    <text x="30" y="169" class="text" font-size="13">confident-ai/deepeval</text>
-    <rect x="330" y="153" width="84" height="22" rx="6" class="accent"/>
-    <text x="426" y="169" class="text" font-size="13" font-weight="700">1</text>
-    <text x="886" y="169" text-anchor="end" class="muted" font-size="12">★ 18.3k</text>
+    <text x="30" y="169" class="text" font-size="13">zeroclaw-labs/zeroclaw</text>
+    <rect x="330" y="153" width="168" height="22" rx="6" class="accent"/>
+    <text x="510" y="169" class="text" font-size="13" font-weight="700">2</text>
+    <text x="886" y="169" text-anchor="end" class="muted" font-size="12">★ 32.8k</text>
     <rect x="330" y="197" width="420" height="22" rx="6" class="track"/>
-    <text x="30" y="213" class="text" font-size="13">vitalik/django-ninja</text>
-    <rect x="330" y="197" width="252" height="22" rx="6" class="accent"/>
-    <text x="594" y="213" class="text" font-size="13" font-weight="700">3</text>
-    <text x="886" y="213" text-anchor="end" class="muted" font-size="12">★ 9.2k</text>
+    <text x="30" y="213" class="text" font-size="13">confident-ai/deepeval</text>
+    <rect x="330" y="197" width="84" height="22" rx="6" class="accent"/>
+    <text x="426" y="213" class="text" font-size="13" font-weight="700">1</text>
+    <text x="886" y="213" text-anchor="end" class="muted" font-size="12">★ 18.3k</text>
     <rect x="330" y="241" width="420" height="22" rx="6" class="track"/>
-    <text x="30" y="257" class="text" font-size="13">kellyjonbrazil/jc</text>
-    <rect x="330" y="241" width="168" height="22" rx="6" class="accent"/>
-    <text x="510" y="257" class="text" font-size="13" font-weight="700">2</text>
-    <text x="886" y="257" text-anchor="end" class="muted" font-size="12">★ 8.7k</text>
+    <text x="30" y="257" class="text" font-size="13">vitalik/django-ninja</text>
+    <rect x="330" y="241" width="252" height="22" rx="6" class="accent"/>
+    <text x="594" y="257" class="text" font-size="13" font-weight="700">3</text>
+    <text x="886" y="257" text-anchor="end" class="muted" font-size="12">★ 9.2k</text>
     <rect x="330" y="285" width="420" height="22" rx="6" class="track"/>
-    <text x="30" y="301" class="text" font-size="13">pdm-project/pdm</text>
+    <text x="30" y="301" class="text" font-size="13">kellyjonbrazil/jc</text>
     <rect x="330" y="285" width="168" height="22" rx="6" class="accent"/>
     <text x="510" y="301" class="text" font-size="13" font-weight="700">2</text>
     <text x="886" y="301" text-anchor="end" class="muted" font-size="12">★ 8.7k</text>
     <rect x="330" y="329" width="420" height="22" rx="6" class="track"/>
-    <text x="30" y="345" class="text" font-size="13">django-oscar/django-oscar</text>
-    <rect x="330" y="329" width="84" height="22" rx="6" class="accent"/>
-    <text x="426" y="345" class="text" font-size="13" font-weight="700">1</text>
-    <text x="886" y="345" text-anchor="end" class="muted" font-size="12">★ 6.6k</text>
+    <text x="30" y="345" class="text" font-size="13">pdm-project/pdm</text>
+    <rect x="330" y="329" width="168" height="22" rx="6" class="accent"/>
+    <text x="510" y="345" class="text" font-size="13" font-weight="700">2</text>
+    <text x="886" y="345" text-anchor="end" class="muted" font-size="12">★ 8.7k</text>
     <rect x="330" y="373" width="420" height="22" rx="6" class="track"/>
     <text x="30" y="389" class="text" font-size="13">vavallee/bindery</text>
     <rect x="330" y="373" width="336" height="22" rx="6" class="accent"/>
