@@ -61,7 +61,7 @@ Projects where my patches actually landed — concrete merges into high-profile 
 - **[Hebbian-Robotics/hflow](https://github.com/Hebbian-Robotics/hflow)** — ★ 273 · **4 PRs merged**
 - **[zeroclaw-labs/zeroclaw](https://github.com/zeroclaw-labs/zeroclaw)** — ★ 32.8k · **3 PRs merged**
 - **[vitalik/django-ninja](https://github.com/vitalik/django-ninja)** — ★ 9.2k · **3 PRs merged**
-- **[warmbly/warmbly](https://github.com/warmbly/warmbly)** — ★ 304 · **3 PRs merged**
+- **[warmbly/warmbly](https://github.com/warmbly/warmbly)** — ★ 305 · **3 PRs merged**
 <!-- OSS-NOTABLE:END -->
 
 <sub>The newest merge in each high-profile project, plus every repository where I've landed more than one patch. Kept up to date automatically by GitHub Actions.</sub>
