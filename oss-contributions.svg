@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="900" height="582" viewBox="0 0 900 582" role="img" aria-labelledby="title desc">
   <title id="title">Open Source Contribution Footprint</title>
-  <desc id="desc">53 merged pull requests across 27 upstream repositories, highest-star projects first.</desc>
+  <desc id="desc">54 merged pull requests across 27 upstream repositories, highest-star projects first.</desc>
   <style>
     .bg{fill:#f6f8fa;stroke:#d0d7de}.card{fill:#ffffff;stroke:#d0d7de}.track{fill:#eaeef2}.text{fill:#24292f}.muted{fill:#57606a}.accent{fill:#0969da}.accentText{fill:#0969da}
     @media (prefers-color-scheme:dark){.bg{fill:#161b22;stroke:#30363d}.card{fill:#0d1117;stroke:#30363d}.track{fill:#21262d}.text{fill:#f0f6fc}.muted{fill:#8b949e}.accent{fill:#58a6ff}.accentText{fill:#58a6ff}}
@@ -11,7 +11,7 @@
     <text x="30" y="46" class="text" font-size="21" font-weight="700">Open Source Contribution Footprint</text>
     <text x="30" y="71" class="muted" font-size="13">Merged pull requests per upstream, most prominent projects first</text>
     <rect x="686" y="22" width="184" height="54" rx="10" class="card"/>
-    <text x="702" y="45" class="accentText" font-size="14" font-weight="700">53 merged PRs</text>
+    <text x="702" y="45" class="accentText" font-size="14" font-weight="700">54 merged PRs</text>
     <text x="702" y="65" class="muted" font-size="12">across 27 projects</text>
     
     <rect x="330" y="109" width="420" height="22" rx="6" class="track"/>
@@ -21,8 +21,8 @@
     <text x="886" y="125" text-anchor="end" class="muted" font-size="12">★ 36.6k</text>
     <rect x="330" y="153" width="420" height="22" rx="6" class="track"/>
     <text x="30" y="169" class="text" font-size="13">zeroclaw-labs/zeroclaw</text>
-    <rect x="330" y="153" width="168" height="22" rx="6" class="accent"/>
-    <text x="510" y="169" class="text" font-size="13" font-weight="700">2</text>
+    <rect x="330" y="153" width="252" height="22" rx="6" class="accent"/>
+    <text x="594" y="169" class="text" font-size="13" font-weight="700">3</text>
     <text x="886" y="169" text-anchor="end" class="muted" font-size="12">★ 32.8k</text>
     <rect x="330" y="197" width="420" height="22" rx="6" class="track"/>
     <text x="30" y="213" class="text" font-size="13">confident-ai/deepeval</text>
