@@ -46,7 +46,7 @@ Projects where my patches actually landed — concrete merges into high-profile 
 **High-profile projects**
 
 - **[pnpm/pnpm](https://github.com/pnpm/pnpm)** ★ 36.6k — [fix(update): move a runtime range onto the version it resolved](https://github.com/pnpm/pnpm/pull/15002)
-- **[zeroclaw-labs/zeroclaw](https://github.com/zeroclaw-labs/zeroclaw)** ★ 32.8k — [fix(channels/telegram): resolve voice peers from sender identity](https://github.com/zeroclaw-labs/zeroclaw/pull/10942)
+- **[zeroclaw-labs/zeroclaw](https://github.com/zeroclaw-labs/zeroclaw)** ★ 32.9k — [fix(channels/telegram): resolve voice peers from sender identity](https://github.com/zeroclaw-labs/zeroclaw/pull/10942)
 - **[confident-ai/deepeval](https://github.com/confident-ai/deepeval)** ★ 18.4k — [fix(g-eval): use final score token for logprob weighting](https://github.com/confident-ai/deepeval/pull/3060)
 - **[vitalik/django-ninja](https://github.com/vitalik/django-ninja)** ★ 9.2k — [fix: avoid duplicate async authentication calls](https://github.com/vitalik/django-ninja/pull/1755)
 - **[kellyjonbrazil/jc](https://github.com/kellyjonbrazil/jc)** ★ 8.7k — [Add -p patch output support to the git-log parsers](https://github.com/kellyjonbrazil/jc/pull/763)
@@ -59,9 +59,9 @@ Projects where my patches actually landed — concrete merges into high-profile 
 - **[kellyjonbrazil/jc](https://github.com/kellyjonbrazil/jc)** — ★ 8.7k · **4 PRs merged**
 - **[CS-SI/eodag](https://github.com/CS-SI/eodag)** — ★ 434 · **4 PRs merged**
 - **[Hebbian-Robotics/hflow](https://github.com/Hebbian-Robotics/hflow)** — ★ 273 · **4 PRs merged**
-- **[zeroclaw-labs/zeroclaw](https://github.com/zeroclaw-labs/zeroclaw)** — ★ 32.8k · **3 PRs merged**
+- **[zeroclaw-labs/zeroclaw](https://github.com/zeroclaw-labs/zeroclaw)** — ★ 32.9k · **3 PRs merged**
 - **[vitalik/django-ninja](https://github.com/vitalik/django-ninja)** — ★ 9.2k · **3 PRs merged**
-- **[amatya-aditya/obsidian-rss-dashboard](https://github.com/amatya-aditya/obsidian-rss-dashboard)** — ★ 670 · **3 PRs merged**
+- **[kenn-io/agentsview](https://github.com/kenn-io/agentsview)** — ★ 6k · **3 PRs merged**
 <!-- OSS-NOTABLE:END -->
 
 <sub>The newest merge in each high-profile project, plus every repository where I've landed more than one patch. Kept up to date automatically by GitHub Actions.</sub>
