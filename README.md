@@ -45,7 +45,7 @@ Projects where my patches actually landed — concrete merges into high-profile 
 <!-- OSS-NOTABLE:START -->
 **High-profile projects**
 
-- **[pnpm/pnpm](https://github.com/pnpm/pnpm)** ★ 36.6k — [fix(install): use the running Node.js for a devEngines runtime range](https://github.com/pnpm/pnpm/pull/15256)
+- **[pnpm/pnpm](https://github.com/pnpm/pnpm)** ★ 36.6k — [fix(resolver): skip deprecated versions on every range pick](https://github.com/pnpm/pnpm/pull/15259)
 - **[zeroclaw-labs/zeroclaw](https://github.com/zeroclaw-labs/zeroclaw)** ★ 32.9k — [fix(channels/telegram): resolve voice peers from sender identity](https://github.com/zeroclaw-labs/zeroclaw/pull/10942)
 - **[confident-ai/deepeval](https://github.com/confident-ai/deepeval)** ★ 18.4k — [fix(g-eval): use final score token for logprob weighting](https://github.com/confident-ai/deepeval/pull/3060)
 - **[vitalik/django-ninja](https://github.com/vitalik/django-ninja)** ★ 9.2k — [fix: avoid duplicate async authentication calls](https://github.com/vitalik/django-ninja/pull/1755)
@@ -54,9 +54,9 @@ Projects where my patches actually landed — concrete merges into high-profile 
 
 **Most merges**
 
-- **[pnpm/pnpm](https://github.com/pnpm/pnpm)** — ★ 36.6k · **5 PRs merged**
+- **[pnpm/pnpm](https://github.com/pnpm/pnpm)** — ★ 36.6k · **6 PRs merged**
 - **[vavallee/bindery](https://github.com/vavallee/bindery)** — ★ 467 · **5 PRs merged**
-- **[wingfoil-io/wingfoil](https://github.com/wingfoil-io/wingfoil)** — ★ 223 · **5 PRs merged**
+- **[wingfoil-io/wingfoil](https://github.com/wingfoil-io/wingfoil)** — ★ 224 · **5 PRs merged**
 - **[kellyjonbrazil/jc](https://github.com/kellyjonbrazil/jc)** — ★ 8.7k · **4 PRs merged**
 - **[CS-SI/eodag](https://github.com/CS-SI/eodag)** — ★ 434 · **4 PRs merged**
 - **[Hebbian-Robotics/hflow](https://github.com/Hebbian-Robotics/hflow)** — ★ 273 · **4 PRs merged**
