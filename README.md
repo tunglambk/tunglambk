@@ -45,7 +45,7 @@ Projects where my patches actually landed — concrete merges into high-profile 
 <!-- OSS-NOTABLE:START -->
 **High-profile projects**
 
-- **[pnpm/pnpm](https://github.com/pnpm/pnpm)** ★ 36.6k — [fix(update): move a runtime range onto the version it resolved](https://github.com/pnpm/pnpm/pull/15002)
+- **[pnpm/pnpm](https://github.com/pnpm/pnpm)** ★ 36.6k — [fix(dlx): clean expired cache entries on store prune](https://github.com/pnpm/pnpm/pull/15203)
 - **[zeroclaw-labs/zeroclaw](https://github.com/zeroclaw-labs/zeroclaw)** ★ 32.9k — [fix(channels/telegram): resolve voice peers from sender identity](https://github.com/zeroclaw-labs/zeroclaw/pull/10942)
 - **[confident-ai/deepeval](https://github.com/confident-ai/deepeval)** ★ 18.4k — [fix(g-eval): use final score token for logprob weighting](https://github.com/confident-ai/deepeval/pull/3060)
 - **[vitalik/django-ninja](https://github.com/vitalik/django-ninja)** ★ 9.2k — [fix: avoid duplicate async authentication calls](https://github.com/vitalik/django-ninja/pull/1755)
