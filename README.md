@@ -40,31 +40,31 @@ Right now, I'm intentionally spending more time contributing upstream, in whatev
 
 ## Notable Open-Source Contributions
 
-Projects where my patches actually landed — concrete merges into high-profile repositories, plus the upstreams I've contributed to most.
+Projects where my patches actually landed — the upstreams I've contributed to most, and the high-profile ones.
 
 <!-- OSS-NOTABLE:START -->
 **High-profile projects**
 
-- **[pnpm/pnpm](https://github.com/pnpm/pnpm)** ★ 36.6k — [fix(resolver): skip deprecated versions on every range pick](https://github.com/pnpm/pnpm/pull/15259)
-- **[zeroclaw-labs/zeroclaw](https://github.com/zeroclaw-labs/zeroclaw)** ★ 32.9k — [fix(channels/telegram): resolve voice peers from sender identity](https://github.com/zeroclaw-labs/zeroclaw/pull/10942)
-- **[confident-ai/deepeval](https://github.com/confident-ai/deepeval)** ★ 18.4k — [fix(g-eval): use final score token for logprob weighting](https://github.com/confident-ai/deepeval/pull/3060)
-- **[vitalik/django-ninja](https://github.com/vitalik/django-ninja)** ★ 9.2k — [fix: avoid duplicate async authentication calls](https://github.com/vitalik/django-ninja/pull/1755)
-- **[kellyjonbrazil/jc](https://github.com/kellyjonbrazil/jc)** ★ 8.7k — [Add -p patch output support to the git-log parsers](https://github.com/kellyjonbrazil/jc/pull/763)
-- **[pdm-project/pdm](https://github.com/pdm-project/pdm)** ★ 8.7k — [fix: export editable local dependencies with relative paths](https://github.com/pdm-project/pdm/pull/3856)
+- **[pnpm/pnpm](https://github.com/pnpm/pnpm)** — ★ 36.6k · **[6 merged PRs](https://github.com/pnpm/pnpm/pulls?q=is%3Apr+author%3Atunglambk+is%3Amerged)**
+- **[zeroclaw-labs/zeroclaw](https://github.com/zeroclaw-labs/zeroclaw)** — ★ 32.9k · **[3 merged PRs](https://github.com/zeroclaw-labs/zeroclaw/pulls?q=is%3Apr+author%3Atunglambk+is%3Amerged)**
+- **[confident-ai/deepeval](https://github.com/confident-ai/deepeval)** — ★ 18.4k · **[1 merged PR](https://github.com/confident-ai/deepeval/pulls?q=is%3Apr+author%3Atunglambk+is%3Amerged)**
+- **[vitalik/django-ninja](https://github.com/vitalik/django-ninja)** — ★ 9.2k · **[3 merged PRs](https://github.com/vitalik/django-ninja/pulls?q=is%3Apr+author%3Atunglambk+is%3Amerged)**
+- **[kellyjonbrazil/jc](https://github.com/kellyjonbrazil/jc)** — ★ 8.7k · **[4 merged PRs](https://github.com/kellyjonbrazil/jc/pulls?q=is%3Apr+author%3Atunglambk+is%3Amerged)**
+- **[pdm-project/pdm](https://github.com/pdm-project/pdm)** — ★ 8.7k · **[2 merged PRs](https://github.com/pdm-project/pdm/pulls?q=is%3Apr+author%3Atunglambk+is%3Amerged)**
 
 **Most merges**
 
-- **[pnpm/pnpm](https://github.com/pnpm/pnpm)** — ★ 36.6k · **6 PRs merged**
-- **[vavallee/bindery](https://github.com/vavallee/bindery)** — ★ 469 · **5 PRs merged**
-- **[wingfoil-io/wingfoil](https://github.com/wingfoil-io/wingfoil)** — ★ 224 · **5 PRs merged**
-- **[kellyjonbrazil/jc](https://github.com/kellyjonbrazil/jc)** — ★ 8.7k · **4 PRs merged**
-- **[CS-SI/eodag](https://github.com/CS-SI/eodag)** — ★ 434 · **4 PRs merged**
-- **[Hebbian-Robotics/hflow](https://github.com/Hebbian-Robotics/hflow)** — ★ 273 · **4 PRs merged**
-- **[zeroclaw-labs/zeroclaw](https://github.com/zeroclaw-labs/zeroclaw)** — ★ 32.9k · **3 PRs merged**
-- **[vitalik/django-ninja](https://github.com/vitalik/django-ninja)** — ★ 9.2k · **3 PRs merged**
+- **[pnpm/pnpm](https://github.com/pnpm/pnpm)** — ★ 36.6k · **[6 merged PRs](https://github.com/pnpm/pnpm/pulls?q=is%3Apr+author%3Atunglambk+is%3Amerged)**
+- **[vavallee/bindery](https://github.com/vavallee/bindery)** — ★ 469 · **[5 merged PRs](https://github.com/vavallee/bindery/pulls?q=is%3Apr+author%3Atunglambk+is%3Amerged)**
+- **[wingfoil-io/wingfoil](https://github.com/wingfoil-io/wingfoil)** — ★ 224 · **[5 merged PRs](https://github.com/wingfoil-io/wingfoil/pulls?q=is%3Apr+author%3Atunglambk+is%3Amerged)**
+- **[kellyjonbrazil/jc](https://github.com/kellyjonbrazil/jc)** — ★ 8.7k · **[4 merged PRs](https://github.com/kellyjonbrazil/jc/pulls?q=is%3Apr+author%3Atunglambk+is%3Amerged)**
+- **[CS-SI/eodag](https://github.com/CS-SI/eodag)** — ★ 434 · **[4 merged PRs](https://github.com/CS-SI/eodag/pulls?q=is%3Apr+author%3Atunglambk+is%3Amerged)**
+- **[Hebbian-Robotics/hflow](https://github.com/Hebbian-Robotics/hflow)** — ★ 273 · **[4 merged PRs](https://github.com/Hebbian-Robotics/hflow/pulls?q=is%3Apr+author%3Atunglambk+is%3Amerged)**
+- **[zeroclaw-labs/zeroclaw](https://github.com/zeroclaw-labs/zeroclaw)** — ★ 32.9k · **[3 merged PRs](https://github.com/zeroclaw-labs/zeroclaw/pulls?q=is%3Apr+author%3Atunglambk+is%3Amerged)**
+- **[vitalik/django-ninja](https://github.com/vitalik/django-ninja)** — ★ 9.2k · **[3 merged PRs](https://github.com/vitalik/django-ninja/pulls?q=is%3Apr+author%3Atunglambk+is%3Amerged)**
 <!-- OSS-NOTABLE:END -->
 
-<sub>The newest merge in each high-profile project, plus every repository where I've landed more than one patch. Kept up to date automatically by GitHub Actions.</sub>
+<sub>Highest-star projects plus every repository where I've merged more than once. Each link opens that repository's merged pull requests from this account, refreshed automatically.</sub>
 
 <sub>Longer write-ups of a few of these fixes: [oss-case-studies](https://github.com/tunglambk/oss-case-studies).</sub>
 
