@@ -60,7 +60,7 @@ Projects where my patches actually landed — the upstreams I've contributed to 
 - **[wingfoil-io/wingfoil](https://github.com/wingfoil-io/wingfoil)** — ★ 224 · **[5 merged PRs](https://github.com/wingfoil-io/wingfoil/pulls?q=is%3Apr+author%3Atunglambk+is%3Amerged)**
 - **[kellyjonbrazil/jc](https://github.com/kellyjonbrazil/jc)** — ★ 8.7k · **[4 merged PRs](https://github.com/kellyjonbrazil/jc/pulls?q=is%3Apr+author%3Atunglambk+is%3Amerged)**
 - **[CS-SI/eodag](https://github.com/CS-SI/eodag)** — ★ 435 · **[4 merged PRs](https://github.com/CS-SI/eodag/pulls?q=is%3Apr+author%3Atunglambk+is%3Amerged)**
-- **[Hebbian-Robotics/hflow](https://github.com/Hebbian-Robotics/hflow)** — ★ 277 · **[4 merged PRs](https://github.com/Hebbian-Robotics/hflow/pulls?q=is%3Apr+author%3Atunglambk+is%3Amerged)**
+- **[Hebbian-Robotics/hflow](https://github.com/Hebbian-Robotics/hflow)** — ★ 278 · **[4 merged PRs](https://github.com/Hebbian-Robotics/hflow/pulls?q=is%3Apr+author%3Atunglambk+is%3Amerged)**
 - **[zeroclaw-labs/zeroclaw](https://github.com/zeroclaw-labs/zeroclaw)** — ★ 32.9k · **[3 merged PRs](https://github.com/zeroclaw-labs/zeroclaw/pulls?q=is%3Apr+author%3Atunglambk+is%3Amerged)**
 <!-- OSS-NOTABLE:END -->
 
