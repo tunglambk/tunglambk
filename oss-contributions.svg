@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="900" height="582" viewBox="0 0 900 582" role="img" aria-labelledby="title desc">
   <title id="title">Open Source Contribution Footprint</title>
-  <desc id="desc">69 merged pull requests across 28 upstream repositories, highest-star projects first.</desc>
+  <desc id="desc">71 merged pull requests across 28 upstream repositories, highest-star projects first.</desc>
   <style>
     .bg{fill:#f6f8fa;stroke:#d0d7de}.card{fill:#ffffff;stroke:#d0d7de}.track{fill:#eaeef2}.text{fill:#24292f}.muted{fill:#57606a}.accent{fill:#0969da}.accentText{fill:#0969da}
     @media (prefers-color-scheme:dark){.bg{fill:#161b22;stroke:#30363d}.card{fill:#0d1117;stroke:#30363d}.track{fill:#21262d}.text{fill:#f0f6fc}.muted{fill:#8b949e}.accent{fill:#58a6ff}.accentText{fill:#58a6ff}}
@@ -11,58 +11,58 @@
     <text x="30" y="46" class="text" font-size="21" font-weight="700">Open Source Contribution Footprint</text>
     <text x="30" y="71" class="muted" font-size="13">Merged pull requests per upstream, most prominent projects first</text>
     <rect x="686" y="22" width="184" height="54" rx="10" class="card"/>
-    <text x="702" y="45" class="accentText" font-size="14" font-weight="700">69 merged PRs</text>
+    <text x="702" y="45" class="accentText" font-size="14" font-weight="700">71 merged PRs</text>
     <text x="702" y="65" class="muted" font-size="12">across 28 projects</text>
     
     <rect x="330" y="109" width="420" height="22" rx="6" class="track"/>
     <text x="30" y="125" class="text" font-size="13">pnpm/pnpm</text>
     <rect x="330" y="109" width="420" height="22" rx="6" class="accent"/>
-    <text x="762" y="125" class="text" font-size="13" font-weight="700">6</text>
+    <text x="762" y="125" class="text" font-size="13" font-weight="700">7</text>
     <text x="886" y="125" text-anchor="end" class="muted" font-size="12">★ 36.6k</text>
     <rect x="330" y="153" width="420" height="22" rx="6" class="track"/>
     <text x="30" y="169" class="text" font-size="13">zeroclaw-labs/zeroclaw</text>
-    <rect x="330" y="153" width="210" height="22" rx="6" class="accent"/>
-    <text x="552" y="169" class="text" font-size="13" font-weight="700">3</text>
+    <rect x="330" y="153" width="180" height="22" rx="6" class="accent"/>
+    <text x="522" y="169" class="text" font-size="13" font-weight="700">3</text>
     <text x="886" y="169" text-anchor="end" class="muted" font-size="12">★ 32.9k</text>
     <rect x="330" y="197" width="420" height="22" rx="6" class="track"/>
     <text x="30" y="213" class="text" font-size="13">confident-ai/deepeval</text>
-    <rect x="330" y="197" width="70" height="22" rx="6" class="accent"/>
-    <text x="412" y="213" class="text" font-size="13" font-weight="700">1</text>
+    <rect x="330" y="197" width="60" height="22" rx="6" class="accent"/>
+    <text x="402" y="213" class="text" font-size="13" font-weight="700">1</text>
     <text x="886" y="213" text-anchor="end" class="muted" font-size="12">★ 18.4k</text>
     <rect x="330" y="241" width="420" height="22" rx="6" class="track"/>
     <text x="30" y="257" class="text" font-size="13">vitalik/django-ninja</text>
-    <rect x="330" y="241" width="210" height="22" rx="6" class="accent"/>
-    <text x="552" y="257" class="text" font-size="13" font-weight="700">3</text>
+    <rect x="330" y="241" width="180" height="22" rx="6" class="accent"/>
+    <text x="522" y="257" class="text" font-size="13" font-weight="700">3</text>
     <text x="886" y="257" text-anchor="end" class="muted" font-size="12">★ 9.2k</text>
     <rect x="330" y="285" width="420" height="22" rx="6" class="track"/>
     <text x="30" y="301" class="text" font-size="13">kellyjonbrazil/jc</text>
-    <rect x="330" y="285" width="280" height="22" rx="6" class="accent"/>
-    <text x="622" y="301" class="text" font-size="13" font-weight="700">4</text>
+    <rect x="330" y="285" width="240" height="22" rx="6" class="accent"/>
+    <text x="582" y="301" class="text" font-size="13" font-weight="700">4</text>
     <text x="886" y="301" text-anchor="end" class="muted" font-size="12">★ 8.7k</text>
     <rect x="330" y="329" width="420" height="22" rx="6" class="track"/>
     <text x="30" y="345" class="text" font-size="13">pdm-project/pdm</text>
-    <rect x="330" y="329" width="140" height="22" rx="6" class="accent"/>
-    <text x="482" y="345" class="text" font-size="13" font-weight="700">2</text>
+    <rect x="330" y="329" width="120" height="22" rx="6" class="accent"/>
+    <text x="462" y="345" class="text" font-size="13" font-weight="700">2</text>
     <text x="886" y="345" text-anchor="end" class="muted" font-size="12">★ 8.7k</text>
     <rect x="330" y="373" width="420" height="22" rx="6" class="track"/>
     <text x="30" y="389" class="text" font-size="13">kenn-io/agentsview</text>
-    <rect x="330" y="373" width="280" height="22" rx="6" class="accent"/>
-    <text x="622" y="389" class="text" font-size="13" font-weight="700">4</text>
+    <rect x="330" y="373" width="240" height="22" rx="6" class="accent"/>
+    <text x="582" y="389" class="text" font-size="13" font-weight="700">4</text>
     <text x="886" y="389" text-anchor="end" class="muted" font-size="12">★ 6k</text>
     <rect x="330" y="417" width="420" height="22" rx="6" class="track"/>
     <text x="30" y="433" class="text" font-size="13">vavallee/bindery</text>
-    <rect x="330" y="417" width="350" height="22" rx="6" class="accent"/>
-    <text x="692" y="433" class="text" font-size="13" font-weight="700">5</text>
+    <rect x="330" y="417" width="360" height="22" rx="6" class="accent"/>
+    <text x="702" y="433" class="text" font-size="13" font-weight="700">6</text>
     <text x="886" y="433" text-anchor="end" class="muted" font-size="12">★ 469</text>
     <rect x="330" y="461" width="420" height="22" rx="6" class="track"/>
     <text x="30" y="477" class="text" font-size="13">CS-SI/eodag</text>
-    <rect x="330" y="461" width="280" height="22" rx="6" class="accent"/>
-    <text x="622" y="477" class="text" font-size="13" font-weight="700">4</text>
-    <text x="886" y="477" text-anchor="end" class="muted" font-size="12">★ 434</text>
+    <rect x="330" y="461" width="240" height="22" rx="6" class="accent"/>
+    <text x="582" y="477" class="text" font-size="13" font-weight="700">4</text>
+    <text x="886" y="477" text-anchor="end" class="muted" font-size="12">★ 435</text>
     <rect x="330" y="505" width="420" height="22" rx="6" class="track"/>
     <text x="30" y="521" class="text" font-size="13">wingfoil-io/wingfoil</text>
-    <rect x="330" y="505" width="350" height="22" rx="6" class="accent"/>
-    <text x="692" y="521" class="text" font-size="13" font-weight="700">5</text>
+    <rect x="330" y="505" width="300" height="22" rx="6" class="accent"/>
+    <text x="642" y="521" class="text" font-size="13" font-weight="700">5</text>
     <text x="886" y="521" text-anchor="end" class="muted" font-size="12">★ 224</text>
   </g>
 </svg>
