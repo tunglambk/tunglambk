@@ -2,10 +2,11 @@ name: Update open-source profile
 
 on:
   schedule:
-    # Five minutes is the shortest interval GitHub Actions accepts, so this is
-    # the fastest the committed chart can follow a merge. Scheduled runs are
-    # often delayed under load, and image caches add a few minutes on top.
-    - cron: "*/5 * * * *"
+    # Every 30 minutes. The minutes are offset from :00 because GitHub delays
+    # scheduled runs most at the top of the hour. Measured on the previous */5
+    # schedule: 59 runs over 9 days, median gap 223 minutes, so the scheduler
+    # throttles frequent crons far below what the expression asks for.
+    - cron: "7,37 * * * *"
   workflow_dispatch:
 
 permissions:
