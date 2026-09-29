@@ -54,7 +54,7 @@ Projects where my patches actually landed — the upstreams I've contributed to 
 
 **Most merges**
 
-- **[vavallee/bindery](https://github.com/vavallee/bindery)** — ★ 476 · **[13 merged PRs](https://github.com/vavallee/bindery/pulls?q=is%3Apr+author%3Atunglambk+is%3Amerged)**
+- **[vavallee/bindery](https://github.com/vavallee/bindery)** — ★ 477 · **[13 merged PRs](https://github.com/vavallee/bindery/pulls?q=is%3Apr+author%3Atunglambk+is%3Amerged)**
 - **[pnpm/pnpm](https://github.com/pnpm/pnpm)** — ★ 36.7k · **[8 merged PRs](https://github.com/pnpm/pnpm/pulls?q=is%3Apr+author%3Atunglambk+is%3Amerged)**
 - **[kenn-io/agentsview](https://github.com/kenn-io/agentsview)** — ★ 6k · **[7 merged PRs](https://github.com/kenn-io/agentsview/pulls?q=is%3Apr+author%3Atunglambk+is%3Amerged)**
 - **[wingfoil-io/wingfoil](https://github.com/wingfoil-io/wingfoil)** — ★ 225 · **[6 merged PRs](https://github.com/wingfoil-io/wingfoil/pulls?q=is%3Apr+author%3Atunglambk+is%3Amerged)**
