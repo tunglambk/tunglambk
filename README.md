@@ -56,8 +56,8 @@ Projects where my patches actually landed — the upstreams I've contributed to 
 
 - **[vavallee/bindery](https://github.com/vavallee/bindery)** — ★ 486 · **[14 merged PRs](https://github.com/vavallee/bindery/pulls?q=is%3Apr+author%3Atunglambk+is%3Amerged)**
 - **[pnpm/pnpm](https://github.com/pnpm/pnpm)** — ★ 36.7k · **[13 merged PRs](https://github.com/pnpm/pnpm/pulls?q=is%3Apr+author%3Atunglambk+is%3Amerged)**
-- **[kenn-io/agentsview](https://github.com/kenn-io/agentsview)** — ★ 6k · **[9 merged PRs](https://github.com/kenn-io/agentsview/pulls?q=is%3Apr+author%3Atunglambk+is%3Amerged)**
-- **[wingfoil-io/wingfoil](https://github.com/wingfoil-io/wingfoil)** — ★ 226 · **[8 merged PRs](https://github.com/wingfoil-io/wingfoil/pulls?q=is%3Apr+author%3Atunglambk+is%3Amerged)**
+- **[kenn-io/agentsview](https://github.com/kenn-io/agentsview)** — ★ 6.1k · **[9 merged PRs](https://github.com/kenn-io/agentsview/pulls?q=is%3Apr+author%3Atunglambk+is%3Amerged)**
+- **[wingfoil-io/wingfoil](https://github.com/wingfoil-io/wingfoil)** — ★ 228 · **[8 merged PRs](https://github.com/wingfoil-io/wingfoil/pulls?q=is%3Apr+author%3Atunglambk+is%3Amerged)**
 - **[kryptobaseddev/cleo](https://github.com/kryptobaseddev/cleo)** — ★ 160 · **[6 merged PRs](https://github.com/kryptobaseddev/cleo/pulls?q=is%3Apr+author%3Atunglambk+is%3Amerged)**
 - **[zeroclaw-labs/zeroclaw](https://github.com/zeroclaw-labs/zeroclaw)** — ★ 32.9k · **[5 merged PRs](https://github.com/zeroclaw-labs/zeroclaw/pulls?q=is%3Apr+author%3Atunglambk+is%3Amerged)**
 - **[kellyjonbrazil/jc](https://github.com/kellyjonbrazil/jc)** — ★ 8.7k · **[4 merged PRs](https://github.com/kellyjonbrazil/jc/pulls?q=is%3Apr+author%3Atunglambk+is%3Amerged)**
