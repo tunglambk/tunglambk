@@ -35,6 +35,7 @@ Right now, I'm intentionally spending more time contributing upstream, in whatev
 </div>
 
 <sub>Merged pull requests only, most prominent upstreams first. Refreshed automatically from GitHub.</sub>
+<sub>Only pull requests merged into an upstream repository are counted; ones still under review are not.</sub>
 
 ---
 
