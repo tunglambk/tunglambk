@@ -48,7 +48,7 @@ Projects where my patches actually landed — the upstreams I've contributed to 
 
 - **[pnpm/pnpm](https://github.com/pnpm/pnpm)** — ★ 36.7k · **[14 merged PRs](https://github.com/pnpm/pnpm/pulls?q=is%3Apr+author%3Atunglambk+is%3Amerged)**
 - **[zeroclaw-labs/zeroclaw](https://github.com/zeroclaw-labs/zeroclaw)** — ★ 32.9k · **[5 merged PRs](https://github.com/zeroclaw-labs/zeroclaw/pulls?q=is%3Apr+author%3Atunglambk+is%3Amerged)**
-- **[confident-ai/deepeval](https://github.com/confident-ai/deepeval)** — ★ 18.6k · **[1 merged PR](https://github.com/confident-ai/deepeval/pulls?q=is%3Apr+author%3Atunglambk+is%3Amerged)**
+- **[confident-ai/deepeval](https://github.com/confident-ai/deepeval)** — ★ 18.7k · **[1 merged PR](https://github.com/confident-ai/deepeval/pulls?q=is%3Apr+author%3Atunglambk+is%3Amerged)**
 - **[vitalik/django-ninja](https://github.com/vitalik/django-ninja)** — ★ 9.2k · **[3 merged PRs](https://github.com/vitalik/django-ninja/pulls?q=is%3Apr+author%3Atunglambk+is%3Amerged)**
 - **[kellyjonbrazil/jc](https://github.com/kellyjonbrazil/jc)** — ★ 8.7k · **[4 merged PRs](https://github.com/kellyjonbrazil/jc/pulls?q=is%3Apr+author%3Atunglambk+is%3Amerged)**
 - **[pdm-project/pdm](https://github.com/pdm-project/pdm)** — ★ 8.7k · **[2 merged PRs](https://github.com/pdm-project/pdm/pulls?q=is%3Apr+author%3Atunglambk+is%3Amerged)**
