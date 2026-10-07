@@ -10,7 +10,7 @@
 
 <br/><br/>
 
-**AI Engineer · LLM Systems · Open Source Contributor**
+**AI Engineer · LLM Systems · Developer Tooling**
 
 </div>
 
@@ -18,96 +18,34 @@
 
 ## `> whoami`
 
-I'm an **AI Engineer** who enjoys understanding how systems behave beneath the abstraction layer.
+I'm Tung, an **AI Engineer** interested in how systems behave beneath the abstraction layer.
 
-My interests sit around **LLM systems, backend engineering, developer tooling, and production AI**. I like reading unfamiliar codebases, reproducing real bugs, tracing them to their root cause, and turning that understanding into **small, focused, well-tested fixes**.
+I work on LLM workflows and the backend systems around them. I enjoy reading unfamiliar codebases, tracing unexpected behavior to its root cause, and making changes that are easy to understand and maintain.
 
-Right now, I'm intentionally spending more time contributing upstream, in whatever stack the bug lives in.
+Open source is one way I explore those interests, learn from other engineers, and contribute fixes upstream.
 
----
+## What I Work On
 
-## Open Source Contribution Footprint
-
-<div align="center">
-
-<img src="./oss-contributions.svg" width="100%" alt="Merged open-source pull requests grouped by upstream repository" />
-
-</div>
-
-<sub>Merged pull requests only, most prominent upstreams first. Refreshed automatically from GitHub.</sub>
-<sub>Only pull requests merged into an upstream repository are counted; ones still under review are not.</sub>
+| Area | Focus |
+| :--- | :--- |
+| **LLM systems** | Retrieval, agent workflows, and evaluation |
+| **Backend engineering** | APIs, integrations, and runtime behavior |
+| **Developer tooling** | Testing, debugging, and package management |
 
 ---
 
-## Notable Open-Source Contributions
+## Selected Contributions
 
-Projects where my patches actually landed — the upstreams I've contributed to most, and the high-profile ones.
+A few problems I've worked through in open-source projects:
 
-<!-- OSS-NOTABLE:START -->
-**High-profile projects**
+| Project | Change |
+| :--- | :--- |
+| **[pnpm](https://github.com/pnpm/pnpm/pull/16416)** | Added dependency validation to the Rust CLI so installs report malformed specifiers instead of silently skipping them. |
+| **[Django Ninja](https://github.com/vitalik/django-ninja/pull/1755)** | Fixed async authentication callbacks running twice on synchronous endpoints. |
+| **[jc](https://github.com/kellyjonbrazil/jc/pull/753)** | Fixed an HTTP header parser crash on whitespace-only lines. |
+| **[versitygw](https://github.com/versity/versitygw/pull/2399)** | Aligned Object Lock XML responses with AWS S3 when no default retention is configured. |
 
-- **[pnpm/pnpm](https://github.com/pnpm/pnpm)** — ★ 36.8k · **[14 merged PRs](https://github.com/pnpm/pnpm/pulls?q=is%3Apr+author%3Atunglambk+is%3Amerged)**
-- **[zeroclaw-labs/zeroclaw](https://github.com/zeroclaw-labs/zeroclaw)** — ★ 32.9k · **[5 merged PRs](https://github.com/zeroclaw-labs/zeroclaw/pulls?q=is%3Apr+author%3Atunglambk+is%3Amerged)**
-- **[confident-ai/deepeval](https://github.com/confident-ai/deepeval)** — ★ 18.7k · **[1 merged PR](https://github.com/confident-ai/deepeval/pulls?q=is%3Apr+author%3Atunglambk+is%3Amerged)**
-- **[vitalik/django-ninja](https://github.com/vitalik/django-ninja)** — ★ 9.2k · **[3 merged PRs](https://github.com/vitalik/django-ninja/pulls?q=is%3Apr+author%3Atunglambk+is%3Amerged)**
-- **[kellyjonbrazil/jc](https://github.com/kellyjonbrazil/jc)** — ★ 8.7k · **[4 merged PRs](https://github.com/kellyjonbrazil/jc/pulls?q=is%3Apr+author%3Atunglambk+is%3Amerged)**
-- **[pdm-project/pdm](https://github.com/pdm-project/pdm)** — ★ 8.7k · **[2 merged PRs](https://github.com/pdm-project/pdm/pulls?q=is%3Apr+author%3Atunglambk+is%3Amerged)**
-
-**Most merges**
-
-- **[pnpm/pnpm](https://github.com/pnpm/pnpm)** — ★ 36.8k · **[14 merged PRs](https://github.com/pnpm/pnpm/pulls?q=is%3Apr+author%3Atunglambk+is%3Amerged)**
-- **[vavallee/bindery](https://github.com/vavallee/bindery)** — ★ 495 · **[14 merged PRs](https://github.com/vavallee/bindery/pulls?q=is%3Apr+author%3Atunglambk+is%3Amerged)**
-- **[kenn-io/agentsview](https://github.com/kenn-io/agentsview)** — ★ 6.1k · **[9 merged PRs](https://github.com/kenn-io/agentsview/pulls?q=is%3Apr+author%3Atunglambk+is%3Amerged)**
-- **[wingfoil-io/wingfoil](https://github.com/wingfoil-io/wingfoil)** — ★ 228 · **[8 merged PRs](https://github.com/wingfoil-io/wingfoil/pulls?q=is%3Apr+author%3Atunglambk+is%3Amerged)**
-- **[kryptobaseddev/cleo](https://github.com/kryptobaseddev/cleo)** — ★ 160 · **[6 merged PRs](https://github.com/kryptobaseddev/cleo/pulls?q=is%3Apr+author%3Atunglambk+is%3Amerged)**
-- **[zeroclaw-labs/zeroclaw](https://github.com/zeroclaw-labs/zeroclaw)** — ★ 32.9k · **[5 merged PRs](https://github.com/zeroclaw-labs/zeroclaw/pulls?q=is%3Apr+author%3Atunglambk+is%3Amerged)**
-- **[kellyjonbrazil/jc](https://github.com/kellyjonbrazil/jc)** — ★ 8.7k · **[4 merged PRs](https://github.com/kellyjonbrazil/jc/pulls?q=is%3Apr+author%3Atunglambk+is%3Amerged)**
-- **[CS-SI/eodag](https://github.com/CS-SI/eodag)** — ★ 435 · **[4 merged PRs](https://github.com/CS-SI/eodag/pulls?q=is%3Apr+author%3Atunglambk+is%3Amerged)**
-<!-- OSS-NOTABLE:END -->
-
-<sub>Highest-star projects plus every repository where I've merged more than once. Each link opens that repository's merged pull requests from this account, refreshed automatically.</sub>
-
-<sub>Longer write-ups of a few of these fixes: [oss-case-studies](https://github.com/tunglambk/oss-case-studies).</sub>
-
----
-
-## Open Source Mode
-
-> [!NOTE]
-> I'm currently focusing on real issues in established open-source projects: bug fixes, regressions, edge cases, tests, and framework internals.
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-### `debug`
-
-- Reproducing tricky bugs
-- Root-cause analysis
-- Edge cases and regressions
-- Understanding framework internals
-
-</td>
-<td width="50%" valign="top">
-
-### `fix`
-
-- Small, maintainable changes
-- Regression coverage
-- Preserving existing behavior
-- Clear validation before submitting
-
-</td>
-</tr>
-</table>
-
-<div align="center">
-
-<a href="https://github.com/pulls?q=is%3Apr+author%3Atunglambk+is%3Amerged">
-  <img src="https://img.shields.io/badge/VIEW_MERGED_PRS-0969DA?style=for-the-badge&logo=github&logoColor=white" alt="View my merged open-source pull requests" />
-</a>
-
-</div>
+I've written up the debugging process behind several of these in **[oss-case-studies](https://github.com/tunglambk/oss-case-studies)**.
 
 ---
 
@@ -142,30 +80,17 @@ Projects where my patches actually landed — the upstreams I've contributed to 
 
 ---
 
-## Where I'm Heading
+<details>
+<summary>Contribution history</summary>
 
-<div align="center">
+<!-- OSS-NOTABLE:START -->
+108 merged pull requests across 32 upstream repositories (all-time).
+<!-- OSS-NOTABLE:END -->
 
-<img src="./exploration-map.svg" width="100%" alt="My AI engineering, open-source and collaboration interests" />
+[Browse contributions](https://github.com/pulls?q=is%3Apr+author%3Atunglambk+is%3Amerged+-user%3Atunglambk) · Counts refreshed automatically from GitHub.
 
-</div>
-
----
-
-<div align="center">
-
-### `understand → fix → test → contribute`
-
-**Build things. Break assumptions. Fix the root cause. Contribute back.**
+</details>
 
 <br/>
 
-<a href="mailto:lamphambatung96@gmail.com">
-  <img src="https://img.shields.io/badge/HAVE_AN_INTERESTING_ISSUE%3F-LET'S_TALK-0969DA?style=for-the-badge&logo=github&logoColor=white" alt="Open to collaboration" />
-</a>
-
-<br/><br/>
-
-<sub>AI Engineering · LLM Systems · Open Source</sub>
-
-</div>
+Interested in LLM systems, developer tooling, or a tricky bug? [Let's talk](mailto:lamphambatung96@gmail.com).

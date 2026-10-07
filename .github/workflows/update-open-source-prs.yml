@@ -1,11 +1,8 @@
-name: Update open-source profile
+name: Update contribution history
 
 on:
   schedule:
-    # Every 30 minutes. The minutes are offset from :00 because GitHub delays
-    # scheduled runs most at the top of the hour. Measured on the previous */5
-    # schedule: 59 runs over 9 days, median gap 223 minutes, so the scheduler
-    # throttles frequent crons far below what the expression asks for.
+    # Offset from :00 to avoid the busiest period for scheduled workflows.
     - cron: "7,37 * * * *"
   workflow_dispatch:
 
@@ -21,7 +18,7 @@ jobs:
       - name: Checkout profile repository
         uses: actions/checkout@v4
 
-      - name: Refresh notable merges and contribution chart
+      - name: Refresh contribution summary
         uses: actions/github-script@v7
         with:
           script: |
@@ -31,21 +28,24 @@ jobs:
             const startMarker = '<!-- OSS-NOTABLE:START -->';
             const endMarker = '<!-- OSS-NOTABLE:END -->';
 
+            // The summary is all-time. Curated examples elsewhere in the README
+            // stay unchanged, and only work merged into external repos is counted.
             const searchQuery = `
               query ($cursor: String) {
-                search(query: "is:pr author:${username} -user:${username}", type: ISSUE, first: 100, after: $cursor) {
+                search(query: "is:pr is:merged author:${username} -user:${username}", type: ISSUE, first: 100, after: $cursor) {
                   pageInfo { hasNextPage endCursor }
                   nodes {
                     ... on PullRequest {
                       merged
-                      repository { nameWithOwner stargazerCount }
+                      repository { nameWithOwner }
                     }
                   }
                 }
               }
             `;
 
-            const pulls = [];
+            const repos = new Set();
+            let mergedTotal = 0;
             let cursor = null;
 
             while (true) {
@@ -54,76 +54,23 @@ jobs:
                 : await github.graphql(searchQuery);
 
               for (const node of data.search.nodes) {
-                if (!node.repository) continue;
+                if (!node.merged || !node.repository) continue;
 
-                const owner = node.repository.nameWithOwner.split('/')[0];
+                const repo = node.repository.nameWithOwner;
+                const owner = repo.split('/')[0];
                 if (owner.toLowerCase() === username.toLowerCase()) continue;
 
-                pulls.push({
-                  repo: node.repository.nameWithOwner,
-                  stars: node.repository.stargazerCount || 0,
-                  merged: Boolean(node.merged),
-                });
+                mergedTotal += 1;
+                repos.add(repo);
               }
 
               if (!data.search.pageInfo.hasNextPage) break;
               cursor = data.search.pageInfo.endCursor;
             }
 
-            const repoNames = new Map();
-
-            for (const pr of pulls) {
-              if (!pr.merged) continue;
-
-              const entry = repoNames.get(pr.repo) || { repo: pr.repo, stars: 0, merged: 0 };
-              entry.merged += 1;
-              entry.stars = Math.max(entry.stars, pr.stars);
-              repoNames.set(pr.repo, entry);
-            }
-
-            const repos = [...repoNames.values()];
-            const mergedTotal = repos.reduce((sum, repo) => sum + repo.merged, 0);
-
-            const byMerges = [...repos].sort(
-              (a, b) => b.merged - a.merged || b.stars - a.stars || a.repo.localeCompare(b.repo),
-            );
-
-            // Repositories where this account has landed more than one pull request.
-            const mostMerged = byMerges.filter(repo => repo.merged >= 2).slice(0, 8);
-
-            // Highest-star upstreams, so a prominent project is never crowded out.
-            const highProfile = [...repos]
-              .filter(repo => repo.stars >= 1000)
-              .sort((a, b) => b.stars - a.stars || b.merged - a.merged || a.repo.localeCompare(b.repo))
-              .slice(0, 6);
-
-            const repoUrl = repo => `https://github.com/${repo}`;
-
-            const formatStars = stars => (stars >= 1000
-              ? `${(stars / 1000).toFixed(1).replace(/\.0$/, '')}k`
-              : String(stars));
-
-            // Each entry opens the repository's own pull request list, filtered to this
-            // account's merged work, instead of highlighting a single representative PR.
-            const mergedList = repo =>
-              `**[${repo.merged} merged PR${repo.merged === 1 ? '' : 's'}](${repoUrl(repo.repo)}/pulls?q=is%3Apr+author%3A${username}+is%3Amerged)**`;
-
-            const entryLine = repo =>
-              `- **[${repo.repo}](${repoUrl(repo.repo)})** — ★ ${formatStars(repo.stars)} · ${mergedList(repo)}`;
-
-            const sections = [];
-
-            if (highProfile.length) {
-              sections.push(['**High-profile projects**', '', ...highProfile.map(entryLine)].join('\n'));
-            }
-
-            if (mostMerged.length) {
-              sections.push(['**Most merges**', '', ...mostMerged.map(entryLine)].join('\n'));
-            }
-
-            const generated = sections.length
-              ? sections.join('\n\n')
-              : '_No merged upstream pull requests yet._';
+            const generated = mergedTotal
+              ? `${mergedTotal} merged pull request${mergedTotal === 1 ? '' : 's'} across ${repos.size} upstream repositor${repos.size === 1 ? 'y' : 'ies'} (all-time).`
+              : '_No upstream contributions to show yet._';
 
             const readmePath = 'README.md';
             const readme = fs.readFileSync(readmePath, 'utf8');
@@ -131,7 +78,7 @@ jobs:
             const end = readme.indexOf(endMarker);
 
             if (start === -1 || end === -1 || end < start) {
-              core.setFailed('README markers for the notable merges section were not found.');
+              core.setFailed('README markers for the contribution summary were not found.');
               return;
             }
 
@@ -139,82 +86,16 @@ jobs:
             const after = readme.slice(end);
             fs.writeFileSync(readmePath, `${before}\n${generated}\n${after}`);
 
-            // Chart rows: highest-star projects first, then the heaviest merge counts,
-            // so a prominent upstream is never crowded out by a repo with more patches.
-            const byStars = [...repos].sort(
-              (a, b) => b.stars - a.stars || b.merged - a.merged || a.repo.localeCompare(b.repo),
-            );
-
-            const rows = [];
-            const seen = new Set();
-
-            const addRow = repo => {
-              if (rows.length < 10 && !seen.has(repo.repo)) {
-                seen.add(repo.repo);
-                rows.push(repo);
-              }
-            };
-
-            byStars.slice(0, 6).forEach(addRow);
-            byMerges.forEach(addRow);
-
-            rows.sort((a, b) => b.stars - a.stars || b.merged - a.merged || a.repo.localeCompare(b.repo));
-
-            const max = Math.max(1, ...rows.map(repo => repo.merged));
-            const rowHeight = 44;
-            const height = 118 + rows.length * rowHeight + 24;
-            const barX = 330;
-            const barMaxWidth = 420;
-
-            const escapeXml = value => String(value)
-              .replace(/&/g, '&amp;')
-              .replace(/</g, '&lt;')
-              .replace(/>/g, '&gt;')
-              .replace(/"/g, '&quot;');
-
-            const rowSvg = rows.map((repo, index) => {
-              const y = 109 + index * rowHeight;
-              const width = Math.max(18, Math.round((repo.merged / max) * barMaxWidth));
-              const labelX = barX + width + 12;
-              return `
-                <rect x="${barX}" y="${y}" width="${barMaxWidth}" height="22" rx="6" class="track"/>
-                <text x="30" y="${y + 16}" class="text" font-size="13">${escapeXml(repo.repo)}</text>
-                <rect x="${barX}" y="${y}" width="${width}" height="22" rx="6" class="accent"/>
-                <text x="${Math.min(labelX, 770)}" y="${y + 16}" class="text" font-size="13" font-weight="700">${repo.merged}</text>
-                <text x="886" y="${y + 16}" text-anchor="end" class="muted" font-size="12">★ ${formatStars(repo.stars)}</text>`;
-            }).join('');
-
-            const chart = `<svg xmlns="http://www.w3.org/2000/svg" width="900" height="${height}" viewBox="0 0 900 ${height}" role="img" aria-labelledby="title desc">
-              <title id="title">Open Source Contribution Footprint</title>
-              <desc id="desc">${mergedTotal} merged pull requests across ${repos.length} upstream repositories, highest-star projects first.</desc>
-              <style>
-                .bg{fill:#f6f8fa;stroke:#d0d7de}.card{fill:#ffffff;stroke:#d0d7de}.track{fill:#eaeef2}.text{fill:#24292f}.muted{fill:#57606a}.accent{fill:#0969da}.accentText{fill:#0969da}
-                @media (prefers-color-scheme:dark){.bg{fill:#161b22;stroke:#30363d}.card{fill:#0d1117;stroke:#30363d}.track{fill:#21262d}.text{fill:#f0f6fc}.muted{fill:#8b949e}.accent{fill:#58a6ff}.accentText{fill:#58a6ff}}
-              </style>
-              <rect x="1" y="1" width="898" height="${height - 2}" rx="16" class="bg"/>
-              <rect x="1" y="1" width="5" height="${height - 2}" rx="2.5" class="accent"/>
-              <g font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,'Liberation Mono',monospace">
-                <text x="30" y="46" class="text" font-size="21" font-weight="700">Open Source Contribution Footprint</text>
-                <text x="30" y="71" class="muted" font-size="13">Merged pull requests per upstream, most prominent projects first</text>
-                <rect x="686" y="22" width="184" height="54" rx="10" class="card"/>
-                <text x="702" y="45" class="accentText" font-size="14" font-weight="700">${mergedTotal} merged PRs</text>
-                <text x="702" y="65" class="muted" font-size="12">across ${repos.length} projects</text>
-                ${rowSvg}
-              </g>
-            </svg>`;
-
-            fs.writeFileSync('oss-contributions.svg', chart);
-
-      - name: Commit profile when it changed
+      - name: Commit summary when it changed
         shell: bash
         run: |
-          if git diff --quiet -- README.md oss-contributions.svg; then
-            echo "Profile is already up to date."
+          if git diff --quiet -- README.md; then
+            echo "Contribution history is already up to date."
             exit 0
           fi
 
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add README.md oss-contributions.svg
-          git commit -m "docs: refresh open-source profile"
+          git add README.md
+          git commit -m "docs: refresh contribution history"
           git push
